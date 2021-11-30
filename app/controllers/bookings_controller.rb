@@ -22,7 +22,7 @@ class BookingsController < ApplicationController
   def index
     @bookings = Booking.all
   end
-  
+
   def show
   end
 
@@ -30,9 +30,9 @@ class BookingsController < ApplicationController
 
   def booking_params
     params.require(:booking).permit(:no_of_divers)
+  end
 
   def set_booking
     @booking = Booking.find(params[:id])
-
   end
 end
