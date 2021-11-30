@@ -1,0 +1,23 @@
+<div class="container">
+  <p>No. of divers: <%= @booking.no_of_divers %></p>
+  <p>Status: <%= (@booking.status).capitalize %></p>
+  <p>Cost: $<%= @booking.costs %></p>
+
+  <h3>Listing info</h3>
+  <p>You're going on a... <%= @booking.listing.category %></p>
+  <p>Listing: <%= @booking.listing.name %></p>
+  <p>Description: <%= @booking.listing.description %></p>
+  <p><%= @booking.listing.date %></p>
+  <p><%= @booking.listing.start_time %></p>
+  <p><%= @booking.listing.duration %></p>
+  <p><%= @booking.listing.dive_count %></p>
+
+  <h3>Center info</h3>
+  <p><%= @booking.listing.center.name %></p>
+  <p><%= @booking.listing.center.description %></p>
+  <p><%= @booking.listing.center.address %></p>
+  <p><%= @booking.listing.center.phone_number %></p>
+  <p><%= @booking.listing.center.email %></p>
+  <p><%= @booking.listing.center.location %></p>
+
+</div>

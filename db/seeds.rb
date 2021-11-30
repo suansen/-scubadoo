@@ -44,7 +44,7 @@ puts 'creating listings for the first dive center'
     description: Faker::Lorem.paragraph,
     price: rand(100..250),
     date: Faker::Date.forward(days: 1),
-    start_time: Faker::Time.forward(days: 1, period: :morning),
+    start_time: Faker::Time.forward(days: 1, period: :morning, format: :short),
     duration: rand(1..72),
     dive_count: rand(1..4),
     max_divers: rand(2..8),
