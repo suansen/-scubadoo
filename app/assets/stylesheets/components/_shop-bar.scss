@@ -1,18 +1,37 @@
 .shop-bar {
-  margin-top: auto;
-  margin-bottom: -40px;
-  display: inline-flex;
-  align-items: center;
+  // margin-top: auto;
+  // margin-bottom: -40px;
+  display: flex;
+  // align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  overflow: hidden;
+  position: absolute;
+  bottom: -10%;
+  // right: 25%;
+  height: 100px;
+
+  left: 50%;
+  transform: translate(-50%, 0);
 }
 
 .shop {
   background-color: #ffffff;
+  color: #64717f;
   width: 200px;
-  border-radius: 5px;
-  border: 1px solid #000000;
+  // border-radius: 5px;
+  // border: 1px solid #000000;
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: column wrap;
   justify-content: center;
-  padding: 20px;
+  text-decoration: none;
+  transition: 0.3s;
+  // align-items: center;
+  // padding: 8px;
 }
 
+.shop:hover {
+  background-color: #4ab4b0;
+  color: white;
+  text-decoration: none;
+}

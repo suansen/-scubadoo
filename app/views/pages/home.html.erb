@@ -1,23 +1,47 @@
-<div class="jumbotron jumbotron-fluid home-page-banner">
-  <div class="container text-white text-center">
-    <h1 class="display-4">Book your diving worldwide</h1>
-    <p class="lead">The form will be here when @centers is created</p>
-    <div class="d-flex justify-content-center align-items-center">
-      <%= form_tag centers_path, method: :get do %>
-        <div class="d-flex" style="width: 40vw">
-          <%= text_field_tag :query,
-              params[:query],
-              class: "form-control mr-sm-2",
-              placeholder: "Where do you want to go?"
-          %>
-          <%= submit_tag "Search", class: "btn btn-primary mb-4" %>
-        </div>
-      <% end %>
+<section class="jumbotron jumbotron-fluid home-page-banner position-relative mb-5">
+    <div class="container text-white text-center border p-5">
+      <h1 class="display-5 text-shadow mb-2"><strong>Book your diving worldwide</strong></h1>
+      <%# <p class="lead">The form will be here when @centers is created</p> %>
+      <div class="d-flex justify-content-center align-items-center">
+        <%= form_tag centers_path, method: :get do %>
+          <div class="d-flex" style="width: 40vw;">
+            <%= text_field_tag :query,
+                params[:query],
+                class: "form-control mr-sm-2",
+                placeholder: "Where do you want to go?"
+            %>
+            <%= submit_tag "Search", class: "btn btn-danger mb-4" %>
+          </div>
+        <% end %>
+      </div>
+      <div class="shop-bar shadow">
+        <%= link_to centers_path, class: "shop py-4" do%>
+          <%# <div> %>
+            <i class="fas fa-house-user"></i>
+            <div>Centers</div>
+          <%# </div> %>
+        <% end %>
+        <%= link_to trips_path, class: "shop" do%>
+          <i class="fas fa-ship"></i>
+          <div>Dives</div>
+        <% end %>
+        <%= link_to courses_path, class: "shop" do%>
+          <i class="fas fa-book"></i>
+          <div>Courses</div>
+        <% end %>
+      </div>
     </div>
-    <div class="shop-bar">
-      <%= link_to "Centers", centers_path, class: "shop" %>
-      <%= link_to "Trips", trips_path, class: "shop" %>
-      <%= link_to "Courses", courses_path, class: "shop" %>
-    </div>
-  </div>
+</section>
+<div class="container">
+  <section>
+    <h2>Top diving destinations</h2>
+  </section>
+
+  <section>
+    <h2>Destination Guides</h2>
+  </section>
+
+  <section>
+    <h2>Contact us</h2>
+  </section>
 </div>
