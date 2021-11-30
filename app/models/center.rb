@@ -1,5 +1,6 @@
 class Center < ApplicationRecord
   belongs_to :user
+  has_many :listings
 
   validates :name, presence: true
   validates :description, presence: true
