@@ -47,6 +47,7 @@
     <div>
       <%= simple_form_for @booking do |f| %>
         <%= f.input :no_of_divers, label: 'Your username please', error: 'Username is mandatory, please specify one' %>
+        <%= f.association :@listing %>
         <%= f.button :submit, value:"Book now", class:"btn btn-danger" %>
       <% end %>
     </div>
