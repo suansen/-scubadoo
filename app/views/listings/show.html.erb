@@ -45,8 +45,8 @@
       <h2 id="price"><i class="fas fa-search-dollar"></i> Pricing</h2>
     </div>
     <div>
-      <%= simple_form_for @booking do |f| %>
-        <%= f.input :no_of_divers, label: 'Your username please', error: 'Username is mandatory, please specify one' %>
+      <%= simple_form_for [@listing, @booking] do |f| %>
+        <%= f.input :no_of_divers, label: 'Number of Divers: ', error: 'At least 1 diver required', input_html: {min: 1} %>
 
         <%= f.button :submit, value:"Book now", class:"btn btn-danger" %>
       <% end %>
