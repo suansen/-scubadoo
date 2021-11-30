@@ -58,12 +58,12 @@ end
 5.times do
   puts "Creating a booking now 📚"
   booking = Booking.create!(
-    user_id: User.first,
-    listing_id: Listing.first,
+    user: User.first,
+    listing: Listing.first,
     no_of_divers: rand(1..6),
     status: ["booked", "cancelled", "completed"].sample,
-    costs: rand(100..1000),
-    )
+    costs: rand(100..1000)
+  )
   puts "New booking for #{booking.no_of_divers} divers created! 🌟"
 end
 
