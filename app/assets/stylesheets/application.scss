@@ -11,3 +11,11 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+html {
+  scroll-behavior: smooth;
+}
+
+.fill-div {
+  min-height: 83.45vh;
+}

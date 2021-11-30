@@ -14,10 +14,13 @@
 
   <body>
   <%= render "shared/navbar" %>
-    <div>
-      <%= yield %>
+    <div class="d-flex flex-column justify-content-between">
+      <div class="fill-div">
+        <%= yield %>
+      </div>
+      <%= render "shared/footer" %>
     </div>
   </body>
 
-  <%= render "shared/footer" %>
+
 </html>
