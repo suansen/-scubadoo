@@ -9,8 +9,7 @@
         <p>Days: <%= list.duration / 24 %></p>
         <p>Dives: <%= list.dive_count %></p>
       </div>
-      <%# <%= link_to "Explore", listing_path(list) %>
-      <a href="#" class="btn btn-primary" style="width: 100%">Explore</a>
+      <%= link_to "Explore", listing_path(list), class:"btn btn-primary",style:"width: 100%" %>
     </div>
   </div>
   <% end %>
