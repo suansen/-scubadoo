@@ -6,11 +6,8 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 puts 'Destroying everything... 💣'
-Booking.destroy_all
-Listing.destroy_all
-Center.destroy_all
 User.destroy_all
-puts 'Users and centers destroyed!'
+puts 'Users destroyed!'
 
 puts 'initialize seed..'
 
@@ -58,8 +55,8 @@ end
 5.times do
   puts "Creating a booking now 📚"
   booking = Booking.create!(
-    user_id: User.first,
-    listing_id: Listing.first,
+    user: User.first,
+    listing: Listing.first,
     no_of_divers: rand(1..6),
     status: ["booked", "cancelled", "completed"].sample,
     costs: rand(100..1000),

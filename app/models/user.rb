@@ -2,7 +2,7 @@ class User < ApplicationRecord
 
   has_many :centers, dependent: :destroy
   has_many :bookings, dependent: :destroy
-  has_many :listings, through: :bookings
+  has_many :listings, through: :centers
 
   validates :email, presence: true
   validates :password, presence: true, length: { minimum: 6 }
