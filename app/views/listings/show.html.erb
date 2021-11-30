@@ -6,7 +6,7 @@
         <li class="list-inline-item"><a href="#price">Price</a></li>
         <li class="list-inline-item"><a href="#dive-center">Dive center</a></li>
         <li class="list-inline-item"><a href="#other-info">Other information</a></li>
-        <li class="list-inline-item"><a href="#what-to-expect">What to expect</a></li>
+        <%# <li class="list-inline-item"><a href="#what-to-expect">What to expect</a></li> %>
       </ul>
   </div>
   <div class="position-relative">
@@ -47,6 +47,7 @@
     <div>
       <%= simple_form_for [@listing, @booking] do |f| %>
         <%= f.input :no_of_divers, label: 'Number of Divers: ', error: 'At least 1 diver required', input_html: {min: 1} %>
+
         <%= f.button :submit, value:"Book now", class:"btn btn-danger" %>
       <% end %>
     </div>
@@ -64,12 +65,12 @@
       <h2 id="dive-center"><i class="fas fa-globe"></i> Dive center</h2>
     </div>
     <div>
-      <%= link_to @listing.center.name %>
+      <%= link_to @listing.center.name, center_path(@listing.center) %>
     </div>
   </div>
   <div>
     <div>
-      <h2 class="other-info"><i class="fas fa-info"></i> Other information</h2>
+      <h2 id="other-info"><i class="fas fa-info"></i> Other information</h2>
     </div>
     <div>
       <h3>CONFIRMATION</h3>

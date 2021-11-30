@@ -41,7 +41,7 @@ puts 'creating dive centers for first user'
     address: Faker::Address.street_address,
     phone_number: Faker::Company.australian_business_number,
     email: Faker::Internet.email,
-    location: Faker::Address.city,
+    location: Faker::Address.country,
     user: User.first
   )
 end
@@ -55,7 +55,7 @@ puts 'creating listings for the first dive center'
     description: Faker::Lorem.paragraph,
     price: rand(100..250),
     date: Faker::Date.forward(days: 1),
-    start_time: Faker::Time.forward(days: 1, period: :morning),
+    start_time: Faker::Time.forward(days: 1, period: :morning, format: :short),
     duration: rand(1..72),
     dive_count: rand(1..4),
     max_divers: rand(2..8),

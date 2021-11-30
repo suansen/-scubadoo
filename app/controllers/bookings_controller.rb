@@ -1,4 +1,6 @@
 class BookingsController < ApplicationController
+  before_action :set_booking, only: [:show, :edit, :update, :destroy]
+
   def new
     raise
   end
@@ -20,10 +22,17 @@ class BookingsController < ApplicationController
   def index
     @bookings = Booking.all
   end
+  
+  def show
+  end
 
   private
 
   def booking_params
     params.require(:booking).permit(:no_of_divers)
+
+  def set_booking
+    @booking = Booking.find(params[:id])
+
   end
 end
