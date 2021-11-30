@@ -6,4 +6,8 @@ class BookingsController < ApplicationController
   def create
     raise
   end
+
+  def index
+    @bookings = Booking.all
+  end
 end

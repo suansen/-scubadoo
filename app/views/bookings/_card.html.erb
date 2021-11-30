@@ -1,0 +1,17 @@
+<div class="container d-flex flex-row mb-3 justify-content-center">
+  <% bookings.each do |booking| %>
+    <div class="card m-2 rounded overflow-hidden shadow-sm" style="width: 18rem;">
+      <%= image_tag "diving_1", class: "card-img-top" %>
+      <div class="card-body">
+        <h5 class="card-title"><%= booking.listing.name %></h5>
+        <p class="card-text"><%= booking.listing.dive_count %> dives for <%= booking.no_of_divers %> people</p>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item"><%= booking.listing.description %></li>
+      </ul>
+      <div class="card-body text-center">
+        <%= link_to "See more", booking_path(booking), class: "card-link btn btn-primary" %>
+      </div>
+    </div>
+  <% end %>
+</div>

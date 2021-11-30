@@ -13,10 +13,10 @@
             <%= link_to "Centers", centers_path, class: "nav-link" %>
           </li>
           <li class="nav-item">
-            <%= link_to "Trips", "#", class: "nav-link" %>
+            <%= link_to "Trips", trips_path, class: "nav-link" %>
           </li>
           <li class="nav-item">
-            <%= link_to "Courses", "#", class: "nav-link" %>
+            <%= link_to "Courses", courses_path, class: "nav-link" %>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
@@ -27,7 +27,8 @@
         <div class="nav-item dropdown mx-3">
           <%= image_tag "https://kitt.lewagon.com/placeholder/users/ssaunier", class: "avatar dropdown-toggle", id: "navbarDropdown", data: { toggle: "dropdown" }, 'aria-haspopup': true, 'aria-expanded': false %>
           <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-            <%= link_to "My Profile", edit_user_registration_path, class: "dropdown-item" %>
+            <%= link_to "Edit Profile", edit_user_registration_path, class: "dropdown-item" %>
+            <%= link_to "View Bookings", bookings_path, class: "dropdown-item" %>
             <div class="dropdown-divider"></div>
             <%= link_to "Logout", destroy_user_session_path , class: "dropdown-item" %>
           </div>
