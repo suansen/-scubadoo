@@ -2,12 +2,14 @@
   <div class="container text-white text-center">
     <h1 class="display-4">Book your diving worldwide</h1>
     <p class="lead">The form will be here when @centers is created</p>
-  </div>
-  <div>
+    <form class="form-inline my-2 my-lg-0 container col-4 m-auto">
+          <input class="form-control mr-sm-2" type="search" placeholder= "Where do you want to go?" aria-label="Search">
+          <button class="btn btn-danger my-2" type="submit">Search</button>
+        </form>
     <div class="shop-bar">
-      <%= link_to "Centers", "#", class: "shop" %>
-      <%= link_to "Trips", "#", class: "shop" %>
-      <%= link_to "Courses", "#", class: "shop" %>
+      <%= link_to "Centers", centers_path, class: "shop" %>
+      <%= link_to "Trips", trips_path, class: "shop" %>
+      <%= link_to "Courses", courses_path, class: "shop" %>
     </div>
   </div>
 </div>
