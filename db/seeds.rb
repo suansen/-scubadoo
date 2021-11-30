@@ -59,8 +59,8 @@ end
     listing: Listing.first,
     no_of_divers: rand(1..6),
     status: ["booked", "cancelled", "completed"].sample,
-    costs: rand(100..1000),
-    )
+    costs: rand(100..1000)
+  )
   puts "New booking for #{booking.no_of_divers} divers created! 🌟"
 end
 
