@@ -1,6 +1,7 @@
 class Center < ApplicationRecord
   belongs_to :user
-  has_many :listings
+  has_many :listings, dependent: :destroy
+  has_many :bookings, through: :listings
 
   validates :name, presence: true
   validates :description, presence: true
