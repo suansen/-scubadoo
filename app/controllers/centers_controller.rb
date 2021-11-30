@@ -1,6 +1,10 @@
 class CentersController < ApplicationController
   def index
-    @centers = Center.all
+    if params[:query].nil? || params[:query].empty?
+      @centers = Center.all
+    else
+      @centers = Center.where(location: params[:query])
+    end
   end
 
   def show

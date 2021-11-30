@@ -2,10 +2,18 @@
   <div class="container text-white text-center">
     <h1 class="display-4">Book your diving worldwide</h1>
     <p class="lead">The form will be here when @centers is created</p>
-    <form class="form-inline my-2 my-lg-0 container col-4 m-auto">
-          <input class="form-control mr-sm-2" type="search" placeholder= "Where do you want to go?" aria-label="Search">
-          <button class="btn btn-danger my-2" type="submit">Search</button>
-        </form>
+    <div class="d-flex justify-content-center align-items-center">
+      <%= form_tag centers_path, method: :get do %>
+        <div class="d-flex" style="width: 40vw">
+          <%= text_field_tag :query,
+              params[:query],
+              class: "form-control mr-sm-2",
+              placeholder: "Where do you want to go?"
+          %>
+          <%= submit_tag "Search", class: "btn btn-primary mb-4" %>
+        </div>
+      <% end %>
+    </div>
     <div class="shop-bar">
       <%= link_to "Centers", centers_path, class: "shop" %>
       <%= link_to "Trips", trips_path, class: "shop" %>
