@@ -30,7 +30,7 @@
             <%= link_to "Edit Profile", edit_user_registration_path, class: "dropdown-item" %>
             <%= link_to "View Bookings", bookings_path, class: "dropdown-item" %>
             <div class="dropdown-divider"></div>
-            <%= link_to "Logout", destroy_user_session_path , class: "dropdown-item" %>
+            <%= link_to "Logout", destroy_user_session_path , class: "dropdown-item", method: :delete %>
           </div>
         </div>
         <% else %>
