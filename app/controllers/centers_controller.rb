@@ -5,5 +5,7 @@ class CentersController < ApplicationController
 
   def show
     @center = Center.find(params[:id])
+    @courses = @center.listings.where(category: "course").uniq(&:name)
+    @dives = @center.listings.where(category: "trip").uniq(&:name)
   end
 end
