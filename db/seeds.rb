@@ -41,7 +41,7 @@ puts 'creating dive centers for first user'
     address: Faker::Address.street_address,
     phone_number: Faker::Company.australian_business_number,
     email: Faker::Internet.email,
-    location: Faker::Address.city,
+    location: Faker::Address.country,
     user: User.first
   )
 end
