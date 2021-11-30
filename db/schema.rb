@@ -17,7 +17,7 @@ ActiveRecord::Schema.define(version: 2021_11_30_025508) do
 
   create_table "bookings", force: :cascade do |t|
     t.bigint "user_id", null: false
-    t.bigint "listing_id"
+    t.bigint "listing_id", null: false
     t.integer "no_of_divers"
     t.string "status"
     t.integer "costs"
@@ -70,6 +70,7 @@ ActiveRecord::Schema.define(version: 2021_11_30_025508) do
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
 
+  add_foreign_key "bookings", "listings"
   add_foreign_key "bookings", "users"
   add_foreign_key "centers", "users"
   add_foreign_key "listings", "centers"
