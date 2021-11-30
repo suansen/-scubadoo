@@ -1,18 +1,17 @@
 <div class="card m-2 rounded  overflow-hidden shadow-sm">
     <%= link_to listing_path(listing), style:"text-decoration:none; color:black;" do%>
       <div class="row no-gutters">
-        <div class="col-md-4">
+        <div class="col-md-5">
           <%= image_tag "diving_1", style:"width:100%" %>
         </div>
-        <div class="col-md-8">
+        <div class="col-md-7">
           <div class="card-body">
             <h5 class="card-title"><%= listing.name.upcase %></h5>
             <p class="card-text"><%= listing.description %></p>
-            <p class="card-text"><%= listing.price %></p>
-            <p class="card-text"><%= listing.date %></p>
-            <p class="card-text"><%= listing.start_time %></p>
-            <p class="card-text"><%= listing.duration %></p>
-            <p class="card-text"><%= listing.dive_count %></p>
+            <div class = "d-flex justify-content-between">
+              <p class="card-text font-weight-bold">Next Available: <%= listing.date %></p>
+              <p class="card-text font-weight-bold">Price: <%= listing.price %></p>
+            </div>
           </div>
         </div>
       </div>
