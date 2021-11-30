@@ -9,8 +9,18 @@ puts 'Destroying everything... 💣'
 User.destroy_all
 puts 'Users destroyed!'
 
-puts 'initialize seed..'
+puts 'initialize seed... 🌱'
 
+puts "Creating standard user for testing 👩‍🦱"
+User.create!(
+    first_name: "Geetha",
+    last_name: "Bheema",
+    email: "geebee@gmail.com",
+    password: "password"
+  )
+puts "Standard user Geetha created! ✅"
+
+puts "Creating faker users ⏭"
 10.times do
   puts 'creating user'
   user = User.create!(
@@ -21,6 +31,7 @@ puts 'initialize seed..'
   )
   puts "#{user.first_name} account created!"
 end
+puts "Faker users done! 🕵️‍♀️"
 
 puts 'creating dive centers for first user'
 5.times do
