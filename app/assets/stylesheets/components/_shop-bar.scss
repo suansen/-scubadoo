@@ -1,0 +1,18 @@
+.shop-bar {
+  margin-top: auto;
+  margin-bottom: -40px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.shop {
+  background-color: #ffffff;
+  width: 200px;
+  border-radius: 5px;
+  border: 1px solid #000000;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  padding: 20px;
+}
+
