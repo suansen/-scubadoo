@@ -1,77 +1,117 @@
-<div class="container-fluid col-8 m-auto">
-  <div class="mt-5">
-    <h1><%= @listing.name %></h1>
+<div class="container-fluid col-8 m-auto bg-body">
+  <div id="title-and-navbar-section"class="mt-5">
+    <div class="d-flex flex-column">
+      <div class="d-flex align-items-center">
+        <p class="m-2"><i class="fas fa-chevron-left"></i></p>
+        <div>
+          <%= @listing.center.location %>
+          <p>small text</p>
+        </div>
+      </div>
+      <h1><%= @listing.name %></h1>
       <ul class="list-inline">
         <li class="list-inline-item"><a href="#key-info">Key info</a></li>
         <li class="list-inline-item"><a href="#price">Price</a></li>
         <li class="list-inline-item"><a href="#dive-center">Dive center</a></li>
         <li class="list-inline-item"><a href="#other-info">Other information</a></li>
       </ul>
-  </div>
-  <div class="position-relative">
-    <%= image_tag "listing-image.jpg", class: "w-100 " %>
-    <div class="position-absolute" style="bottom: 10px; left: 10px">
-      <button type="button" class="btn btn-light border border-2 rounded-2 ">SHOW PHOTO</button>
     </div>
-    <div class="card rounded-3 position-absolute text-right shadow p-3 mb-5 bg-white rounded" style="width: 18rem; top: -40px; right: 0px">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">SGD <%= @listing.price %></p>
-        <a href="#price" class="btn btn-danger btn-block font-weight-bold">Book now</a>
+  </div>
+  <div id="image-carousel-section" class="position-relative ">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active" style="height: 50vh;">
+        <%= image_tag "listing-image.jpg", class: "img-fluid"%>
+      </div>
+      <%# <div class="carousel-item">
+        <img src="..." class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="..." class="d-block w-100" alt="...">
+      </div> %>
+    </div>
+    <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </button>
+    <div id="image-button-card-section">
+      <div class="position-absolute" style="bottom: 10px; left: 10px">
+        <button type="button" class="btn btn-light border border-2 rounded-2 ">SHOW PHOTO</button>
+      </div>
+      <div class="card rounded-3 position-absolute text-right shadow bg-white rounded" style="width: 18rem; top: -90px; right: 0px">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text fw-bold">SGD <%= @listing.price %>.00</p>
+          <a href="#price" class="btn btn-danger btn-block font-weight-bold">Book now</a>
+        </div>
       </div>
     </div>
   </div>
-  <div class="d-flex">
-    <div>
-      <h2 id="key-info"><i class="fas fa-info-circle"></i> key info</h2>
+  <div id="key-info-section" class="d-flex col-12 my-5">
+    <div class="col-4">
+      <h2 id="key-info" class="text-uppercase fw-bolder"><i class="fas fa-info-circle"></i> Key info</h2>
     </div>
+    <div class="d-flex col-8">
+      <ul id="group-trip-info" class="list-unstyled pr-5">
+        <li class='m-2'><i class="far fa-clock"></i><%= @listing.start_time %></li>
+        <li class='m-2'><i class="far fa-hourglass"></i><%= @listing.duration %> hours (approx.) </li>
+        <li class='m-2'><i class="fas fa-street-view"></i> Incl. <%= @listing.dive_count %> dives</li>
+        <li class='m-2'><i class="far fa-flag"></i> Dive site(s) determined on the dive day</li>
+        <li class='m-2'><i class="far fa-comment-dots"></i> English</li>
+        <li class='m-2'><i class="fas fa-users"></i> Max. <%= @listing.max_divers %> divers / guide</li>
+        <li class='m-2'><i class="fas fa-map-marked-alt"></i>Meet at given location</li>
+      </ul>
     <div>
-      <ul>
-        <li><i class="far fa-clock"></i><%= @listing.start_time %></li>
-        <li><i class="far fa-hourglass"></i><%= @listing.duration %> hours (approx.) </li>
-        <li><i class="fas fa-street-view"></i> Incl. <%= @listing.dive_count %> dives</li>
-        <li><i class="far fa-flag"></i> Dive site(s) determined on the dive day</li>
-        <li><i class="far fa-comment-dots"></i> English</li>
-        <li><i class="fas fa-users"></i> Max. <%= @listing.max_divers %> divers / guide</li>
-        <li><i class="fas fa-map-marked-alt"></i>Meet at given location</li>
-        <li><i class="fas fa-exchange-alt"></i> Free Cancellation - 7days notice</li>
-        <li><i class="fas fa-ticket-alt"></i> Show mobile or printed voucher</li>
+      <ul id="group-trip-info-board" class="border border-1 shadow pl-3 pr-5 list-unstyled">
+        <li class='m-2'><i class="fas fa-exchange-alt"></i> Free Cancellation - 7days notice</li>
+        <li class='m-2'><i class="fas fa-ticket-alt"></i> Show mobile or printed voucher</li>
       </ul>
     </div>
-  </div>
-  <div>
-    <div>
-      <h2 id="price"><i class="fas fa-search-dollar"></i> Pricing</h2>
     </div>
-    <div>
+  </div>
+  <div id="price-section" class="d-flex col-12 my-5">
+    <div class="col-4">
+      <h2 id="price" class="text-uppercase fw-bolder"><i class="fas fa-search-dollar"></i> Pricing</h2>
+    </div>
+    <div class="col-8">
       <%= simple_form_for [@listing, @booking] do |f| %>
         <%= f.input :no_of_divers, label: 'Number of Divers: ', error: 'At least 1 diver required', input_html: {min: 1} %>
-
-        <%= f.button :submit, value:"Book now", class:"btn btn-danger" %>
+        <div class="d-flex justify-content-end">
+          <%= f.button :submit, value:"Book now", class:"btn btn-danger" %>
+        </div>
       <% end %>
     </div>
   </div>
-  <div>
-    <div>
-      <h2><i class="far fa-star"></i> Highlights</h2>
+  <div id="Highlights-section" class="d-flex col-12 my-5">
+    <div class="col-4">
+      <h2 class="text-uppercase fw-bolder"><i class="far fa-star"></i> Highlights</h2>
     </div>
-    <div>
+    <div class="col-8">
       <p><%= @listing.description %></p>
     </div>
   </div>
-  <div>
-    <div>
-      <h2 id="dive-center"><i class="fas fa-globe"></i> Dive center</h2>
+  <div id="dive-center-section" class="d-flex col-12 my-5">
+    <div class="col-4">
+      <h2 id="dive-center" class="text-uppercase fw-bolder"><i class="fas fa-globe"></i> Dive center</h2>
     </div>
-    <div>
+    <div class="col-8">
       <%= link_to @listing.center.name, center_path(@listing.center) %>
     </div>
   </div>
-  <div>
-    <div>
-      <h2 id="other-info"><i class="fas fa-info"></i> Other information</h2>
+  <div id="other-info-section" class="d-flex col-12 my-5">
+    <div class="col-4">
+      <h2 id="other-info" class="text-uppercase fw-bolder"><i class="fas fa-info"></i> Other information</h2>
     </div>
-    <div>
+    <div class="col-8">
       <h3>CONFIRMATION</h3>
       <p>We’ll send you a final Booking Confirmation Email on average within 24 hours. We advise you to not make any other travel arrangements before that
       In the event that you do not receive an email from us, please check your Spam folder or notify us via email</p>
@@ -80,11 +120,11 @@
       <p>Address: <%= @listing.center.address %></p>
     </div>
   </div>
-  <div>
-    <div>
-      <h2><i class="fas fa-exchange-alt"></i> Cancellation policy</h2>
+  <div id="cancellation-policy-section" class="d-flex col-12 my-5">
+    <div class="col-4">
+      <h2 class="text-uppercase fw-bolder"><i class="fas fa-exchange-alt"></i> Cancellation policy</h2>
     </div>
-    <div>
+    <div class="col-8">
       <p>Full refunds will be issued for cancellations made at least 7 days prior to the activity</p>
     </div>
   </div>
