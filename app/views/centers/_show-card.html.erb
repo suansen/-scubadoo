@@ -1,0 +1,17 @@
+<div class="d-flex flex-wrap justify-content-start">
+  <% listings.each do |list| %>
+  <div class="card mr-3 mb-3 shadow-sm" style="width: 21rem">
+    <%= image_tag "diving_1", class:"card-img-top", alt:center.name %>
+    <div class="card-body">
+      <h5 class="card-title"><%= list.name %></h5>
+      <p class="card-text"><%= center.name %></p>
+      <div class="d-flex justify-content-between">
+        <p>Days: <%= list.duration / 24 %></p>
+        <p>Dives: <%= list.dive_count %></p>
+      </div>
+      <%# <%= link_to "Explore", listing_path(list) %>
+      <a href="#" class="btn btn-primary" style="width: 100%">Explore</a>
+    </div>
+  </div>
+  <% end %>
+</div>

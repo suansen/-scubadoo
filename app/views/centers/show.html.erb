@@ -23,7 +23,7 @@
 <section id="center-description" class="mb-5"  style="min-height:200px;">
   <div class="d-flex">
     <h2 class="h3  pr-3" style="width:35%; ">DESCRIPTION</h2>
-    <div class="px-3 d-flex flex-column justify-content-between border">
+    <div class="px-3 d-flex flex-column justify-content-between">
       <p><%= @center.description %></p>
       <div>
         <p><strong>Address: </strong>xxx km away from you</p>
@@ -31,19 +31,21 @@
       </div>
     </div>
   </div>
-
 </section>
 
 <section id="center-diving" class="mb-5"  style="min-height:200px;">
-  <h2 class="h3">DIVE SITES WE GO TO</h2>
+  <h2 class="h3">DIVING</h2>
+  <%= render "show-card" ,listings: @dives, center: @center %>
 </section>
 
-<section id="center-courses" class="mb-5"  style="height:200px;">
+<section id="center-courses" class="mb-5"  style="min-height:200px;">
   <h2 class="h3">COURSES</h2>
+  <%= render "show-card" ,listings: @courses, center: @center %>
 </section>
 
-<section id="center-schedule" class="mb-5" style="height:200px;">
+<section id="center-schedule" class="mb-5" style="min-height:200px;">
   <h2 class="h3">SCHEDULE</h2>
+  <%= render "schedule-card" ,listings: @center.listings, center: @center %>
 </section>
 
 </div>
