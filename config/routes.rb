@@ -4,12 +4,12 @@ Rails.application.routes.draw do
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
   resources :centers
 
-  resources :listings do
-    resources :booking, only: [:new, :create]
+  resources :listings, only: [:index, :show] do
+    resources :bookings, only: [:create]
   end
 
-  resources :bookings, only: [:new, :create, :index, :show, :destroy]
-  resources :listings, only: [:index, :show, :destroy]
+  resources :bookings, only: [:index, :show, :destroy]
+  resources :listings, only: [:destroy]
 
   get "/trips", to: "listings#index_trips"
   get "/courses", to: "listings#index_courses"
