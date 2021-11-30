@@ -45,7 +45,10 @@
       <h2 id="price"><i class="fas fa-search-dollar"></i> Pricing</h2>
     </div>
     <div>
-      <p> form for to be added</p>
+      <%= simple_form_for @booking do |f| %>
+        <%= f.input :no_of_divers, label: 'Your username please', error: 'Username is mandatory, please specify one' %>
+        <%= f.button :submit, value:"Book now", class:"btn btn-danger" %>
+      <% end %>
     </div>
   </div>
   <div>
