@@ -1,6 +1,7 @@
 class User < ApplicationRecord
 
   has_many :centers
+  has_many :bookings
 
   validates :email, presence: true
   validates :password, presence: true, length: { minimum: 6 }
