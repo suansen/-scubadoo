@@ -13,14 +13,15 @@ puts 'Users and centers destroyed!'
 
 puts 'initialize seed..'
 
-puts 'creating user'
 10.times do
-  User.create!(
+  puts 'creating user'
+  user = User.create!(
     first_name: Faker::Name.first_name,
     last_name: Faker::Name.last_name,
     email: Faker::Internet.email,
     password: '1234abcd'
   )
+  puts "#{user.first_name} account created!"
 end
 
 puts 'creating dive center for first 2 users'
@@ -37,8 +38,8 @@ puts 'creating dive center for first 2 users'
 end
 
 CATEGORY = ["Diving", "course"]
+puts 'creating listings for the first dive center'
 10.times do
-  puts 'creating listings for the first dive center'
   Listing.create!(
     category: CATEGORY.sample,
     name: CATEGORY.sample,
