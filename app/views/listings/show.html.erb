@@ -1,0 +1,88 @@
+<div class="container-fluid col-8 m-auto">
+  <div class="my-2">
+    <h1><%= @listing.name %></h1>
+      <ul class="list-inline">
+        <li class="list-inline-item"><a href="#key-info">Key info</a></li>
+        <li class="list-inline-item"><a href="#price">Price</a></li>
+        <li class="list-inline-item"><a href="#dive-center">Dive center</a></li>
+        <li class="list-inline-item"><a href="#other-info">Other information</a></li>
+        <li class="list-inline-item"><a href="#what-to-expect">What to expect</a></li>
+      </ul>
+  </div>
+  <div class="position-relative">
+    <%= image_tag "listing-image.jpg", class: "w-100 " %>
+    <div>
+      <button type="button" class="btn btn-light border border-2 rounded-2 ">SHOW PHOTO</button>
+    </div>
+    <div class="card rounded-3 " style="width: 18rem;">
+      <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">SGD <%= @listing.price %></p>
+      <a href="#price" class="btn btn-danger">Book now</a>
+    </div>
+    </div>
+  </div>
+  <div class="d-flex">
+    <div>
+      <h2 id="key-info"><i class="fas fa-info-circle"></i> key info</h2>
+    </div>
+    <div>
+      <ul>
+        <li><i class="far fa-clock"></i><%= @listing.start_time %></li>
+        <li><i class="far fa-hourglass"></i><%= @listing.duration %> hours (approx.) </li>
+        <li><i class="fas fa-street-view"></i> Incl. <%= @listing.dive_count %> dives</li>
+        <li><i class="far fa-flag"></i> Dive site(s) determined on the dive day</li>
+        <li><i class="far fa-comment-dots"></i> English</li>
+        <li><i class="fas fa-users"></i> Max. <%= @listing.max_divers %> divers / guide</li>
+        <li><i class="fas fa-map-marked-alt"></i>Meet at given location</li>
+        <li><i class="fas fa-exchange-alt"></i> Free Cancellation - 7days notice</li>
+        <li><i class="fas fa-ticket-alt"></i> Show mobile or printed voucher</li>
+      </ul>
+    </div>
+  </div>
+  <div>
+    <div>
+      <h2 id="price"><i class="fas fa-search-dollar"></i> Pricing</h2>
+    </div>
+    <div>
+      <p> form for to be added</p>
+    </div>
+  </div>
+  <div>
+    <div>
+      <h2><i class="far fa-star"></i> Highlights</h2>
+    </div>
+    <div>
+      <p><%= @listing.description %></p>
+    </div>
+  </div>
+  <div>
+    <div>
+      <h2 id="dive-center"><i class="fas fa-globe"></i> Dive center</h2>
+    </div>
+    <div>
+      <%= link_to @listing.center.name %>
+    </div>
+  </div>
+  <div>
+    <div>
+      <h2 class="other-info"><i class="fas fa-info"></i> Other information</h2>
+    </div>
+    <div>
+      <h3>CONFIRMATION</h3>
+      <p>We’ll send you a final Booking Confirmation Email on average within 24 hours. We advise you to not make any other travel arrangements before that
+      In the event that you do not receive an email from us, please check your Spam folder or notify us via email</p>
+      <h3>HOW TO GET THERE</h3>
+      <p>Meet at the carpark for our staff and we will direct you to the dive boat</p>
+      <p>Address: <%= @listing.center.address %></p>
+    </div>
+  </div>
+  <div>
+    <div>
+      <h2><i class="fas fa-exchange-alt"></i> Cancellation policy</h2>
+    </div>
+    <div>
+      <p>Full refunds will be issued for cancellations made at least 7 days prior to the activity</p>
+    </div>
+  </div>
+</div>
