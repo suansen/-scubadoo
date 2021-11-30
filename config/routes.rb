@@ -8,7 +8,7 @@ Rails.application.routes.draw do
     resources :booking, only: [:new, :create]
   end
 
-  resources :bookings, only: [:index, :show, :destroy]
+  resources :bookings, only: [:new, :create, :index, :show, :destroy]
   resources :listings, only: [:index, :show, :destroy]
 
   get "/trips", to: "listings#index_trips"
