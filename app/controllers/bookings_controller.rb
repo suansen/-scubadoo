@@ -1,5 +1,5 @@
 class BookingsController < ApplicationController
-  before_action :set_booking, only: [:show, :edit, :update, :destroy]
+  before_action :set_booking, only: [:show, :edit, :update, :destroy, :cancel]
 
   def new
     raise
@@ -24,6 +24,14 @@ class BookingsController < ApplicationController
   end
 
   def show
+  end
+
+  def cancel
+    if @booking.status == "booked"
+      @booking.status = "cancelled"
+      @booking.save
+    end
+    redirect_to @booking
   end
 
   private
