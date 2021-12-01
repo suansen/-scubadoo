@@ -34,14 +34,40 @@
 </section>
 <div class="container">
   <section>
-    <h2>Top diving destinations</h2>
+    <h2><strong>Top diving destinations</strong></h2>
+    <h4>Book a trip in one the world's top diving destinations.</h4>
+    <% 2.times do %>
+      <div class="container d-flex justify-content-evenly mb-3">
+        <div class="card text-white mx-2">
+          <img src="https://images.unsplash.com/photo-1531803998246-ed33d49b1b76?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=1080&ixid=MnwxfDB8MXxyYW5kb218MHx8cGhpbGlwcGluZXMgZGl2aW5nfHx8fHx8MTYzODM0MzExMg&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1920" class="card-img" alt="Mexico">
+          <div class="card-img-overlay">
+            <h4 class="card-title" style="position: absolute"><strong>Mexico</strong></h4>
+          </div>
+        </div>
+        <div class="card text-white mx-2">
+          <img src="https://images.unsplash.com/photo-1563203660-ae1ea5442356?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=1080&ixid=MnwxfDB8MXxyYW5kb218MHx8Y291bnRyeSBiZWFjaHx8fHx8fDE2MzgzNDI4ODY&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1920" class="card-img" alt="Indonesia">
+          <div class="card-img-overlay">
+            <h4 class="card-title" style="position: absolute"><strong>Indonesia</strong></h4>
+          </div>
+        </div>
+        <div class="card text-white mx-2">
+          <img src="https://images.unsplash.com/photo-1541697030857-839ac1dfbc56?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=1080&ixid=MnwxfDB8MXxyYW5kb218MHx8Y291bnRyeSBiZWFjaHx8fHx8fDE2MzgzNDMwMTk&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1920" class="card-img" alt="Egypt">
+          <div class="card-img-overlay">
+            <h4 class="card-title" style="position: absolute"><strong>Egypt</strong></h4>
+          </div>
+        </div>
+      </div>
+    <% end %>
+
   </section>
 
   <section>
-    <h2>Destination Guides</h2>
+    <h2><strong>Not sure where to go?</strong></h2>
+    <h4>Get inspiration from one of our travel themes.</h4>
+    <%= render "carousel" %>
   </section>
 
   <section>
-    <h2>Contact us</h2>
+    <h2><strong>Contact us</strong></h2>
   </section>
 </div>
