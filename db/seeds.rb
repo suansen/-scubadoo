@@ -5,6 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+require "open-uri"
+
 puts 'Destroying everything... 💣'
 User.destroy_all
 puts 'Users destroyed!'
@@ -49,7 +51,8 @@ end
 CATEGORY = ["trip", "course"]
 puts 'creating listings for the first dive center'
 10.times do
-  Listing.create!(
+  file = URI.open('https://source.unsplash.com/1920x1080/?scuba')
+  listing = Listing.create!(
     category: CATEGORY.sample,
     name: Faker::Lorem.sentence,
     description: Faker::Lorem.paragraph,
@@ -61,7 +64,11 @@ puts 'creating listings for the first dive center'
     max_divers: rand(2..8),
     center: Center.first
   )
+  puts "Now gonna try attaching the photo 📷"
+  listing.photo.attach(io: file, filename: "#{listing.name}_photo.jpg", content_type: "image/jpg")
 end
+
+puts "Listings all seeded"
 
 5.times do
   puts "Creating a booking now 📚"
