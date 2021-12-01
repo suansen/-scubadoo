@@ -25,9 +25,7 @@ class BookingsController < ApplicationController
   end
 
   def index
-
     @bookings = policy_scope(Booking)
-    # raise
     authorize @bookings
   end
 
