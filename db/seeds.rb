@@ -77,7 +77,7 @@ puts "Listings all seeded"
   puts "Creating a booking now 📚"
   booking = Booking.create!(
     user: User.first,
-    listing: Listing.first,
+    listing: Listing.all.sample,
     no_of_divers: rand(1..6),
     status: ["booked", "cancelled", "completed"].sample,
     costs: rand(100..1000)
