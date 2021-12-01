@@ -34,7 +34,7 @@ class BookingsController < ApplicationController
   end
 
   def cancel
-   if authorize(@booking)
+    if authorize(@booking)
       if @booking.status == "booked"
         @booking.status = "cancelled"
         @booking.save
