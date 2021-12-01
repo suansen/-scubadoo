@@ -24,6 +24,7 @@ gem 'devise'
 # gem 'bcrypt', '~> 3.1.7'
 gem 'pundit'
 gem 'faker'
+gem 'has_scope'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 # Reduces boot times through caching; required in config/boot.rb
@@ -33,6 +34,7 @@ gem 'font-awesome-sass'
 gem 'simple_form'
 gem 'cloudinary', '~> 1.16.0'
 gem 'has_scope'
+
 
 group :development, :test do
   gem 'pry-byebug'
