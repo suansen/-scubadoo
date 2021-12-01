@@ -1,9 +1,9 @@
 class CentersController < ApplicationController
   def index
-    if params[:query].nil? || params[:query].empty?
-      @centers = Center.all
+    if params[:location].present?
+      @centers = Center.by_location(params[:location])
     else
-      @centers = Center.where(location: params[:query])
+      @centers = Center.all
     end
   end
 

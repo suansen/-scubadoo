@@ -21,8 +21,8 @@
         </ul>
         <%= form_tag centers_path, method: :get do %>
         <div class="d-flex">
-          <%= text_field_tag :query,
-              params[:query],
+          <%= text_field_tag :location,
+              params[:location],
               class: "form-control",
               placeholder: "Where do you want to go?"
             %>
