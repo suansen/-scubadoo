@@ -2,11 +2,21 @@ class ListingsController < ApplicationController
   before_action :find_listing, only: [:show, :edit, :destroy]
 
   def index_trips
-    @trips = Listing.where(category: "trip")
+
+    if params[:location].present?
+      @trips = Listing.by_location(params[:location]).by_trips
+    else
+      @trips = Listing.by_trips
+    end
+    raise
   end
 
   def index_courses
-    @courses = Listing.where(category: "course")
+    if params[:location].present?
+      @courses = Listing.by_location(params[:location]).by_courses
+    else
+      @courses = Listing.by_courses
+    end
   end
 
   def show
