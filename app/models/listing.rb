@@ -1,6 +1,7 @@
 class Listing < ApplicationRecord
   belongs_to :center
   has_many :bookings, dependent: :destroy
+  has_one_attached :photo
 
   validates :category, presence: true
   validates :name, presence: true

@@ -18,4 +18,8 @@ class ListingsController < ApplicationController
   def find_listing
     @listing = Listing.find(params[:id])
   end
+
+  def listing_params
+    params.require(:listing).permit(:category, :name, :description, :price, :description, :date, :start_time, :duration, :dive_count, :max_divers, :center, :photo)
+  end
 end
