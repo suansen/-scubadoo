@@ -8,7 +8,6 @@ class ListingsController < ApplicationController
     else
       @trips = Listing.by_trips
     end
-    raise
   end
 
   def index_courses
