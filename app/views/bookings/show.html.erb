@@ -1,7 +1,7 @@
 <div class="container my-3">
 
   <div>
-  <h1>Your upcoming <%= @booking.listing.category %></h1>
+  <h1>Your <%= @booking.listing.category %></h1>
     <div class="card">
       <div class="card-body">
           <h5><span class="mb-2 badge badge-pill badge-<%= @booking.status == "booked" || @booking.status == "completed" ? "success" : "danger" %>"><%= (@booking.status).upcase %></span></h5>
