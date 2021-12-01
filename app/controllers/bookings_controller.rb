@@ -34,9 +34,11 @@ class BookingsController < ApplicationController
   end
 
   def cancel
-    if @booking.status == "booked"
-      @booking.status = "cancelled"
-      @booking.save
+   if authorize(@booking)
+      if @booking.status == "booked"
+        @booking.status = "cancelled"
+        @booking.save
+      end
     end
     redirect_to @booking
   end

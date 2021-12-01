@@ -1,6 +1,5 @@
 <div class="container d-flex flex-row mb-3 justify-content-start">
   <% bookings.each do |booking| %>
-    <% if policy(booking).record.user == current_user%>
       <div class="card m-2 rounded overflow-hidden shadow-sm" style="width: 18rem;">
         <%= image_tag "diving_1.jpg", class: "card-img-top" %>
         <div class="card-body">
@@ -14,6 +13,5 @@
           <%= link_to "See more", booking_path(booking), class: "card-link btn btn-primary" %>
         </div>
       </div>
-    <% end %>
   <% end %>
 </div>
