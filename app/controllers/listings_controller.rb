@@ -1,5 +1,6 @@
 class ListingsController < ApplicationController
   before_action :find_listing, only: [:show, :edit, :destroy]
+
   def index_trips
     @trips = Listing.where(category: "trip")
   end
