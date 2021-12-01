@@ -1,5 +1,5 @@
 class BookingsController < ApplicationController
-  before_action :set_booking, only: [:show, :edit, :update, :destroy]
+  before_action :set_booking, only: [:show, :edit, :update, :destroy, :cancel]
   before_action :authenticate_user!
   # only include in relevant controllers
   after_action :verify_authorized, except: :index, unless: :skip_pundit?
@@ -31,6 +31,14 @@ class BookingsController < ApplicationController
 
   def show
     authorize @booking
+  end
+
+  def cancel
+    if @booking.status == "booked"
+      @booking.status = "cancelled"
+      @booking.save
+    end
+    redirect_to @booking
   end
 
   private
