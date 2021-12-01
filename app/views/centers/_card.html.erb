@@ -3,7 +3,7 @@
 
       <div class="row no-gutters">
         <div class="col-md-5">
-          <%= image_tag "diving_1.jpg", style:"width:100%" %>
+          <%= cl_image_tag (center.photo.key), width: 300, style: "height: 100%", crop: :fill %>
         </div>
         <div class="col-md-7">
           <div class="card-body">
