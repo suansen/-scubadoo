@@ -1,7 +1,7 @@
 class CentersController < ApplicationController
   def index
     if params[:location].present?
-      @centers = Center.by_location
+      @centers = Center.by_location(params[:location])
     else
       @centers = Center.all
     end

@@ -11,5 +11,5 @@ class Center < ApplicationRecord
   validates :email, presence: true
   validates :location, presence: true
 
-  scope :by_location, ->(location) { where(location: location) }
+  scope :by_location, ->(location) { where("location ILIKE ?", "%#{location}%") }
 end
