@@ -12,4 +12,10 @@ class CentersController < ApplicationController
     @courses = @center.listings.where(category: "course").uniq(&:name)
     @dives = @center.listings.where(category: "trip").uniq(&:name)
   end
+
+  private
+
+  def center_params
+    params.require(:listing).permit(:name, :description, :address, :phone_number, :email, :location, :user, :photo)
+  end
 end

@@ -2,6 +2,7 @@ class Center < ApplicationRecord
   belongs_to :user
   has_many :listings, dependent: :destroy
   has_many :bookings, through: :listings
+  has_one_attached :photo
 
   validates :name, presence: true
   validates :description, presence: true
