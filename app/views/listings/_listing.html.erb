@@ -2,7 +2,7 @@
     <%= link_to listing_path(listing), style:"text-decoration:none; color:black;" do%>
       <div class="row no-gutters">
         <div class="col-md-5">
-          <%= cl_image_tag (listing.photo.key), width: 300, style: "height: 100%", crop: :fill %>
+          <%= cl_image_tag (listing.photo.key), width: 300, style: "height: 100%; object-fit:cover;", crop: :fill %>
         </div>
         <div class="col-md-7">
           <div class="card-body">
