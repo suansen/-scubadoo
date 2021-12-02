@@ -1,10 +1,4 @@
-class CenterPolicy < ApplicationPolicy
-  class Scope < Scope
-    def resolve
-      scope.where(user: user)
-    end
-  end
-
+class ListingPolicy < ApplicationPolicy
   def index?
     true
   end
@@ -17,7 +11,7 @@ class CenterPolicy < ApplicationPolicy
     record.user == user
   end
 
-  def manage_centers?
+  def manage_listings?
     record.user == user
   end
 end

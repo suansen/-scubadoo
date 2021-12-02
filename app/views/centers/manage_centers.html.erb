@@ -1,0 +1,7 @@
+<div class="container my-3">
+  <div class="d-flex justify-content-between align-items-center">
+  <h1>Manage My Centers</h1>
+  <%= link_to "Create New Center", new_center_path, class: "btn btn-primary" %>
+  </div>
+  <%= render "card_manage_centers", centers: @centers %>
+</div>
