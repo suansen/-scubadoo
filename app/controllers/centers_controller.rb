@@ -8,6 +8,12 @@ class CentersController < ApplicationController
     else
       @centers = Center.all
     end
+    @markers = @centers.geocoded.map do |center|
+      {
+        lat: center.latitude,
+        lng: center.longitude
+      }
+    end
   end
 
   def show
