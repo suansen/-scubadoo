@@ -1,0 +1,2629 @@
+{
+  "kml": {
+    "-xmlns": "http://earth.google.com/kml/2.1",
+    "Document": {
+      "name": {
+        "#cdata-section": "List of shipwrecks of Europe"
+      },
+      "open": "1",
+      "Folder": [
+        {
+          "name": {
+            "#cdata-section": "Albania"
+          },
+          "open": "1",
+          "Placemark": {
+            "name": {
+              "#cdata-section": "HMS Phoenix (1911)"
+            },
+            "Point": {
+              "coordinates": "19.2333333333333,40.3916666666667,0"
+            },
+            "Snippet": {},
+            "description": {
+              "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Albania\">List of shipwrecks of Europe</a>"
+            }
+          }
+        },
+        {
+          "name": {
+            "#cdata-section": "Belgium"
+          },
+          "open": "1",
+          "Placemark": [
+            {
+              "name": {
+                "#cdata-section": "HMS Basilisk (H11)"
+              },
+              "Point": {
+                "coordinates": "2.585,51.1377777777778,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Belgium\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "SS Empire Blessing"
+              },
+              "Point": {
+                "coordinates": "3.28333333333333,51.4,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Belgium\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMS Grafton (H89)"
+              },
+              "Point": {
+                "coordinates": "2.81666666666667,51.4,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Belgium\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "MS Herald of Free Enterprise"
+              },
+              "Point": {
+                "coordinates": "3.19055555555556,51.3745833333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Belgium\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HM LST-420"
+              },
+              "Point": {
+                "coordinates": "2.69663333333333,51.25055,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Belgium\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "SM U-5 (Germany)"
+              },
+              "Point": {
+                "coordinates": "3.18333333333333,51.3833333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Belgium\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "SM U-11 (Germany)"
+              },
+              "Point": {
+                "coordinates": "1.48333333333333,51.1,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Belgium\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "SM UB-10"
+              },
+              "Point": {
+                "coordinates": "3.2,51.35,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Belgium\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "SM UB-59"
+              },
+              "Point": {
+                "coordinates": "3.2,51.3166666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Belgium\">List of shipwrecks of Europe</a>"
+              }
+            }
+          ]
+        },
+        {
+          "name": {
+            "#cdata-section": "Bulgaria"
+          },
+          "open": "1",
+          "Placemark": [
+            {
+              "name": {
+                "#cdata-section": "SS Mopang"
+              },
+              "Point": {
+                "coordinates": "27.69475,42.4681,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Bulgaria\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "SS Rodina (Vulkan, 1922)"
+              },
+              "Point": {
+                "coordinates": "27.8,42.3833333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Bulgaria\">List of shipwrecks of Europe</a>"
+              }
+            }
+          ]
+        },
+        {
+          "name": {
+            "#cdata-section": "Canary Islands"
+          },
+          "open": "1",
+          "Placemark": {
+            "name": {
+              "#cdata-section": "SS America (1940)"
+            },
+            "Point": {
+              "coordinates": "-14.180442,28.346077,0"
+            },
+            "Snippet": {},
+            "description": {
+              "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Canary_Islands\">List of shipwrecks of Europe</a>"
+            }
+          }
+        },
+        {
+          "name": {
+            "#cdata-section": "Croatia"
+          },
+          "open": "1",
+          "Placemark": [
+            {
+              "name": {
+                "#cdata-section": "SMS Niobe"
+              },
+              "Point": {
+                "coordinates": "14.7,44.3666666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Croatia\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "SMS Szent István"
+              },
+              "Point": {
+                "coordinates": "14.4513888888889,44.2019444444445,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Croatia\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "SM UB-129"
+              },
+              "Point": {
+                "coordinates": "14.4333333333333,45.3166666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Croatia\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "SMS Viribus Unitis"
+              },
+              "Point": {
+                "coordinates": "13.8191666666667,44.8691666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Croatia\">List of shipwrecks of Europe</a>"
+              }
+            }
+          ]
+        },
+        {
+          "name": {
+            "#cdata-section": "Denmark"
+          },
+          "open": "1",
+          "Placemark": [
+            {
+              "name": {
+                "#cdata-section": "Alexander Neuski"
+              },
+              "Point": {
+                "coordinates": "8.13333333333333,56.6833333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Denmark\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Dannebroge"
+              },
+              "Point": {
+                "coordinates": "12.5028333333333,55.4921666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Denmark\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMS Defence (1763)"
+              },
+              "Point": {
+                "coordinates": "8.1,56.3583,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Denmark\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "#21"
+              },
+              "Point": {
+                "coordinates": "5.83055555555556,56.9672222222222,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Denmark\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Freja af Stockholm"
+              },
+              "Point": {
+                "coordinates": "10.6666666666667,57.45,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#coordinates\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMS Invincible (1907)"
+              },
+              "Point": {
+                "coordinates": "6.12083333333333,57.0444444444444,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-1\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "SMS Lützow"
+              },
+              "Point": {
+                "coordinates": "5.88333333333333,56.25,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-1\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMS ''St George'' (1785)"
+              },
+              "Point": {
+                "coordinates": "8.1,56.3583333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-1\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "SM U-20"
+              },
+              "Point": {
+                "coordinates": "8.13333333333333,56.55,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-1\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "German submarine U-235"
+              },
+              "Point": {
+                "coordinates": "10.65,57.7333333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-1\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "German submarine U-579"
+              },
+              "Point": {
+                "coordinates": "11.0666666666667,56.1666666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-1\">List of shipwrecks of Europe</a>"
+              }
+            }
+          ]
+        },
+        {
+          "name": {
+            "#cdata-section": "Estonia"
+          },
+          "open": "1",
+          "Placemark": {
+            "name": {
+              "#cdata-section": "MS Estonia"
+            },
+            "Point": {
+              "coordinates": "21.7,59.3833333333333,0"
+            },
+            "Snippet": {},
+            "description": {
+              "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Estonia\">List of shipwrecks of Europe</a>"
+            }
+          }
+        },
+        {
+          "name": {
+            "#cdata-section": "Germany"
+          },
+          "open": "1",
+          "Placemark": [
+            {
+              "name": {
+                "#cdata-section": "Cap Arcona"
+              },
+              "Point": {
+                "coordinates": "10.8408333333333,54.065,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Germany\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "German training ship Hugo Zeye"
+              },
+              "Point": {
+                "coordinates": "10.875,54.5608333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Germany\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "German trawler V 1101 Preußen"
+              },
+              "Point": {
+                "coordinates": "7.66666666666667,53.8333333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Germany\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "SMS Seeadler"
+              },
+              "Point": {
+                "coordinates": "8.2,53.4833333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Germany\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "German submarine U-8 (1935)"
+              },
+              "Point": {
+                "coordinates": "8.16666666666667,53.5166666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Germany\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "German submarine U-103 (1940)"
+              },
+              "Point": {
+                "coordinates": "10.164,54.326,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Germany\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "German submarine U-236"
+              },
+              "Point": {
+                "coordinates": "10.05,54.6166666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Germany\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "German submarine U-287"
+              },
+              "Point": {
+                "coordinates": "8.83333333333333,53.8333333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Germany\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "German submarine U-316"
+              },
+              "Point": {
+                "coordinates": "10.8833333333333,53.9666666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Germany\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "German submarine U-323"
+              },
+              "Point": {
+                "coordinates": "8.5,53.5,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Germany\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "German submarine U-348"
+              },
+              "Point": {
+                "coordinates": "9.95,53.55,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Germany\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "German submarine U-777"
+              },
+              "Point": {
+                "coordinates": "8.16666666666667,53.85,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Germany\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "German submarine U-870"
+              },
+              "Point": {
+                "coordinates": "8.83333333333333,53.0666666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Germany\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "German submarine U-979"
+              },
+              "Point": {
+                "coordinates": "8.38333333333333,54.6333333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Germany\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "German submarine U-1221"
+              },
+              "Point": {
+                "coordinates": "10.1666666666667,54.3333333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Germany\">List of shipwrecks of Europe</a>"
+              }
+            }
+          ]
+        },
+        {
+          "name": {
+            "#cdata-section": "Gibraltar"
+          },
+          "open": "1",
+          "Placemark": [
+            {
+              "name": {
+                "#cdata-section": "Explosion of the RFA Bedenham"
+              },
+              "Point": {
+                "coordinates": "-5.355096,36.135183,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Gibraltar\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "MV Fedra"
+              },
+              "Point": {
+                "coordinates": "-5.344812,36.110534,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Gibraltar\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "MV New Flame"
+              },
+              "Point": {
+                "coordinates": "-5.34583333333333,36.1016666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Gibraltar\">List of shipwrecks of Europe</a>"
+              }
+            }
+          ]
+        },
+        {
+          "name": {
+            "#cdata-section": "Greece"
+          },
+          "open": "1",
+          "Placemark": [
+            {
+              "name": {
+                "#cdata-section": "Antikythera wreck"
+              },
+              "Point": {
+                "coordinates": "23.3078,35.8897,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Greece\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Italian cruiser Bartolomeo Colleoni"
+              },
+              "Point": {
+                "coordinates": "23.7205555555556,35.6927777777778,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Greece\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMHS Britannic"
+              },
+              "Point": {
+                "coordinates": "24.2838888888889,37.7013888888889,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Greece\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMS Dulverton (L63)"
+              },
+              "Point": {
+                "coordinates": "27.5,36.8333333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Greece\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Greek cruiser Elli"
+              },
+              "Point": {
+                "coordinates": "25.1508333333333,37.5358333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Greece\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMS Gloucester (62)"
+              },
+              "Point": {
+                "coordinates": "23,35.8333333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Greece\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMS Greyhound (H05)"
+              },
+              "Point": {
+                "coordinates": "23.1666666666667,36,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Greece\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMS Hereward (H93)"
+              },
+              "Point": {
+                "coordinates": "26.3333333333333,35.3333333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Greece\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMS Hurworth (L28)"
+              },
+              "Point": {
+                "coordinates": "27.1,36.9833333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Greece\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMS Intrepid (D10)"
+              },
+              "Point": {
+                "coordinates": "26.85,37.1166666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Greece\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "MV Jupiter (1961)"
+              },
+              "Point": {
+                "coordinates": "23.6083,37.925,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Greece\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMS Kashmir (F12)"
+              },
+              "Point": {
+                "coordinates": "24.1666666666667,34.6666666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Greece\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMS M28"
+              },
+              "Point": {
+                "coordinates": "25.9627777777778,40.2286111111111,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Greece\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Panagiotis (ship)"
+              },
+              "Point": {
+                "coordinates": "20.6248611111111,37.8596027777778,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-2\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Patris"
+              },
+              "Point": {
+                "coordinates": "24.2628944444444,37.5789388888889,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-2\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMS Perseus"
+              },
+              "Point": {
+                "coordinates": "20.9,37.9,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-2\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "MS Sea Diamond"
+              },
+              "Point": {
+                "coordinates": "25.4308333333333,36.3947222222222,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-2\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "MV Sebastiano Veniero (1940)"
+              },
+              "Point": {
+                "coordinates": "21.7,36.8166666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-2\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "SS Slamat"
+              },
+              "Point": {
+                "coordinates": "23.17,37.02,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-2\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "German submarine U-596"
+              },
+              "Point": {
+                "coordinates": "23.5666666666667,37.9833333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-2\">List of shipwrecks of Europe</a>"
+              }
+            }
+          ]
+        },
+        {
+          "name": {
+            "#cdata-section": "Greenland"
+          },
+          "open": "1",
+          "Placemark": {
+            "name": {
+              "#cdata-section": "German weather ship WBS 6 Kehdingen"
+            },
+            "Point": {
+              "coordinates": "-19.0333333333333,76.5,0"
+            },
+            "Snippet": {},
+            "description": {
+              "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Greenland\">List of shipwrecks of Europe</a>"
+            }
+          }
+        },
+        {
+          "name": {
+            "#cdata-section": "Iceland"
+          },
+          "open": "1",
+          "Placemark": [
+            {
+              "name": {
+                "#cdata-section": "USCGC Alexander Hamilton"
+              },
+              "Point": {
+                "coordinates": "-22.56,64.1,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Iceland\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "ES Goðafoss"
+              },
+              "Point": {
+                "coordinates": "-22.75,6.1,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Iceland\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMS Niger (J73)"
+              },
+              "Point": {
+                "coordinates": "-23.2333333333333,66.5833333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Iceland\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "German submarine U-253"
+              },
+              "Point": {
+                "coordinates": "-23,66.9999722222222,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Iceland\">List of shipwrecks of Europe</a>"
+              }
+            }
+          ]
+        },
+        {
+          "name": {
+            "#cdata-section": "Ireland"
+          },
+          "open": "1",
+          "Placemark": [
+            {
+              "name": {
+                "#cdata-section": "Alondra (1899)"
+              },
+              "Point": {
+                "coordinates": "-9.34555555555556,51.4611111111111,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Ireland\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "RMS Andania (1913)"
+              },
+              "Point": {
+                "coordinates": "-6.2,55.3333333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Ireland\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "RMS Carpathia"
+              },
+              "Point": {
+                "coordinates": "-19.7667,49.4667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-3\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Dido (barque)"
+              },
+              "Point": {
+                "coordinates": "-9.31666666666667,51.4666666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-4\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Edmond (1850)"
+              },
+              "Point": {
+                "coordinates": "-9.65535277777778,52.6814305555556,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-4\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "RMS Empress of Britain (1930)"
+              },
+              "Point": {
+                "coordinates": "-9.83333333333333,55.2666666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-4\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Fulmar (1868)"
+              },
+              "Point": {
+                "coordinates": "-9.62513888888889,52.7164088333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-4\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Illyrian"
+              },
+              "Point": {
+                "coordinates": "-9.48333333333333,51.4333333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-5\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Kowloon Bridge"
+              },
+              "Point": {
+                "coordinates": "-9.23333333333333,51.4666666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-6\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "RMS Laconia (1911)"
+              },
+              "Point": {
+                "coordinates": "-13.6666666666667,52,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-6\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "SS Laurentic (1909)"
+              },
+              "Point": {
+                "coordinates": "-6.818,55.262,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-6\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMHS Llandovery Castle"
+              },
+              "Point": {
+                "coordinates": "-9.9,51.3,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-6\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "RMS Lusitania"
+              },
+              "Point": {
+                "coordinates": "-8.55,51.4166666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-6\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Ranga (ship)"
+              },
+              "Point": {
+                "coordinates": "-10.4683333333333,52.1091666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-6\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "The Rochdale and the Prince of Wales"
+              },
+              "Point": {
+                "coordinates": "-6.157072,53.301603,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-6\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "RMS Tayleur"
+              },
+              "Point": {
+                "coordinates": "-6.02,53.4816666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-6\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Tullaghmurray Lass"
+              },
+              "Point": {
+                "coordinates": "-5.993,54.06,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-6\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "SM U-68"
+              },
+              "Point": {
+                "coordinates": "-10.8833333333333,51.9,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-6\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "German submarine U-260"
+              },
+              "Point": {
+                "coordinates": "-9.08333333333333,51.25,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-6\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "German submarine U-637"
+              },
+              "Point": {
+                "coordinates": "-7.76666666666667,55.5833333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-6\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "German submarine U-778"
+              },
+              "Point": {
+                "coordinates": "-7.11666666666667,55.5333333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-6\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "German submarine U-802"
+              },
+              "Point": {
+                "coordinates": "-8.41666666666667,55.5,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-6\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "German submarine U-825"
+              },
+              "Point": {
+                "coordinates": "-7.5,55.5166666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-6\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "German submarine U-861"
+              },
+              "Point": {
+                "coordinates": "-7.25,55.4166666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-6\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "SM UC-33"
+              },
+              "Point": {
+                "coordinates": "-6.23333333333333,51.9166666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-6\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "SM UC-42"
+              },
+              "Point": {
+                "coordinates": "-8.2,51.7333333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-6\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMS Wolverine (1910)"
+              },
+              "Point": {
+                "coordinates": "-8.685,55.166,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-6\">List of shipwrecks of Europe</a>"
+              }
+            }
+          ]
+        },
+        {
+          "name": {
+            "#cdata-section": "Isle of Man"
+          },
+          "open": "1",
+          "Placemark": {
+            "name": {
+              "#cdata-section": "Solway Harvester"
+            },
+            "Point": {
+              "coordinates": "-4.16444444444444,54.0975,0"
+            },
+            "Snippet": {},
+            "description": {
+              "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Isle_of_Man\">List of shipwrecks of Europe</a>"
+            }
+          }
+        },
+        {
+          "name": {
+            "#cdata-section": "Italy"
+          },
+          "open": "1",
+          "Placemark": [
+            {
+              "name": {
+                "#cdata-section": "SS Cuxhaven (1882)"
+              },
+              "Point": {
+                "coordinates": "13.4666666666667,38.5,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Italy\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "SS Dia"
+              },
+              "Point": {
+                "coordinates": "8.63333333333333,44.2,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Italy\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "F174"
+              },
+              "Point": {
+                "coordinates": "14.9094444444444,36.4252777777778,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Italy\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Italian cruiser Giovanni delle Bande Nere"
+              },
+              "Point": {
+                "coordinates": "15.0086111111111,38.7088888888889,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-8\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "MT Haven"
+              },
+              "Point": {
+                "coordinates": "8.46,44.22,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-8\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMS Hebe (J24)"
+              },
+              "Point": {
+                "coordinates": "16.8666666666667,41.1333333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-8\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMS Inglefield (D02)"
+              },
+              "Point": {
+                "coordinates": "12.6333333333333,41.4333333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-8\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Nemi ships"
+              },
+              "Point": {
+                "coordinates": "12.7016666666667,41.7222222222222,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-8\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMS Odin (N84)"
+              },
+              "Point": {
+                "coordinates": "17.5,39.5,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-8\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMS Pakenham (G06)"
+              },
+              "Point": {
+                "coordinates": "12.5,37.4333333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-8\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "USS Portent (AM-106)"
+              },
+              "Point": {
+                "coordinates": "12.7333333333333,41.4,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-8\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Italian battleship Roma (1940)"
+              },
+              "Point": {
+                "coordinates": "8.29305555555556,41.1577777777778,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-9\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "USS SC-694"
+              },
+              "Point": {
+                "coordinates": "13.3666666666667,38.1333333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-9\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMS Spartan (95)"
+              },
+              "Point": {
+                "coordinates": "12.6838888888889,41.4338888888889,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-9\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "USS Swerve (AM-121)"
+              },
+              "Point": {
+                "coordinates": "12.4666666666667,41.5166666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-9\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMS Thetis (N25)"
+              },
+              "Point": {
+                "coordinates": "13.25,38.25,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-9\">List of shipwrecks of Europe</a>"
+              }
+            }
+          ]
+        },
+        {
+          "name": {
+            "#cdata-section": "Lithuania"
+          },
+          "open": "1",
+          "Placemark": {
+            "name": {
+              "#cdata-section": "German submarine U-580"
+            },
+            "Point": {
+              "coordinates": "20.6666666666667,55.75,0"
+            },
+            "Snippet": {},
+            "description": {
+              "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Lithuania\">List of shipwrecks of Europe</a>"
+            }
+          }
+        },
+        {
+          "name": {
+            "#cdata-section": "Malta"
+          },
+          "open": "1",
+          "Placemark": [
+            {
+              "name": {
+                "#cdata-section": "MV Camadan"
+              },
+              "Point": {
+                "coordinates": "14.53,35.51,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Malta\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "MV Cominoland"
+              },
+              "Point": {
+                "coordinates": "14.2866,36.0175,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Malta\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMS Jersey (F72)"
+              },
+              "Point": {
+                "coordinates": "14.5233333333333,35.9,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Malta\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "ORP Kujawiak (L72)"
+              },
+              "Point": {
+                "coordinates": "14.5833333333333,35.8833333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Malta\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "MV Lady Davinia"
+              },
+              "Point": {
+                "coordinates": "14.5074333333333,35.9066666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Malta\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMS Maori (F24)"
+              },
+              "Point": {
+                "coordinates": "14.5188888888889,35.9047222222222,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Malta\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMS Olympus (N35)"
+              },
+              "Point": {
+                "coordinates": "14.5833333333333,35.9166666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Malta\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "P31"
+              },
+              "Point": {
+                "coordinates": "14.3286111111111,35.9877777777778,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Malta\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "P31"
+              },
+              "Point": {
+                "coordinates": "14.3333333333333,36.0166666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Malta\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "MV Rozi"
+              },
+              "Point": {
+                "coordinates": "14.5455555555556,40.6502777777778,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-11\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMS Russell (1901)"
+              },
+              "Point": {
+                "coordinates": "14.6,35.9,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-11\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMS Stubborn (P238)"
+              },
+              "Point": {
+                "coordinates": "14.4462166666667,35.9827,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-11\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Um El Faroud"
+              },
+              "Point": {
+                "coordinates": "14.4506666666667,35.82,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-11\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "X127"
+              },
+              "Point": {
+                "coordinates": "14.502,35.904,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-11\">List of shipwrecks of Europe</a>"
+              }
+            }
+          ]
+        },
+        {
+          "name": {
+            "#cdata-section": "The Netherlands"
+          },
+          "open": "1",
+          "Placemark": [
+            {
+              "name": {
+                "#cdata-section": "MV Aqueity (1945)"
+              },
+              "Point": {
+                "coordinates": "5.03333333333333,53.5333333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#The_Netherlands\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMS E47"
+              },
+              "Point": {
+                "coordinates": "4.55777777777778,53.10225,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#The_Netherlands\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HNLMS Johan Maurits van Nassau"
+              },
+              "Point": {
+                "coordinates": "4.56555555555556,52.8369444444444,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#The_Netherlands\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "SS Rotterdam (1872)"
+              },
+              "Point": {
+                "coordinates": "3.61388888888889,51.6855555555556,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#The_Netherlands\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "SM U-7 (Germany)"
+              },
+              "Point": {
+                "coordinates": "6.2,53.43,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#The_Netherlands\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "SM UB-61"
+              },
+              "Point": {
+                "coordinates": "4.93333333333333,53.3333333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#The_Netherlands\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "SM UC-10"
+              },
+              "Point": {
+                "coordinates": "3.9,52.0333333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#The_Netherlands\">List of shipwrecks of Europe</a>"
+              }
+            }
+          ]
+        },
+        {
+          "name": {
+            "#cdata-section": "Norway"
+          },
+          "open": "1",
+          "Placemark": [
+            {
+              "name": {
+                "#cdata-section": "MV Atheltemplar"
+              },
+              "Point": {
+                "coordinates": "18,76,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-12\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMS Bittern (L07)"
+              },
+              "Point": {
+                "coordinates": "11.5,64.4666666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-12\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "German cruiser Blücher"
+              },
+              "Point": {
+                "coordinates": "10.5916666666667,59.7,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-12\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "USS Cochino (SS-345)"
+              },
+              "Point": {
+                "coordinates": "23.5833333333333,71.5833333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-12\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMS Curlew (D42)"
+              },
+              "Point": {
+                "coordinates": "16.558,68.559,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-12\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "USS Zeppelin"
+              },
+              "Point": {
+                "coordinates": "5.31888888888889,59.2019444444445,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-12\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "SS Dronning Maud (1925)"
+              },
+              "Point": {
+                "coordinates": "17.43945,68.6986166666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-12\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HNoMS Garm (1913)"
+              },
+              "Point": {
+                "coordinates": "5.83194444444444,61.0780555555556,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-12\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "German destroyer Z2 Georg Thiele"
+              },
+              "Point": {
+                "coordinates": "17.5833333333333,68.4,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-12\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMS Hardy (1936)"
+              },
+              "Point": {
+                "coordinates": "17.2,68.4,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-12\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMS Hunter (H35)"
+              },
+              "Point": {
+                "coordinates": "17.1727777777778,68.4147222222222,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-12\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "SS Irma (1905)"
+              },
+              "Point": {
+                "coordinates": "-5.7,49.4833333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-12\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "German cruiser Karlsruhe"
+              },
+              "Point": {
+                "coordinates": "8.06666666666667,58.0666666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-12\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "SS Martti Ragnar (1934)"
+              },
+              "Point": {
+                "coordinates": "8.8,58.4,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-12\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Soviet cruiser Murmansk (1955)"
+              },
+              "Point": {
+                "coordinates": "21.956681,70.636024,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-12\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMS Oxley"
+              },
+              "Point": {
+                "coordinates": "5.5,58.5,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-12\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "MS Rigel"
+              },
+              "Point": {
+                "coordinates": "12.3361111111111,65.8211111111111,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-12\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "German battleship Scharnhorst (1936)"
+              },
+              "Point": {
+                "coordinates": "28.6833333333333,72.2666666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-12\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMS Thistle (N24)"
+              },
+              "Point": {
+                "coordinates": "5,59,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-12\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "SM U-6 (Germany)"
+              },
+              "Point": {
+                "coordinates": "5.16666666666667,58.9166666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-12\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "German submarine U-49 (1939)"
+              },
+              "Point": {
+                "coordinates": "16.9833333333333,68.8833333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-12\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "German submarine U-662"
+              },
+              "Point": {
+                "coordinates": "10.3833333333333,63.45,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-12\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "U-711"
+              },
+              "Point": {
+                "coordinates": "16.6333333333333,68.8,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-12\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "German submarine U-864"
+              },
+              "Point": {
+                "coordinates": "4.62083333333333,60.7694444444444,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-12\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HNoMS Uredd (P-41)"
+              },
+              "Point": {
+                "coordinates": "13.5166666666667,67.0833333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-12\">List of shipwrecks of Europe</a>"
+              }
+            }
+          ]
+        },
+        {
+          "name": {
+            "#cdata-section": "Poland"
+          },
+          "open": "1",
+          "Placemark": [
+            {
+              "name": {
+                "#cdata-section": "SS General von Steuben"
+              },
+              "Point": {
+                "coordinates": "16.85,54.6833333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Poland\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "German aircraft carrier Graf Zeppelin"
+              },
+              "Point": {
+                "coordinates": "18.2858333333333,55.5175,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Poland\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "German submarine U-670"
+              },
+              "Point": {
+                "coordinates": "19.25,54.8333333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Poland\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "German submarine U-854"
+              },
+              "Point": {
+                "coordinates": "14.2666666666667,54.0166666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Poland\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "MV Wilhelm Gustloff"
+              },
+              "Point": {
+                "coordinates": "17.4213,55.0729,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Poland\">List of shipwrecks of Europe</a>"
+              }
+            }
+          ]
+        },
+        {
+          "name": {
+            "#cdata-section": "Portugal"
+          },
+          "open": "1",
+          "Placemark": [
+            {
+              "name": {
+                "#cdata-section": "French battleship Suffren"
+              },
+              "Point": {
+                "coordinates": "-10.8,39.1666666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Portugal\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "German submarine U-1227"
+              },
+              "Point": {
+                "coordinates": "-8.68333333333333,41.15,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Portugal\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "German submarine U-1227"
+              },
+              "Point": {
+                "coordinates": "-28.6166666666667,38.5166666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-13\">List of shipwrecks of Europe</a>"
+              }
+            }
+          ]
+        },
+        {
+          "name": {
+            "#cdata-section": "Russia / Soviet Union"
+          },
+          "open": "1",
+          "Placemark": [
+            {
+              "name": {
+                "#cdata-section": "SS Admiral Nakhimov"
+              },
+              "Point": {
+                "coordinates": "37.8763888888889,44.6041666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Russia_%2F_Soviet_Union\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Armenia (ship)"
+              },
+              "Point": {
+                "coordinates": "34.2833333333333,44.25,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Russia_%2F_Soviet_Union\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMS Bluebell (K80)"
+              },
+              "Point": {
+                "coordinates": "33.7,69.4,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Russia_%2F_Soviet_Union\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "MS Bulgaria"
+              },
+              "Point": {
+                "coordinates": "49.152,55.063,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-14\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMS Denbigh Castle (K696)"
+              },
+              "Point": {
+                "coordinates": "33.55,69.3333333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-14\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "USS Herndon (DD-198)"
+              },
+              "Point": {
+                "coordinates": "37.0333333333333,69.25,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-14\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Soviet submarine K-159"
+              },
+              "Point": {
+                "coordinates": "33.8251666666667,69.3773333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-14\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Soviet submarine K-27"
+              },
+              "Point": {
+                "coordinates": "55.5,72.5166666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-14\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMS Matabele (F26)"
+              },
+              "Point": {
+                "coordinates": "35.45,69.35,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-14\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "SS Revoljucija"
+              },
+              "Point": {
+                "coordinates": "37.8166666666667,68.7333333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-14\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "German submarine U-286"
+              },
+              "Point": {
+                "coordinates": "33.6166666666667,69.4833333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-14\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "German submarine U-763"
+              },
+              "Point": {
+                "coordinates": "20.5333333333333,54.7,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#cite_ref-14\">List of shipwrecks of Europe</a>"
+              }
+            }
+          ]
+        },
+        {
+          "name": {
+            "#cdata-section": "Spain"
+          },
+          "open": "1",
+          "Placemark": [
+            {
+              "name": {
+                "#cdata-section": "Spanish battleship Alfonso XIII"
+              },
+              "Point": {
+                "coordinates": "-3.67888888888889,43.5238888888889,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Spain\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMS Britannia (1904)"
+              },
+              "Point": {
+                "coordinates": "-5.88333333333333,35.8833333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Spain\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Spanish submarine C-3"
+              },
+              "Point": {
+                "coordinates": "-4.35,36.6666666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Spain\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMS Egret (L25)"
+              },
+              "Point": {
+                "coordinates": "-9.36666666666667,42.1666666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Spain\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "SS Duchess of York (1928)"
+              },
+              "Point": {
+                "coordinates": "-15.4,41.25,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Spain\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "USS Jallao (SS-368)"
+              },
+              "Point": {
+                "coordinates": "133.2,38.05,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Spain\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Neretva (merchant)"
+              },
+              "Point": {
+                "coordinates": "-5.01601944444444,43.4839333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Spain\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Prestige (oil tanker)"
+              },
+              "Point": {
+                "coordinates": "-9.88333333333333,42.8833333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Spain\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "SS Sirio"
+              },
+              "Point": {
+                "coordinates": "-0.652863888888889,37.6518694444444,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Spain\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "German submarine U-106 (1940)"
+              },
+              "Point": {
+                "coordinates": "-11.9166666666667,46.5833333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Spain\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "German submarine U-77 (1940)"
+              },
+              "Point": {
+                "coordinates": "0.166666666666667,37.7,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Spain\">List of shipwrecks of Europe</a>"
+              }
+            }
+          ]
+        },
+        {
+          "name": {
+            "#cdata-section": "Slovenia"
+          },
+          "open": "1",
+          "Placemark": {
+            "name": {
+              "#cdata-section": "SS Rex"
+            },
+            "Point": {
+              "coordinates": "13.6919444444444,45.5488888888889,0"
+            },
+            "Snippet": {},
+            "description": {
+              "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Slovenia\">List of shipwrecks of Europe</a>"
+            }
+          }
+        },
+        {
+          "name": {
+            "#cdata-section": "Sweden"
+          },
+          "open": "1",
+          "Placemark": [
+            {
+              "name": {
+                "#cdata-section": "MV Finnbirch"
+              },
+              "Point": {
+                "coordinates": "17.2516666666667,56.7508333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Sweden\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Kronan (ship)"
+              },
+              "Point": {
+                "coordinates": "16.6722222222222,56.4494444444444,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Sweden\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Soviet submarine S-7"
+              },
+              "Point": {
+                "coordinates": "19.5333333333333,59.85,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Sweden\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Som"
+              },
+              "Point": {
+                "coordinates": "18.9333333333333,60,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Sweden\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Vasa (ship)"
+              },
+              "Point": {
+                "coordinates": "18.0911111111111,59.3277777777778,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Sweden\">List of shipwrecks of Europe</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "SS Westfalen"
+              },
+              "Point": {
+                "coordinates": "11.4561,57.7797,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Sweden\">List of shipwrecks of Europe</a>"
+              }
+            }
+          ]
+        },
+        {
+          "name": {
+            "#cdata-section": "Ukraine"
+          },
+          "open": "1",
+          "Placemark": {
+            "name": {
+              "#cdata-section": "Italian battleship Giulio Cesare"
+            },
+            "Point": {
+              "coordinates": "33.5355555555556,44.6186111111111,0"
+            },
+            "Snippet": {},
+            "description": {
+              "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Europe#Ukraine\">List of shipwrecks of Europe</a>"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1007 @@
+{
+  "kml": {
+    "-xmlns": "http://earth.google.com/kml/2.1",
+    "Document": {
+      "name": {
+        "#cdata-section": "List of shipwrecks of Oceania"
+      },
+      "open": "1",
+      "Folder": [
+        {
+          "name": {
+            "#cdata-section": "Chuuk"
+          },
+          "open": "1",
+          "Placemark": [
+            {
+              "name": {
+                "#cdata-section": "Aikoku Maru (1940)"
+              },
+              "Point": {
+                "coordinates": "151.933333333333,7.36666666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#Chuuk\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese destroyer Fumizuki (1926)"
+              },
+              "Point": {
+                "coordinates": "151.733333333333,7.4,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#Chuuk\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese destroyer Tachikaze"
+              },
+              "Point": {
+                "coordinates": "151.933333333333,7.05,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#Chuuk\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese destroyer Umikaze"
+              },
+              "Point": {
+                "coordinates": "151.716666666667,7.16666666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#Chuuk\">List of shipwrecks of Oceania</a>"
+              }
+            }
+          ]
+        },
+        {
+          "name": {
+            "#cdata-section": "Palau"
+          },
+          "open": "1",
+          "Placemark": [
+            {
+              "name": {
+                "#cdata-section": "USS Perry (DD-340)"
+              },
+              "Point": {
+                "coordinates": "134.166666666667,6.88333333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#Palau\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Samidare"
+              },
+              "Point": {
+                "coordinates": "134.633333333333,8.16666666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#Palau\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Wakatake"
+              },
+              "Point": {
+                "coordinates": "134.333333333333,7.83333333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#Palau\">List of shipwrecks of Oceania</a>"
+              }
+            }
+          ]
+        },
+        {
+          "name": {
+            "#cdata-section": "Kiribati"
+          },
+          "open": "1",
+          "Placemark": {
+            "name": {
+              "#cdata-section": "SS Norwich City"
+            },
+            "Point": {
+              "coordinates": "-174.544444444444,-4.66083333333333,0"
+            },
+            "Snippet": {},
+            "description": {
+              "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#Kiribati\">List of shipwrecks of Oceania</a>"
+            }
+          }
+        },
+        {
+          "name": {
+            "#cdata-section": "Marshall Islands"
+          },
+          "open": "1",
+          "Placemark": [
+            {
+              "name": {
+                "#cdata-section": "SS Kembu Maru"
+              },
+              "Point": {
+                "coordinates": "167.416666666667,9.31666666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#Marshall_Islands\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "USS Pilotfish (SS-386)"
+              },
+              "Point": {
+                "coordinates": "140.883333333333,30.4333333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#Marshall_Islands\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "German cruiser Prinz Eugen"
+              },
+              "Point": {
+                "coordinates": "167.6831,8.75273611111111,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#Marshall_Islands\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese cruiser Sakawa"
+              },
+              "Point": {
+                "coordinates": "165.383333333333,11.5833333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#Marshall_Islands\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "USS Saratoga (CV-3)"
+              },
+              "Point": {
+                "coordinates": "165.49855,11.5814805555556,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#Marshall_Islands\">List of shipwrecks of Oceania</a>"
+              }
+            }
+          ]
+        },
+        {
+          "name": {
+            "#cdata-section": "New Zealand"
+          },
+          "open": "1",
+          "Placemark": [
+            {
+              "name": {
+                "#cdata-section": "Anjou (ship)"
+              },
+              "Point": {
+                "coordinates": "165.887516,-50.777075,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#New_Zealand\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMS Buffalo (1813)"
+              },
+              "Point": {
+                "coordinates": "175.705555555556,-36.8267222222222,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#New_Zealand\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMNZS Canterbury (F421)"
+              },
+              "Point": {
+                "coordinates": "174.2944,-35.1938,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#New_Zealand\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Derry Castle (barque)"
+              },
+              "Point": {
+                "coordinates": "166.302761,-50.484323,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#New_Zealand\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Dundonald (ship)"
+              },
+              "Point": {
+                "coordinates": "165.954817,-50.607938,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#New_Zealand\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "SS Elingamite"
+              },
+              "Point": {
+                "coordinates": "172.03159,-34.186047,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#New_Zealand\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Endeavour II"
+              },
+              "Point": {
+                "coordinates": "173.010206,-34.521762,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#cite_ref-VoaSS_3-0\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "MV Holmglen"
+              },
+              "Point": {
+                "coordinates": "171.6894,-44.5223,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#cite_ref-VoaSS_3-0\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "MS Mikhail Lermontov"
+              },
+              "Point": {
+                "coordinates": "174.219496,-41.042087,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#cite_ref-VoaSS_3-0\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "RMS Niagara"
+              },
+              "Point": {
+                "coordinates": "174.943888888889,-35.8638888888889,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#cite_ref-VoaSS_3-0\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMS Orpheus (1860)"
+              },
+              "Point": {
+                "coordinates": "174.471666666667,-37.0683333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#cite_ref-VoaSS_3-0\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMNZS Puriri (T02)"
+              },
+              "Point": {
+                "coordinates": "174.716666666667,-35.7708333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#cite_ref-VoaSS_3-0\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Queen Bee (ship)"
+              },
+              "Point": {
+                "coordinates": "172.866666666667,-40.5,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#cite_ref-4\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Rainbow Warrior (1955)"
+              },
+              "Point": {
+                "coordinates": "173.9349,-34.9748,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#cite_ref-4\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "MV Rena"
+              },
+              "Point": {
+                "coordinates": "176.429166666667,-37.5402777777778,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#cite_ref-4\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "SS Tararua"
+              },
+              "Point": {
+                "coordinates": "168.8622,-46.6686,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#cite_ref-4\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMNZS Tui (1970)"
+              },
+              "Point": {
+                "coordinates": "174.5394,-35.5832,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#cite_ref-4\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Victory wreck"
+              },
+              "Point": {
+                "coordinates": "170.7321,-45.8425,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#cite_ref-4\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMNZS Waikato (F55)"
+              },
+              "Point": {
+                "coordinates": "174.5445,-35.6528,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#cite_ref-4\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "SS Wairarapa"
+              },
+              "Point": {
+                "coordinates": "175.3519,-36.0674,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#cite_ref-4\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMNZS Wellington (F69)"
+              },
+              "Point": {
+                "coordinates": "174.78,-41.353,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#cite_ref-4\">List of shipwrecks of Oceania</a>"
+              }
+            }
+          ]
+        },
+        {
+          "name": {
+            "#cdata-section": "Papua New Guinea"
+          },
+          "open": "1",
+          "Placemark": [
+            {
+              "name": {
+                "#cdata-section": "USS Brownson (DD-518)"
+              },
+              "Point": {
+                "coordinates": "148.416666666667,-5.33333333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#Papua_New_Guinea\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMAS Geelong (J201)"
+              },
+              "Point": {
+                "coordinates": "147.75,-6.06666666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#Papua_New_Guinea\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese destroyer Hakaze"
+              },
+              "Point": {
+                "coordinates": "150.633333333333,-2.78333333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#Papua_New_Guinea\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "SS Kyokusei Maru"
+              },
+              "Point": {
+                "coordinates": "147.166666666667,-6.76666666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#Papua_New_Guinea\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese destroyer Mikazuki (1926)"
+              },
+              "Point": {
+                "coordinates": "148.416666666667,-5.45,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#Papua_New_Guinea\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "USS Mount Hood (AE-11)"
+              },
+              "Point": {
+                "coordinates": "147.355,-2.02833,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#Papua_New_Guinea\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese submarine Ro-33"
+              },
+              "Point": {
+                "coordinates": "147.1,-9.6,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#Papua_New_Guinea\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "USS S-39 (SS-144)"
+              },
+              "Point": {
+                "coordinates": "154.149030555556,-11.3507611111111,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#Papua_New_Guinea\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese cruiser Tenryū"
+              },
+              "Point": {
+                "coordinates": "145.933333333333,-5.2,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#Papua_New_Guinea\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese destroyer Yūgiri (1930)"
+              },
+              "Point": {
+                "coordinates": "154,-4.73333333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#Papua_New_Guinea\">List of shipwrecks of Oceania</a>"
+              }
+            }
+          ]
+        },
+        {
+          "name": {
+            "#cdata-section": "Samoa"
+          },
+          "open": "1",
+          "Placemark": [
+            {
+              "name": {
+                "#cdata-section": "SMS Adler"
+              },
+              "Point": {
+                "coordinates": "-171.7647,-13.8266,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#Samoa\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "SMS Eber (1887)"
+              },
+              "Point": {
+                "coordinates": "-171.751944444444,-13.8313888888889,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#Samoa\">List of shipwrecks of Oceania</a>"
+              }
+            }
+          ]
+        },
+        {
+          "name": {
+            "#cdata-section": "Solomon Islands"
+          },
+          "open": "1",
+          "Placemark": [
+            {
+              "name": {
+                "#cdata-section": "USS Chicago (CA-29)"
+              },
+              "Point": {
+                "coordinates": "160.933333333333,-11.4166666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#Solomon_Islands\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "USS Helena (CL-50)"
+              },
+              "Point": {
+                "coordinates": "157.183333333333,-7.76666666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#Solomon_Islands\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese cruiser Jintsu"
+              },
+              "Point": {
+                "coordinates": "157.1,-7.63333333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#Solomon_Islands\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "USS Juneau (CL-52)"
+              },
+              "Point": {
+                "coordinates": "161.066666666667,-10.5666666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#Solomon_Islands\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese submarine Ro-34"
+              },
+              "Point": {
+                "coordinates": "158.966666666667,-8.25,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#Solomon_Islands\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese destroyer Yūgumo (1941)"
+              },
+              "Point": {
+                "coordinates": "156.233333333333,-7.55,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#Solomon_Islands\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese cruiser Yura"
+              },
+              "Point": {
+                "coordinates": "159.116666666667,-8.25,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#Solomon_Islands\">List of shipwrecks of Oceania</a>"
+              }
+            }
+          ]
+        },
+        {
+          "name": {
+            "#cdata-section": "Ironbottom Sound"
+          },
+          "open": "1",
+          "Placemark": [
+            {
+              "name": {
+                "#cdata-section": "USS Aaron Ward (DD-483)"
+              },
+              "Point": {
+                "coordinates": "160.2,-9.175,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#Ironbottom_Sound\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese destroyer Akatsuki"
+              },
+              "Point": {
+                "coordinates": "159.933333333333,-9.28333333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#Ironbottom_Sound\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "USS Astoria (CA-34)"
+              },
+              "Point": {
+                "coordinates": "159.8675,-9.20916666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#Ironbottom_Sound\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "USS Atlanta (CL-51)"
+              },
+              "Point": {
+                "coordinates": "159.979,-9.39,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#Ironbottom_Sound\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese destroyer Ayanami (1929)"
+              },
+              "Point": {
+                "coordinates": "159.866666666667,-9.16666666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#Ironbottom_Sound\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMAS Canberra (D33)"
+              },
+              "Point": {
+                "coordinates": "159.912777777778,-9.20805555555556,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#Ironbottom_Sound\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "USS Colhoun (DD-85)"
+              },
+              "Point": {
+                "coordinates": "160.016666666667,-9.4,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#Ironbottom_Sound\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "USS De Haven"
+              },
+              "Point": {
+                "coordinates": "159.866666666667,-9.15,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#Ironbottom_Sound\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese destroyer Fubuki"
+              },
+              "Point": {
+                "coordinates": "159.633333333333,-9.1,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#Ironbottom_Sound\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese cruiser Furutaka"
+              },
+              "Point": {
+                "coordinates": "159.55,-9.03333333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#Ironbottom_Sound\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "USS George F. Elliot (AP-130)"
+              },
+              "Point": {
+                "coordinates": "160.137222222222,-9.34583333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#Ironbottom_Sound\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese battleship Hiei"
+              },
+              "Point": {
+                "coordinates": "158.999722222222,-9,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#Ironbottom_Sound\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "USS Jarvis (DD-393)"
+              },
+              "Point": {
+                "coordinates": "158.983333333333,-9.7,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#Ironbottom_Sound\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "#67"
+              },
+              "Point": {
+                "coordinates": "157.333333333333,-8.1,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#Ironbottom_Sound\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese battleship Kirishima"
+              },
+              "Point": {
+                "coordinates": "159.7,-9.08333333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#Ironbottom_Sound\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese destroyer Makigumo"
+              },
+              "Point": {
+                "coordinates": "159.783333333333,-9.25,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#Ironbottom_Sound\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "USS Northampton (CA-26)"
+              },
+              "Point": {
+                "coordinates": "159.833333333333,-9.2,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#Ironbottom_Sound\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "USS Quincy (CA-39)"
+              },
+              "Point": {
+                "coordinates": "159.975,-9.07555555555555,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#Ironbottom_Sound\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "USS Seminole (AT-65)"
+              },
+              "Point": {
+                "coordinates": "160.220555555556,-9.38333333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#Ironbottom_Sound\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese destroyer Takanami (1942)"
+              },
+              "Point": {
+                "coordinates": "159.82,-9.23,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#Ironbottom_Sound\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese destroyer Teruzuki"
+              },
+              "Point": {
+                "coordinates": "159.766666666667,-9.21666666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#Ironbottom_Sound\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "USS Vincennes (CA-44)"
+              },
+              "Point": {
+                "coordinates": "159.88,-9.12138888888889,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#Ironbottom_Sound\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "World Discoverer"
+              },
+              "Point": {
+                "coordinates": "160.123030555556,-9.02310277777778,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#Ironbottom_Sound\">List of shipwrecks of Oceania</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese destroyer Yudachi"
+              },
+              "Point": {
+                "coordinates": "159.866666666667,-9.23333333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Oceania#Ironbottom_Sound\">List of shipwrecks of Oceania</a>"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

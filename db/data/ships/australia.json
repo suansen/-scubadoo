@@ -1,0 +1,2217 @@
+{
+  "kml": {
+    "-xmlns": "http://earth.google.com/kml/2.1",
+    "Document": {
+      "name": {
+        "#cdata-section": "List of shipwrecks of Australia"
+      },
+      "open": "1",
+      "Folder": [
+        {
+          "name": {
+            "#cdata-section": "New South Wales"
+          },
+          "open": "1",
+          "Placemark": [
+            {
+              "name": {
+                "#cdata-section": "Abbey (1853)"
+              },
+              "Point": {
+                "coordinates": "152.76,-31.84,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#New_South_Wales\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Absalom (1853)"
+              },
+              "Point": {
+                "coordinates": "153.01,-30.83,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#New_South_Wales\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Acielle"
+              },
+              "Point": {
+                "coordinates": "153.024988,-31.104078,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#New_South_Wales\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Active (1850)"
+              },
+              "Point": {
+                "coordinates": "151.79,-32.92,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#New_South_Wales\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Ada and Ethel (1886)"
+              },
+              "Point": {
+                "coordinates": "152.7,-32.6,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#New_South_Wales\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Adelaide (1832)"
+              },
+              "Point": {
+                "coordinates": "151.6,-33.23,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#New_South_Wales\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMAS Adelaide (FFG 01)"
+              },
+              "Point": {
+                "coordinates": "151.45,-33.4666666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#New_South_Wales\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Adele (Australian ship)"
+              },
+              "Point": {
+                "coordinates": "150.917,-34.4678,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#New_South_Wales\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Adelphoi (1865)"
+              },
+              "Point": {
+                "coordinates": "151.12,-34.073,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#New_South_Wales\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Adolphe (ship)"
+              },
+              "Point": {
+                "coordinates": "151.797280555556,-32.9137388888889,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#New_South_Wales\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Adonis (1874)"
+              },
+              "Point": {
+                "coordinates": "152.8,-32.1,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#New_South_Wales\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Advance (1874)"
+              },
+              "Point": {
+                "coordinates": "151.235,-34,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#New_South_Wales\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Advance (1884)"
+              },
+              "Point": {
+                "coordinates": "151.70328,-33.1806,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#New_South_Wales\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Adventure (1850)"
+              },
+              "Point": {
+                "coordinates": "153.58,-28.88,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#New_South_Wales\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Agnes (1853)"
+              },
+              "Point": {
+                "coordinates": "152,-32.8,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#New_South_Wales\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Agnes (1875)"
+              },
+              "Point": {
+                "coordinates": "153.56,-28.45,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#New_South_Wales\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Agnes (1877)"
+              },
+              "Point": {
+                "coordinates": "150.82,-35.12,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#New_South_Wales\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Agnes (1904)"
+              },
+              "Point": {
+                "coordinates": "151.24,-33.85,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#New_South_Wales\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Agnes Irving (1862)"
+              },
+              "Point": {
+                "coordinates": "153.005007,-30.80635,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#New_South_Wales\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Alhambra (1855)"
+              },
+              "Point": {
+                "coordinates": "151.9,-32.8833333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#New_South_Wales\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMAS Arunta (I30)"
+              },
+              "Point": {
+                "coordinates": "151.316666666667,-33.8333333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#New_South_Wales\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMAS Australia (1911)"
+              },
+              "Point": {
+                "coordinates": "155.740308333333,-33.8650583333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#New_South_Wales\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "SS Bombo"
+              },
+              "Point": {
+                "coordinates": "151.924666666667,-34.44625,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#New_South_Wales\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "SS Bonnie Dundee (1877)"
+              },
+              "Point": {
+                "coordinates": "151.7043,-33.10545,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#New_South_Wales\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "PS Brighton"
+              },
+              "Point": {
+                "coordinates": "152.1259,-32.6684,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#New_South_Wales\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMAS Colac"
+              },
+              "Point": {
+                "coordinates": "151.533333333333,-34.82,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#New_South_Wales\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "SS Colonist (1889)"
+              },
+              "Point": {
+                "coordinates": "151.797,-32.914,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#New_South_Wales\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Comboyne (1911)"
+              },
+              "Point": {
+                "coordinates": "150.9217,-34.5973,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#New_South_Wales\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMAS Doomba"
+              },
+              "Point": {
+                "coordinates": "151.347217,-33.716083,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#New_South_Wales\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Edward Lombe (1828)"
+              },
+              "Point": {
+                "coordinates": "151.26985,-33.8290833333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#New_South_Wales\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Hawkesbury Packet"
+              },
+              "Point": {
+                "coordinates": "150.8624,-34.6244,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#New_South_Wales\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Hazard (ship)"
+              },
+              "Point": {
+                "coordinates": "151.3485,-33.54227,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#New_South_Wales\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "PS Herald"
+              },
+              "Point": {
+                "coordinates": "151.291033333333,-33.8248666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#New_South_Wales\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "SS Iron Knight (1937)"
+              },
+              "Point": {
+                "coordinates": "149.733333333333,-36.85,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#New_South_Wales\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Itata (1883)"
+              },
+              "Point": {
+                "coordinates": "151.224683333333,-33.8152166666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#New_South_Wales\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMAS Karangi"
+              },
+              "Point": {
+                "coordinates": "151.0804902,-33.8363379,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#New_South_Wales\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMAS Kianga"
+              },
+              "Point": {
+                "coordinates": "151.601283,-33.998217,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#New_South_Wales\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMAS Kookaburra"
+              },
+              "Point": {
+                "coordinates": "151.353266666667,-33.855,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#New_South_Wales\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Koonya (1887)"
+              },
+              "Point": {
+                "coordinates": "151.206777,-34.042876,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#New_South_Wales\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Koraaga (1914)"
+              },
+              "Point": {
+                "coordinates": "150.909879,-34.783268,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#New_South_Wales\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "TSS Maianbar"
+              },
+              "Point": {
+                "coordinates": "151.792611111111,-32.9247222222222,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#New_South_Wales\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMAS Medea"
+              },
+              "Point": {
+                "coordinates": "151.601139,-33.998267,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#New_South_Wales\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMAS ''Mercedes''"
+              },
+              "Point": {
+                "coordinates": "151.60095,-33.998367,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#New_South_Wales\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Merksworth (1874)"
+              },
+              "Point": {
+                "coordinates": "151.93692,-32.836883,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#New_South_Wales\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Nancy (1803)"
+              },
+              "Point": {
+                "coordinates": "150.834333,-35.367,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#New_South_Wales\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "MV Nimbin (ship)"
+              },
+              "Point": {
+                "coordinates": "151.782933333333,-33.2565333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#New_South_Wales\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "#49"
+              },
+              "Point": {
+                "coordinates": "152.233383333333,-32.6794166666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#New_South_Wales\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMAS Olive Cam"
+              },
+              "Point": {
+                "coordinates": "150.00712,-37.151107,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#New_South_Wales\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMAS Paterson"
+              },
+              "Point": {
+                "coordinates": "151.571896,-33.277836,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#New_South_Wales\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMAS Pioneer"
+              },
+              "Point": {
+                "coordinates": "151.330733333333,-33.8641666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#New_South_Wales\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMAS Stalwart (H14)"
+              },
+              "Point": {
+                "coordinates": "151.601116666667,-33.9984333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#New_South_Wales\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "MV Sygna"
+              },
+              "Point": {
+                "coordinates": "151.844711111111,-32.85915,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#New_South_Wales\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "MV Tassie III"
+              },
+              "Point": {
+                "coordinates": "153.613906,-28.638795,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#New_South_Wales\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Australian floating crane Titan"
+              },
+              "Point": {
+                "coordinates": "152.87333,-31.664267,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#New_South_Wales\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Tuncurry (1903)"
+              },
+              "Point": {
+                "coordinates": "151.440366666667,-33.61875,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#New_South_Wales\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "TSS Wandra (1907)"
+              },
+              "Point": {
+                "coordinates": "150.839183,-35.045217,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#New_South_Wales\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMAS Waree"
+              },
+              "Point": {
+                "coordinates": "153.364233333333,-29.4230833333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#New_South_Wales\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "SS Wollongbar (1911)"
+              },
+              "Point": {
+                "coordinates": "153.610378,-28.637086,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#New_South_Wales\">List of shipwrecks of Australia</a>"
+              }
+            }
+          ]
+        },
+        {
+          "name": {
+            "#cdata-section": "Northern Territory"
+          },
+          "open": "1",
+          "Placemark": [
+            {
+              "name": {
+                "#cdata-section": "Booya (ship)"
+              },
+              "Point": {
+                "coordinates": "130.77135,-12.3896833333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#Northern_Territory\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "SS Brisbane (1874)"
+              },
+              "Point": {
+                "coordinates": "130.43833,-12.43333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#Northern_Territory\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "MV British Motorist (1924)"
+              },
+              "Point": {
+                "coordinates": "130.838833333333,-12.4826666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#Northern_Territory\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Don Isidro (1939)"
+              },
+              "Point": {
+                "coordinates": "130.033333333333,-11.705,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#Northern_Territory\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "SS Ellengowan"
+              },
+              "Point": {
+                "coordinates": "130.868888888889,-12.5411111111111,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#Northern_Territory\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese submarine I-124"
+              },
+              "Point": {
+                "coordinates": "130.106561111111,-12.1200916666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#Northern_Territory\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Kelat (1881)"
+              },
+              "Point": {
+                "coordinates": "130.083333333333,-12.0333333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#Northern_Territory\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "SS Mauna Loa"
+              },
+              "Point": {
+                "coordinates": "130.819333333333,-12.4976666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#Northern_Territory\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "USAT Meigs"
+              },
+              "Point": {
+                "coordinates": "130.818333333333,-12.4876666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#Northern_Territory\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "MV Neptuna"
+              },
+              "Point": {
+                "coordinates": "130.849166666667,-12.4716666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#Northern_Territory\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "USS ''Peary'' (DD-226)"
+              },
+              "Point": {
+                "coordinates": "130.829166666667,-12.475,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#Northern_Territory\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "SS Zealandia (1910)"
+              },
+              "Point": {
+                "coordinates": "130.850833333333,-12.4833333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#Northern_Territory\">List of shipwrecks of Australia</a>"
+              }
+            }
+          ]
+        },
+        {
+          "name": {
+            "#cdata-section": "Queensland"
+          },
+          "open": "1",
+          "Placemark": [
+            {
+              "name": {
+                "#cdata-section": "Aarhus Historic Shipwreck"
+              },
+              "Point": {
+                "coordinates": "153.441088888889,-27.003975,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#Queensland\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "AHS Centaur"
+              },
+              "Point": {
+                "coordinates": "153.987,-27.283,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#Queensland\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Cherry Venture"
+              },
+              "Point": {
+                "coordinates": "153.173927777778,-25.9616666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#Queensland\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "SS City of Adelaide (1863)"
+              },
+              "Point": {
+                "coordinates": "146.825471,19.174842,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#Queensland\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Duke of York (ship)"
+              },
+              "Point": {
+                "coordinates": "153.353788888889,-27.0366222222222,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#Queensland\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMQS Gayundah"
+              },
+              "Point": {
+                "coordinates": "153.10713,-27.262,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#Queensland\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "SS Gothenburg"
+              },
+              "Point": {
+                "coordinates": "148.055833333333,-19.3683333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#Queensland\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Jenny Lind"
+              },
+              "Point": {
+                "coordinates": "155.8,-21.2666666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-1\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Maheno (ship)"
+              },
+              "Point": {
+                "coordinates": "153.238333333333,-25.2672222222222,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-2\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "SS Marloo"
+              },
+              "Point": {
+                "coordinates": "153.3035,-24.9488,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-2\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMS Mermaid (1817)"
+              },
+              "Point": {
+                "coordinates": "146.28885,-17.19923333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-2\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Moltke (1870)"
+              },
+              "Point": {
+                "coordinates": "146.869344,-19.153745,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-2\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMS Pandora (1779)"
+              },
+              "Point": {
+                "coordinates": "143.983333333333,-11.3833333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-2\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "RMS Quetta"
+              },
+              "Point": {
+                "coordinates": "142.624169444444,-10.6096138888889,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-2\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMAS Warrnambool (J202)"
+              },
+              "Point": {
+                "coordinates": "145.828055555556,-14.7588888888889,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-5\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "SS Yongala"
+              },
+              "Point": {
+                "coordinates": "147.625277777778,-19.3075,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-5\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "USS YP-279"
+              },
+              "Point": {
+                "coordinates": "146.886111111111,-19.2019444444444,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-5\">List of shipwrecks of Australia</a>"
+              }
+            }
+          ]
+        },
+        {
+          "name": {
+            "#cdata-section": "South Australia"
+          },
+          "open": "1",
+          "Placemark": [
+            {
+              "name": {
+                "#cdata-section": "SS Admella"
+              },
+              "Point": {
+                "coordinates": "140.350833333333,-37.8797222222222,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#South_Australia\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Ellen"
+              },
+              "Point": {
+                "coordinates": "138.102111111111,-35.59625,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-SAwrecks_6-0\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Ethel"
+              },
+              "Point": {
+                "coordinates": "136.891945,-35.298698,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-7\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Frances"
+              },
+              "Point": {
+                "coordinates": "136.2,-35.55,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-7\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Geltwood"
+              },
+              "Point": {
+                "coordinates": "140.180833333333,-37.6266666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-7\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Lady Kinnaird (1877)"
+              },
+              "Point": {
+                "coordinates": "136.36,-34.13,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-SAwrecks_6-1\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Loch Vennachar"
+              },
+              "Point": {
+                "coordinates": "136.533333333333,-35.8847222222222,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-SAwrecks_6-1\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "No 5 dumb hopper barge"
+              },
+              "Point": {
+                "coordinates": "138.05,-34.5166666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-9\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Postboy"
+              },
+              "Point": {
+                "coordinates": "136.57,-33.92,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-SAwrecks_6-2\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Santiago"
+              },
+              "Point": {
+                "coordinates": "138.54,-34.81,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-SAwrecks_6-2\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "South Australian"
+              },
+              "Point": {
+                "coordinates": "138.60355,-35.57735,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-SAwrecks_6-3\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Tom Brennan"
+              },
+              "Point": {
+                "coordinates": "138.708368,-28.63024,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-SAwrecks_6-3\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Water Witch (1835 cutter)"
+              },
+              "Point": {
+                "coordinates": "139.62,-34.4,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-SAwrecks_6-3\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Zanoni"
+              },
+              "Point": {
+                "coordinates": "138.063444444444,-34.5121666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-10\">List of shipwrecks of Australia</a>"
+              }
+            }
+          ]
+        },
+        {
+          "name": {
+            "#cdata-section": "Tasmania"
+          },
+          "open": "1",
+          "Placemark": [
+            {
+              "name": {
+                "#cdata-section": "Cataraqui (ship)"
+              },
+              "Point": {
+                "coordinates": "143.880444444444,-40.0271388888889,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#Tasmania\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Campbell Macquarie"
+              },
+              "Point": {
+                "coordinates": "158.86,-54.62,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#Tasmania\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "George III (ship)"
+              },
+              "Point": {
+                "coordinates": "146.98,-43.51,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-taswrecks_11-0\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Hebe (ship)"
+              },
+              "Point": {
+                "coordinates": "146.75525,-41.0619222222222,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-taswrecks_11-0\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "MV Iron Baron (1985)"
+              },
+              "Point": {
+                "coordinates": "149.13,-39.22,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-taswrecks_11-0\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "MV Lake Illawarra"
+              },
+              "Point": {
+                "coordinates": "147.345833333333,-42.8644444444444,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-taswrecks_11-0\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Sydney Cove (ship)"
+              },
+              "Point": {
+                "coordinates": "148.07,-40.49,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-taswrecks_11-0\">List of shipwrecks of Australia</a>"
+              }
+            }
+          ]
+        },
+        {
+          "name": {
+            "#cdata-section": "Victoria"
+          },
+          "open": "1",
+          "Placemark": [
+            {
+              "name": {
+                "#cdata-section": "SS Alert"
+              },
+              "Point": {
+                "coordinates": "144.874819444444,-38.526175,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#Victoria\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "SS Cambridge (1916)"
+              },
+              "Point": {
+                "coordinates": "146.490277777778,-39.1588888888889,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#Victoria\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMVS Cerberus"
+              },
+              "Point": {
+                "coordinates": "145.00789,-37.967487,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#Victoria\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "SS Cheviot"
+              },
+              "Point": {
+                "coordinates": "144.66417,-38.31417,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#Victoria\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "SS City of Launceston"
+              },
+              "Point": {
+                "coordinates": "144.825277777778,-38.0758333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#Victoria\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "MS City of Rayville"
+              },
+              "Point": {
+                "coordinates": "143.5075,-38.9789,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#Victoria\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "PS Clonmel"
+              },
+              "Point": {
+                "coordinates": "146.676944444444,-38.7455555555556,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#Victoria\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Earl of Charlemont (ship)"
+              },
+              "Point": {
+                "coordinates": "144.491275,-38.3092861111111,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#Victoria\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Falls of Halladale"
+              },
+              "Point": {
+                "coordinates": "142.8571,-38.6082,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#Victoria\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMAS Goorangai"
+              },
+              "Point": {
+                "coordinates": "144.6825,-38.29278,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#Victoria\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Joseph H. Scammell"
+              },
+              "Point": {
+                "coordinates": "144.331666666667,-38.3419444444444,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#Victoria\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "TSS Kanowna"
+              },
+              "Point": {
+                "coordinates": "146.13,-39.31,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#Victoria\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Lightning (clipper)"
+              },
+              "Point": {
+                "coordinates": "144.368611111111,-38.14,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#Victoria\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Loch Ard (ship)"
+              },
+              "Point": {
+                "coordinates": "143.071944444444,-38.6486111111111,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#Victoria\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "SS Saros"
+              },
+              "Point": {
+                "coordinates": "149.275277777778,-37.8036111111111,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#Victoria\">List of shipwrecks of Australia</a>"
+              }
+            }
+          ]
+        },
+        {
+          "name": {
+            "#cdata-section": "Western Australia"
+          },
+          "open": "1",
+          "Placemark": [
+            {
+              "name": {
+                "#cdata-section": "SS Alacrity"
+              },
+              "Point": {
+                "coordinates": "115.763864,-32.140078,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-12\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Alice"
+              },
+              "Point": {
+                "coordinates": "123.03333,-15.91666,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-13\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Alkimos (ship)"
+              },
+              "Point": {
+                "coordinates": "115.653611111111,-31.6105555555556,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-13\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Arpenteur"
+              },
+              "Point": {
+                "coordinates": "118.4037,-34.8698,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-13\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Batavia (ship)"
+              },
+              "Point": {
+                "coordinates": "113.793333333333,-28.4902777777778,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-13\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Batoe Bassi"
+              },
+              "Point": {
+                "coordinates": "122.83269,-33.90786,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-14\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Belinda"
+              },
+              "Point": {
+                "coordinates": "123.21031,-34.09009,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-15\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "SS Ben Dearg"
+              },
+              "Point": {
+                "coordinates": "118.0517,-35.0104,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-15\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Ben Ledi"
+              },
+              "Point": {
+                "coordinates": "113.969225,-28.93687,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-museum.wa.gov.au_17-0\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Bittern"
+              },
+              "Point": {
+                "coordinates": "123.549166666667,-14.1088888888889,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-18\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Carlisle Castle"
+              },
+              "Point": {
+                "coordinates": "115.6325,-32.33325,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-20\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Centaur (1849 ship)"
+              },
+              "Point": {
+                "coordinates": "115.711118,-31.86376,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-20\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Cervantes"
+              },
+              "Point": {
+                "coordinates": "115.05,-30.5133666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-22\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "City of York (barque)"
+              },
+              "Point": {
+                "coordinates": "115.4875,-31.9953333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-23\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Cochituate"
+              },
+              "Point": {
+                "coordinates": "113.705666,-28.727856,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-24\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Contest"
+              },
+              "Point": {
+                "coordinates": "115.713694,-32.274464,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-26\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Correio da Azia"
+              },
+              "Point": {
+                "coordinates": "113.750667,-22.863433,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-27\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Cumberland"
+              },
+              "Point": {
+                "coordinates": "115.0403333333,-34.2966833333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-28\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Elizabeth"
+              },
+              "Point": {
+                "coordinates": "115.751233,-32.01011667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-30\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Emily Taylor"
+              },
+              "Point": {
+                "coordinates": "115.749697,-32.065607,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-31\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Emma"
+              },
+              "Point": {
+                "coordinates": "113.7335,-23.08255,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-32\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Fanny Nicholson"
+              },
+              "Point": {
+                "coordinates": "117.9367,-35.083,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-32\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "SS Georgette"
+              },
+              "Point": {
+                "coordinates": "114.99,-34.033,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-32\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Hadda"
+              },
+              "Point": {
+                "coordinates": "113.792417,-28.472267,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-museum.wa.gov.au_17-1\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Hero of the Nile"
+              },
+              "Point": {
+                "coordinates": "115.70595,-32.36445,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-35\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "James"
+              },
+              "Point": {
+                "coordinates": "115.75861,-32.09576,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-38\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "James Matthews"
+              },
+              "Point": {
+                "coordinates": "115.743822,-32.13193,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-40\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Jon Jim"
+              },
+              "Point": {
+                "coordinates": "113.962254,-28.986064,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-researchgate.net_36-1\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Koolama"
+              },
+              "Point": {
+                "coordinates": "128.101066,-15.449783,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-researchgate.net_36-1\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "MV Korean Star"
+              },
+              "Point": {
+                "coordinates": "113.425,-24.2080555555556,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-researchgate.net_36-1\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Kori"
+              },
+              "Point": {
+                "coordinates": "122.55,-16.8167,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-44\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "German auxiliary cruiser Kormoran"
+              },
+              "Point": {
+                "coordinates": "111.075833333333,-26.0961111111111,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-44\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Lady Lyttleton"
+              },
+              "Point": {
+                "coordinates": "117.95031,-34.997717,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-44\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Lively"
+              },
+              "Point": {
+                "coordinates": "119.5915,-17.0896833333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-47\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Manfred"
+              },
+              "Point": {
+                "coordinates": "122.127839,-16.852652,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-48\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Mountaineer"
+              },
+              "Point": {
+                "coordinates": "122.2007,-34.0016,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-50\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Ocean Queen"
+              },
+              "Point": {
+                "coordinates": "113.861666666667,-28.9416666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-52\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "RMS Orizaba"
+              },
+              "Point": {
+                "coordinates": "115.624866,-32.278613,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-52\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "SS Pericles"
+              },
+              "Point": {
+                "coordinates": "115.13733,-34.42217,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-52\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMAS Perth (D 38)"
+              },
+              "Point": {
+                "coordinates": "117.96,-35.085,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-52\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Rapid"
+              },
+              "Point": {
+                "coordinates": "113.692643,-22.739438,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-54\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Redemptora"
+              },
+              "Point": {
+                "coordinates": "115.7663,-32.1513,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-55\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Sanko Harvest"
+              },
+              "Point": {
+                "coordinates": "122.085,-34.1233333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-57\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMAS Swan (DE 50)"
+              },
+              "Point": {
+                "coordinates": "115.100555555556,-33.5505555555556,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-57\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Swift"
+              },
+              "Point": {
+                "coordinates": "125.983333,-32.283333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-58\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMAS Sydney (1934)"
+              },
+              "Point": {
+                "coordinates": "111.213333333333,-26.2419444444444,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-59\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Thames"
+              },
+              "Point": {
+                "coordinates": "115.749321,-32.063871,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-60\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Tryall"
+              },
+              "Point": {
+                "coordinates": "115.388333333333,-20.2716666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-60\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Vergulde Draeck"
+              },
+              "Point": {
+                "coordinates": "115.358,-31.2226666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-museum.wa.gov.au_17-3\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMAS Wallaroo"
+              },
+              "Point": {
+                "coordinates": "114.625277777778,-31.9066666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-museum.wa.gov.au_17-3\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Wave"
+              },
+              "Point": {
+                "coordinates": "118.75165,-34.5945,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-museum.wa.gov.au_17-3\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Windsor"
+              },
+              "Point": {
+                "coordinates": "113.903333333333,-28.975,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-64\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "SS Xantho"
+              },
+              "Point": {
+                "coordinates": "114.236111111111,-28.1863888888889,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-researchgate.net_36-3\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Yarra"
+              },
+              "Point": {
+                "coordinates": "121.770013,-14.040493,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-65\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Zeewijk"
+              },
+              "Point": {
+                "coordinates": "113.816666666667,-28.9083333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-65\">List of shipwrecks of Australia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Zuytdorp"
+              },
+              "Point": {
+                "coordinates": "113.936944444444,-27.1861111111111,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Australia#cite_ref-65\">List of shipwrecks of Australia</a>"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

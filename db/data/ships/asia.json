@@ -1,0 +1,2077 @@
+{
+  "kml": {
+    "-xmlns": "http://earth.google.com/kml/2.1",
+    "Document": {
+      "name": {
+        "#cdata-section": "List of shipwrecks of Asia"
+      },
+      "open": "1",
+      "Folder": [
+        {
+          "name": {
+            "#cdata-section": "Saudi Arabia"
+          },
+          "open": "1",
+          "Placemark": [
+            {
+              "name": {
+                "#cdata-section": "Al-Fahad (ex Free Enterprise III)"
+              },
+              "Point": {
+                "coordinates": "39.1204194444444,21.376575,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#cite_ref-mysteryship_3-0\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Saudi Golden Arrow"
+              },
+              "Point": {
+                "coordinates": "39.3610472222222,20.8674638888889,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#cite_ref-mysteryship_3-2\">List of shipwrecks of Asia</a>"
+              }
+            }
+          ]
+        },
+        {
+          "name": {
+            "#cdata-section": "United Arab Emirates"
+          },
+          "open": "1",
+          "Placemark": [
+            {
+              "name": {
+                "#cdata-section": "Allah Mina"
+              },
+              "Point": {
+                "coordinates": "55.2049166666667,25.3554722222222,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#United_Arab_Emirates\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "MV Dara"
+              },
+              "Point": {
+                "coordinates": "55.4661111111111,25.5747222222222,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#United_Arab_Emirates\">List of shipwrecks of Asia</a>"
+              }
+            }
+          ]
+        },
+        {
+          "name": {
+            "#cdata-section": "Yemen"
+          },
+          "open": "1",
+          "Placemark": {
+            "name": {
+              "#cdata-section": "HMS Khartoum (F45)"
+            },
+            "Point": {
+              "coordinates": "43.4,12.6333333333333,0"
+            },
+            "Snippet": {},
+            "description": {
+              "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Yemen\">List of shipwrecks of Asia</a>"
+            }
+          }
+        },
+        {
+          "name": {
+            "#cdata-section": "Bangladesh"
+          },
+          "open": "1",
+          "Placemark": {
+            "name": {
+              "#cdata-section": "HMIS Jamnagar"
+            },
+            "Point": {
+              "coordinates": "90.8,21.8833333333333,0"
+            },
+            "Snippet": {},
+            "description": {
+              "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Bangladesh\">List of shipwrecks of Asia</a>"
+            }
+          }
+        },
+        {
+          "name": {
+            "#cdata-section": "Brunei"
+          },
+          "open": "1",
+          "Placemark": {
+            "name": {
+              "#cdata-section": "USS Salute (AM-294)"
+            },
+            "Point": {
+              "coordinates": "115.083333333333,5.13333333333333,0"
+            },
+            "Snippet": {},
+            "description": {
+              "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Brunei\">List of shipwrecks of Asia</a>"
+            }
+          }
+        },
+        {
+          "name": {
+            "#cdata-section": "Myanmar (Burma)"
+          },
+          "open": "1",
+          "Placemark": {
+            "name": {
+              "#cdata-section": "HMIS Indus (U67)"
+            },
+            "Point": {
+              "coordinates": "92.9,20.1166666666667,0"
+            },
+            "Snippet": {},
+            "description": {
+              "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Myanmar_%28Burma%29\">List of shipwrecks of Asia</a>"
+            }
+          }
+        },
+        {
+          "name": {
+            "#cdata-section": "China"
+          },
+          "open": "1",
+          "Placemark": [
+            {
+              "name": {
+                "#cdata-section": "Japanese destroyer Amatsukaze"
+              },
+              "Point": {
+                "coordinates": "118.166666666667,24.5,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#China\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "SS Cormoran (1892)"
+              },
+              "Point": {
+                "coordinates": "120.2667,36.05,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#China\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Chinese turret ship Dingyuan"
+              },
+              "Point": {
+                "coordinates": "122.180158333333,37.5004666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#China\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Chinese cruise ship Dong Fang Zhi Xing"
+              },
+              "Point": {
+                "coordinates": "112.9227229,29.7592181,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#China\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Huaguangjiao One"
+              },
+              "Point": {
+                "coordinates": "111.5675,16.2711111111111,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#China\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Chinese cruiser Jingyuan (1887)"
+              },
+              "Point": {
+                "coordinates": "123.126388888889,39.2138888888889,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#China\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese cruiser Jiyuan"
+              },
+              "Point": {
+                "coordinates": "121.083333333333,38.85,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#China\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese corvette Kaimon"
+              },
+              "Point": {
+                "coordinates": "121.833333333333,38.8333333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#China\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Chinese cruiser Laiyuan"
+              },
+              "Point": {
+                "coordinates": "122.171,37.497,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#China\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Nan'ao One"
+              },
+              "Point": {
+                "coordinates": "117.333333333333,23.6666666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#China\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Nanhai One"
+              },
+              "Point": {
+                "coordinates": "111.868888888889,21.5761111111111,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#China\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese gunboat Ōshima"
+              },
+              "Point": {
+                "coordinates": "121.133333333333,39.0166666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#China\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Wanjiao One"
+              },
+              "Point": {
+                "coordinates": "111.05,22.2666666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#cite_ref-Gribovskij%2C_V._5-0\">List of shipwrecks of Asia</a>"
+              }
+            }
+          ]
+        },
+        {
+          "name": {
+            "#cdata-section": "East Timor"
+          },
+          "open": "1",
+          "Placemark": [
+            {
+              "name": {
+                "#cdata-section": "HMAS Armidale (J240)"
+              },
+              "Point": {
+                "coordinates": "125.725,-9.16444444444445,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#East_Timor\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMAS Voyager (D31)"
+              },
+              "Point": {
+                "coordinates": "125.75,-9.25,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#East_Timor\">List of shipwrecks of Asia</a>"
+              }
+            }
+          ]
+        },
+        {
+          "name": {
+            "#cdata-section": "Hong Kong"
+          },
+          "open": "1",
+          "Placemark": [
+            {
+              "name": {
+                "#cdata-section": "RMS Queen Elizabeth"
+              },
+              "Point": {
+                "coordinates": "114.112216666667,22.3286166666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Hong_Kong\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Lamma IV"
+              },
+              "Point": {
+                "coordinates": "114.103888888889,22.2355555555556,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#cite_ref-6\">List of shipwrecks of Asia</a>"
+              }
+            }
+          ]
+        },
+        {
+          "name": {
+            "#cdata-section": "Indonesia"
+          },
+          "open": "1",
+          "Placemark": [
+            {
+              "name": {
+                "#cdata-section": "Japanese destroyer Amagiri"
+              },
+              "Point": {
+                "coordinates": "116.75,-2.16666666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Indonesia\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese destroyer Asagumo (1938)"
+              },
+              "Point": {
+                "coordinates": "104.933333333333,-1.98333333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Indonesia\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Belitung shipwreck"
+              },
+              "Point": {
+                "coordinates": "107.595183333333,-2.76083333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Indonesia\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HNLMS De Ruyter (1935)"
+              },
+              "Point": {
+                "coordinates": "112.065833333333,-5.98194444444444,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Indonesia\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "USS Edsall (DD-219)"
+              },
+              "Point": {
+                "coordinates": "106.75,-13.75,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Indonesia\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMS Electra (H27)"
+              },
+              "Point": {
+                "coordinates": "111,-5,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Indonesia\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese destroyer Hayanami"
+              },
+              "Point": {
+                "coordinates": "120.05,4.71666666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Indonesia\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese destroyer Hokaze"
+              },
+              "Point": {
+                "coordinates": "125.466666666667,3.4,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Indonesia\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "USS Houston (CA-30)"
+              },
+              "Point": {
+                "coordinates": "106.131944444444,-5.8125,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Indonesia\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese submarine I-60"
+              },
+              "Point": {
+                "coordinates": "104.822222222222,-6.325,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Indonesia\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese destroyer Inazuma (1932)"
+              },
+              "Point": {
+                "coordinates": "119.633333333333,5.13333333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Indonesia\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese destroyer Isonami (1927)"
+              },
+              "Point": {
+                "coordinates": "123.066666666667,-5.43333333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Indonesia\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese cruiser Isuzu"
+              },
+              "Point": {
+                "coordinates": "118.15,-7.63333333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Indonesia\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese minelayer Itsukushima"
+              },
+              "Point": {
+                "coordinates": "113.8,-5.38333333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Indonesia\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HNLMS Java (1921)"
+              },
+              "Point": {
+                "coordinates": "112.083333333333,-6.00027777777778,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Indonesia\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Junyō Maru"
+              },
+              "Point": {
+                "coordinates": "101.183333333333,-2.88333333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Indonesia\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMS Jupiter (F85)"
+              },
+              "Point": {
+                "coordinates": "112.1,-6.75,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Indonesia\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HNLMS K XVIII"
+              },
+              "Point": {
+                "coordinates": "112.783333333333,-6.8,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Indonesia\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HNLMS Kortenaer (1925)"
+              },
+              "Point": {
+                "coordinates": "112.083333333333,-6.48333333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Indonesia\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "USS Langley (CV-1)"
+              },
+              "Point": {
+                "coordinates": "109.033333333333,-8.85,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Indonesia\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "USAT Liberty"
+              },
+              "Point": {
+                "coordinates": "115.589166666667,-8.28416666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Indonesia\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese destroyer Minazuki (1926)"
+              },
+              "Point": {
+                "coordinates": "119.5,4.08333333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Indonesia\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese destroyer Nadakaze"
+              },
+              "Point": {
+                "coordinates": "115.7,-7.1,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Indonesia\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese destroyer Natsushio"
+              },
+              "Point": {
+                "coordinates": "119.4,-5.16666666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Indonesia\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese submarine chaser No. 2"
+              },
+              "Point": {
+                "coordinates": "116.25,-7.5,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Indonesia\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Ocean (1788)"
+              },
+              "Point": {
+                "coordinates": "121,-7.15,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Indonesia\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "USS Perch (SS-176)"
+              },
+              "Point": {
+                "coordinates": "113.833333333333,-6.5,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Indonesia\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMAS Perth (D29)"
+              },
+              "Point": {
+                "coordinates": "106.131111111111,-5.86166666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Indonesia\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "USS S-36 (SS-141)"
+              },
+              "Point": {
+                "coordinates": "118.516666666667,4.95,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Indonesia\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "SS Sierra Cordoba (1913)"
+              },
+              "Point": {
+                "coordinates": "119.166666666667,1,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Indonesia\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Tampomas II"
+              },
+              "Point": {
+                "coordinates": "114.433333333333,-5.5,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Indonesia\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese oiler Tōhō Maru (1936)"
+              },
+              "Point": {
+                "coordinates": "118.316666666667,0,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Indonesia\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese minelayer Tsugaru"
+              },
+              "Point": {
+                "coordinates": "127.95,2.31666666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Indonesia\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "German submarine U-183"
+              },
+              "Point": {
+                "coordinates": "112.867,-4.833,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Indonesia\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "German submarine U-537"
+              },
+              "Point": {
+                "coordinates": "115.283333333333,-7.21666666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Indonesia\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HNLMS Van Ghent (1926)"
+              },
+              "Point": {
+                "coordinates": "107.35,-3.08333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Indonesia\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HNLMS Van Nes (1930)"
+              },
+              "Point": {
+                "coordinates": "106.633333333333,-3.45,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Indonesia\">List of shipwrecks of Asia</a>"
+              }
+            }
+          ]
+        },
+        {
+          "name": {
+            "#cdata-section": "Japan"
+          },
+          "open": "1",
+          "Placemark": [
+            {
+              "name": {
+                "#cdata-section": "Russian battleship Admiral Ushakov"
+              },
+              "Point": {
+                "coordinates": "129.533333333333,34.5666666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Japan\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese cruiser Aki"
+              },
+              "Point": {
+                "coordinates": "139.856,35.025,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Japan\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "USS Bates (DE-68)"
+              },
+              "Point": {
+                "coordinates": "127.783333333333,26.6833333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Japan\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese cruiser Chishima"
+              },
+              "Point": {
+                "coordinates": "132.65,33.9166666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Japan\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese cruiser Chiyoda"
+              },
+              "Point": {
+                "coordinates": "132.25,32.909,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Japan\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "USS Emmons (DD-457)"
+              },
+              "Point": {
+                "coordinates": "128.066666666667,26.8,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Japan\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese submarine I-58"
+              },
+              "Point": {
+                "coordinates": "129.283333333333,32.6166666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Japan\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese destroyer Kamikaze (1922)"
+              },
+              "Point": {
+                "coordinates": "138.133333333333,34.6333333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Japan\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Lisbon Maru"
+              },
+              "Point": {
+                "coordinates": "122.765,30.23,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Japan\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese cruiser Nagara"
+              },
+              "Point": {
+                "coordinates": "129.883333333333,32.15,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Japan\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese cruiser Nisshin"
+              },
+              "Point": {
+                "coordinates": "132.883333333333,34.0833333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Japan\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese destroyer Numakaze"
+              },
+              "Point": {
+                "coordinates": "128.433333333333,26.4833333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Japan\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese destroyer Okikaze"
+              },
+              "Point": {
+                "coordinates": "140.2,35.0333333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Japan\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese cruiser Otowa"
+              },
+              "Point": {
+                "coordinates": "136.883333333333,34.2333333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Japan\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese corvette Seiki"
+              },
+              "Point": {
+                "coordinates": "138.666666666667,35.1166666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Japan\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "USS Skylark (AM-63)"
+              },
+              "Point": {
+                "coordinates": "127.666666666667,26.3333333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Japan\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "USS Swallow (AM-65)"
+              },
+              "Point": {
+                "coordinates": "127.2,26.1666666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Japan\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "USS Tang (SS-306)"
+              },
+              "Point": {
+                "coordinates": "119.516666666667,25.1,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Japan\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "German auxiliary cruiser Thor"
+              },
+              "Point": {
+                "coordinates": "139.647222222222,35.3972222222222,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Japan\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Tofuku Maru"
+              },
+              "Point": {
+                "coordinates": "136.316666666667,34.0333333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Japan\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Tōya Maru"
+              },
+              "Point": {
+                "coordinates": "140.152,41.1932,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Japan\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Tsushima Maru"
+              },
+              "Point": {
+                "coordinates": "129.558333333333,29.5425,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#cite_ref-8\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Russian armored cruiser Vladimir Monomakh"
+              },
+              "Point": {
+                "coordinates": "129.666666666667,34.5333333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#cite_ref-8\">List of shipwrecks of Asia</a>"
+              }
+            }
+          ]
+        },
+        {
+          "name": {
+            "#cdata-section": "Malaysia"
+          },
+          "open": "1",
+          "Placemark": [
+            {
+              "name": {
+                "#cdata-section": "Atago Maru"
+              },
+              "Point": {
+                "coordinates": "114,4.48333333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Malaysia\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese minelayer Hatsutaka"
+              },
+              "Point": {
+                "coordinates": "103.516666666667,4.81666666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Malaysia\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese cruiser Kuma"
+              },
+              "Point": {
+                "coordinates": "99.8666666666667,5.43333333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Malaysia\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "SS Kuroshima Maru"
+              },
+              "Point": {
+                "coordinates": "104.666666666667,2.55,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Malaysia\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Sinking of Prince of Wales and Repulse"
+              },
+              "Point": {
+                "coordinates": "104.433333333333,3.56666666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Malaysia\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMS Stratagem (P234)"
+              },
+              "Point": {
+                "coordinates": "102.883333333333,1.6,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Malaysia\">List of shipwrecks of Asia</a>"
+              }
+            }
+          ]
+        },
+        {
+          "name": {
+            "#cdata-section": "Philippines"
+          },
+          "open": "1",
+          "Placemark": [
+            {
+              "name": {
+                "#cdata-section": "Japanese cruiser Abukuma"
+              },
+              "Point": {
+                "coordinates": "122.533333333333,9.33333333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Philippines\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese destroyer Akebono (1930)"
+              },
+              "Point": {
+                "coordinates": "120.916666666667,14.5833333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Philippines\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese destroyer Akigumo"
+              },
+              "Point": {
+                "coordinates": "122.383333333333,6.71666666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Philippines\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese destroyer Asakaze (1922)"
+              },
+              "Point": {
+                "coordinates": "119.733333333333,16.1,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#cite_ref-coron_9-0\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "USS Barbel (SS-316)"
+              },
+              "Point": {
+                "coordinates": "116.783333333333,7.81666666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#cite_ref-coron_9-0\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "USS Cooper (DD-695)"
+              },
+              "Point": {
+                "coordinates": "124.6,10.9,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#cite_ref-11\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "USS Darter (SS-227)"
+              },
+              "Point": {
+                "coordinates": "116.984,9.406,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#cite_ref-11\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "USS Flier (SS-250)"
+              },
+              "Point": {
+                "coordinates": "117.256608333333,7.97866944444444,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#cite_ref-13\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese destroyer Fujinami"
+              },
+              "Point": {
+                "coordinates": "122.5,12,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#cite_ref-13\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese destroyer Hamanami"
+              },
+              "Point": {
+                "coordinates": "124.583333333333,10.8333333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#cite_ref-13\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese destroyer Hatsuharu"
+              },
+              "Point": {
+                "coordinates": "120.833333333333,14.5833333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#cite_ref-13\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "USS Hoel (DD-533)"
+              },
+              "Point": {
+                "coordinates": "126.55,11.7666666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#cite_ref-13\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "USS Hovey (DD-208)"
+              },
+              "Point": {
+                "coordinates": "120.166666666667,16.3333333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#cite_ref-13\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "USS Indianapolis (CA-35)"
+              },
+              "Point": {
+                "coordinates": "134.8,12.0333333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#cite_ref-13\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese supply ship Irako"
+              },
+              "Point": {
+                "coordinates": "152.666666666667,8.06666666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#cite_ref-coron_9-1\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "USS Johnston (DD-557)"
+              },
+              "Point": {
+                "coordinates": "126.133333333333,11.75,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#cite_ref-14\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese destroyer Kazagumo"
+              },
+              "Point": {
+                "coordinates": "125.95,6.05,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#cite_ref-14\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese cruiser Kinu"
+              },
+              "Point": {
+                "coordinates": "123.183333333333,11.75,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#cite_ref-14\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese destroyer Kiyoshimo"
+              },
+              "Point": {
+                "coordinates": "121,12.3333333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#cite_ref-14\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese cruiser Kumano"
+              },
+              "Point": {
+                "coordinates": "119.799166666667,15.7494444444444,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#cite_ref-coron_9-2\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "USS Lanakai"
+              },
+              "Point": {
+                "coordinates": "120.25,14.7666666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#cite_ref-Subic_Wrecks_15-0\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "USS Mahan (DD-364)"
+              },
+              "Point": {
+                "coordinates": "124.5,10.8333333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#cite_ref-Subic_Wrecks_15-0\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese destroyer Michishio"
+              },
+              "Point": {
+                "coordinates": "125.383333333333,10.4166666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#cite_ref-Subic_Wrecks_15-1\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese cruiser Mogami (1934)"
+              },
+              "Point": {
+                "coordinates": "124.833333333333,9.66666666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#cite_ref-bookPHI_16-0\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese battleship Musashi"
+              },
+              "Point": {
+                "coordinates": "122.533333333333,13.1166666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#cite_ref-bookPHI_16-0\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese cruiser Nachi"
+              },
+              "Point": {
+                "coordinates": "120.733333333333,14.5166666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#cite_ref-bookPHI_16-0\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "USS New York / Rochester"
+              },
+              "Point": {
+                "coordinates": "120.266666666667,14.8,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#cite_ref-wrecksphi_17-0\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese cruiser Noshiro"
+              },
+              "Point": {
+                "coordinates": "121.683333333333,11.7,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#cite_ref-wrecksphi_17-0\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "USS Ommaney Bay (CVE-79)"
+              },
+              "Point": {
+                "coordinates": "121.316666666667,11.4166666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#cite_ref-coron_9-5\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "USS PC-1129"
+              },
+              "Point": {
+                "coordinates": "120.3,14.05,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#cite_ref-Oryoku_Maru_Story_18-0\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "USS Princeton (CVL-23)"
+              },
+              "Point": {
+                "coordinates": "123.516666666667,15.35,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#cite_ref-19\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "USS Samuel B. Roberts (DE-413)"
+              },
+              "Point": {
+                "coordinates": "126.333333333333,11.6666666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#cite_ref-20\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "San Quenton"
+              },
+              "Point": {
+                "coordinates": "120.23,14.76,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#cite_ref-wrecksphi_17-1\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese minelayer Sarushima"
+              },
+              "Point": {
+                "coordinates": "121,12.25,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#cite_ref-wrecksphi_17-1\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese destroyer Satsuki (1925)"
+              },
+              "Point": {
+                "coordinates": "120.75,14.5833333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#cite_ref-wrecksphi_17-1\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "USS Sonoma (AT-12)"
+              },
+              "Point": {
+                "coordinates": "125.033333333333,10.95,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#cite_ref-Subic_Wrecks_15-5\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese destroyer Tanikaze"
+              },
+              "Point": {
+                "coordinates": "120.683333333333,5.7,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#cite_ref-Subic_Wrecks_15-5\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Teiyō Maru (1931)"
+              },
+              "Point": {
+                "coordinates": "120.216666666667,18.15,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#cite_ref-Subic_Wrecks_15-5\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese destroyer Uzuki (1925)"
+              },
+              "Point": {
+                "coordinates": "124.383333333333,11.05,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#cite_ref-Subic_Wrecks_15-5\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese destroyer Wakaba"
+              },
+              "Point": {
+                "coordinates": "121.416666666667,11.8333333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#cite_ref-Subic_Wrecks_15-5\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese battleship Yamashiro"
+              },
+              "Point": {
+                "coordinates": "125.355555555556,10.3705555555556,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#cite_ref-Subic_Wrecks_15-5\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese destroyer Yūnagi (1924)"
+              },
+              "Point": {
+                "coordinates": "120.766666666667,18.7666666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#cite_ref-Subic_Wrecks_15-5\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese destroyer Yūzuki"
+              },
+              "Point": {
+                "coordinates": "124.166666666667,11.3333333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#cite_ref-Subic_Wrecks_15-5\">List of shipwrecks of Asia</a>"
+              }
+            }
+          ]
+        },
+        {
+          "name": {
+            "#cdata-section": "Russia"
+          },
+          "open": "1",
+          "Placemark": [
+            {
+              "name": {
+                "#cdata-section": "Soviet submarine K-27"
+              },
+              "Point": {
+                "coordinates": "55.5,72.5166666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Russia\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese cruiser Niitaka"
+              },
+              "Point": {
+                "coordinates": "156.483333333333,51.5,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Russia\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Icebreaker Sibiryakov"
+              },
+              "Point": {
+                "coordinates": "91.5166666666667,76,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Russia\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "German submarine U-362"
+              },
+              "Point": {
+                "coordinates": "89.45,75.85,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Russia\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "German submarine U-639"
+              },
+              "Point": {
+                "coordinates": "69.7,76.8166666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Russia\">List of shipwrecks of Asia</a>"
+              }
+            }
+          ]
+        },
+        {
+          "name": {
+            "#cdata-section": "South Korea"
+          },
+          "open": "1",
+          "Placemark": [
+            {
+              "name": {
+                "#cdata-section": "USS Magpie (AMS-25)"
+              },
+              "Point": {
+                "coordinates": "129.5,36.5,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#cite_ref-21\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Sewol"
+              },
+              "Point": {
+                "coordinates": "125.95,34.2180555555556,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#cite_ref-22\">List of shipwrecks of Asia</a>"
+              }
+            }
+          ]
+        },
+        {
+          "name": {
+            "#cdata-section": "Sri Lanka"
+          },
+          "open": "1",
+          "Placemark": [
+            {
+              "name": {
+                "#cdata-section": "Great Basses wreck"
+              },
+              "Point": {
+                "coordinates": "81.4805555555556,6.18055555555556,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Sri_Lanka\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMS Hollyhock (K64)"
+              },
+              "Point": {
+                "coordinates": "81.95,7.35,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Sri_Lanka\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "MV Farah III"
+              },
+              "Point": {
+                "coordinates": "80.7913888888889,9.31444444444445,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Sri_Lanka\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMS Tenedos (H04)"
+              },
+              "Point": {
+                "coordinates": "79.8555555555556,6.95472222222222,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Sri_Lanka\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMAS Vampire (D68)"
+              },
+              "Point": {
+                "coordinates": "82.0833333333333,7.58333333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Sri_Lanka\">List of shipwrecks of Asia</a>"
+              }
+            }
+          ]
+        },
+        {
+          "name": {
+            "#cdata-section": "Taiwan"
+          },
+          "open": "1",
+          "Placemark": [
+            {
+              "name": {
+                "#cdata-section": "Japanese destroyer Hatakaze"
+              },
+              "Point": {
+                "coordinates": "120.233333333333,22.6666666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Taiwan\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese destroyer Minekaze"
+              },
+              "Point": {
+                "coordinates": "121.5,22.2,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Taiwan\">List of shipwrecks of Asia</a>"
+              }
+            }
+          ]
+        },
+        {
+          "name": {
+            "#cdata-section": "Turkey"
+          },
+          "open": "1",
+          "Placemark": [
+            {
+              "name": {
+                "#cdata-section": "HMS Arno (1915)"
+              },
+              "Point": {
+                "coordinates": "26.5083333333333,40.2416666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Turkey\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "French battleship Bouvet"
+              },
+              "Point": {
+                "coordinates": "26.275,40.0208333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Turkey\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "SMS Breslau"
+              },
+              "Point": {
+                "coordinates": "25.9783333333333,40.0616666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Turkey\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Cape Gelidonya"
+              },
+              "Point": {
+                "coordinates": "30.5572222222222,36.6361111111111,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Turkey\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Duchess of York (1893 ship)/Sakarya (ship)"
+              },
+              "Point": {
+                "coordinates": "29.4122,36.2119333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#cite_ref-Sakarya_25-0\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMS Majestic (1895)"
+              },
+              "Point": {
+                "coordinates": "26.1838888888889,40.0416666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#cite_ref-DOYcoord_26-0\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "SS Paris II"
+              },
+              "Point": {
+                "coordinates": "30.5863694444444,36.6022388888889,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#cite_ref-DOYcoord_26-0\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "HMS Raglan"
+              },
+              "Point": {
+                "coordinates": "25.9666666666667,40.2333333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#cite_ref-DOYcoord_26-0\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "German submarine U-20 (1936)"
+              },
+              "Point": {
+                "coordinates": "30.7833333333333,41.1666666666667,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#cite_ref-DOYcoord_26-1\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Uluburun shipwreck"
+              },
+              "Point": {
+                "coordinates": "29.6858333333333,36.1286111111111,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#cite_ref-DOYcoord_26-1\">List of shipwrecks of Asia</a>"
+              }
+            }
+          ]
+        },
+        {
+          "name": {
+            "#cdata-section": "Vietnam"
+          },
+          "open": "1",
+          "Placemark": [
+            {
+              "name": {
+                "#cdata-section": "Japanese cruiser Kashii"
+              },
+              "Point": {
+                "coordinates": "109.333333333333,13.8333333333333,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Vietnam\">List of shipwrecks of Asia</a>"
+              }
+            },
+            {
+              "name": {
+                "#cdata-section": "Japanese destroyer Nokaze"
+              },
+              "Point": {
+                "coordinates": "109.633333333333,12.8,0"
+              },
+              "Snippet": {},
+              "description": {
+                "#cdata-section": "<br>Source: Wikipedia article <a href=\"https://en.wikipedia.org/wiki/List_of_shipwrecks_of_Asia#Vietnam\">List of shipwrecks of Asia</a>"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
