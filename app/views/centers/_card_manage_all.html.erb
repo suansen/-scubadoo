@@ -1,0 +1,24 @@
+<% centers.each do |center| %>
+<div class="card m-2 rounded  overflow-hidden shadow-sm">
+      <div class="row no-gutters">
+        <div class="col-md-4">
+          <%= cl_image_tag (center.photo.key), width: 300, style: "height: 100%", crop: :fill %>
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title"><%= center.name.upcase %></h5>
+            <p class="card-text"><i class="fas fa-map-marker-alt"></i> <%= center.location %></p>
+            <p class="card-text"><%= center.description %></p>
+            <div class="d-flex">
+              <div>
+              <%= link_to "View details", center_path(center), class:"btn btn-success", style:"text-decoration:none; color:white;"%>
+              <%= link_to "Edit details", edit_center_path(center), class:"btn btn-warning"%>
+              </div>
+              <%= link_to "Delete", center_path(center), method: :delete, data: {confirm: "Are you sure?"}, class:"btn btn-danger ml-auto"%>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </div>
+<% end %>
