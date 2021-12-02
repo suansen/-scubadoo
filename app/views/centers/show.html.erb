@@ -33,21 +33,21 @@
   </div>
 </section>
 
-<% if @dives.count>1 %>
+<% if @dives.count> 0 %>
   <section id="center-diving" class="mb-5"  style="min-height:200px;">
     <h2 class="h3">DIVING</h2>
     <%= render "show-card" ,listings: @dives, center: @center %>
   </section>
 <% end %>
 
-<% if @courses.count > 1 %>
+<% if @courses.count > 0 %>
   <section id="center-courses" class="mb-5"  style="min-height:200px;">
     <h2 class="h3">COURSES</h2>
     <%= render "show-card" ,listings: @courses, center: @center %>
   </section>
 <% end %>
 
-<% if @center.listings.count > 1 %>
+<% if @center.listings.count > 0 %>
   <section id="center-schedule" class="mb-5" style="min-height:200px;">
     <h2 class="h3">SCHEDULE</h2>
     <%= render "schedule-card" ,listings: @center.listings, center: @center %>

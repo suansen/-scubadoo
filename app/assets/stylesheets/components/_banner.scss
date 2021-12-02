@@ -1,6 +1,10 @@
 .home-page-banner {
-  background-image: url('banner.jpg');
+  background-image: url("banner.jpg");
   background-size: 100%;
   background-position: center;
+  height: 50vh;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
