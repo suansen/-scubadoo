@@ -20,4 +20,5 @@ Rails.application.routes.draw do
   get "/trips", to: "listings#index_trips"
   get "/courses", to: "listings#index_courses"
   patch "/bookings/:id/cancel", to: "bookings#cancel", as: "cancel_booking"
+  get "/bookings/:id/export.pdf", to: "bookings#export", as: "export_booking"
 end
