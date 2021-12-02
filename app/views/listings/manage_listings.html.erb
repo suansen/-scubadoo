@@ -1,0 +1,9 @@
+<div class="container my-3">
+  <div class="d-flex justify-content-between align-items-center">
+  <h1>Manage Listings (<%= @center.name %>)</h1>
+  <%= link_to "Create New Listing", new_center_listing_path(@center), class: "btn btn-primary" %>
+  </div>
+  <% @listings.each do |listing| %>
+    <%= render "manage_listing", listing: listing %>
+  <% end %>
+</div>

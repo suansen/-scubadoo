@@ -11,8 +11,9 @@
             <p class="card-text"><%= center.description %></p>
             <div class="d-flex">
               <div>
-              <%= link_to "View details", center_path(center), class:"btn btn-success", style:"text-decoration:none; color:white;"%>
-              <%= link_to "Edit details", edit_center_path(center), class:"btn btn-warning"%>
+              <%= link_to "View Details", center_path(center), class:"btn btn-success", style:"text-decoration:none; color:white;"%>
+              <%= link_to "Edit Details", edit_center_path(center), class:"btn btn-warning"%>
+              <%= link_to "Manage Listings", manage_listings_path(center), class:"btn btn-primary"%>
               </div>
               <%= link_to "Delete", center_path(center), method: :delete, data: {confirm: "Are you sure?"}, class:"btn btn-danger ml-auto"%>
             </div>

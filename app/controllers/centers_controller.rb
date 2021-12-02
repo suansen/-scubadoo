@@ -1,6 +1,6 @@
 class CentersController < ApplicationController
   before_action :authenticate_user!, except: [:index, :show]
-  after_action :verify_authorized, except: [:index, :show, :manage_all], unless: :skip_pundit?
+  after_action :verify_authorized, except: [:index, :show, :manage_centers], unless: :skip_pundit?
 
   def index
     if params[:location].present?
@@ -15,8 +15,6 @@ class CentersController < ApplicationController
         info_window: render_to_string(partial: "info_window", locals: { center: center })
       }
     end
-    # binding.pry
-
   end
 
   def show
@@ -30,7 +28,7 @@ class CentersController < ApplicationController
       }]
   end
 
-  def manage_all
+  def manage_centers
     @centers = policy_scope(Center)
   end
 
@@ -50,7 +48,7 @@ class CentersController < ApplicationController
     raise
   end
 
-  def delete
+  def destroy
     raise
   end
 
