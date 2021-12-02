@@ -1,0 +1,2202 @@
+{
+  "div": {
+    "@class": "result-list",
+    "div": [
+      {
+        "@class": "results-mobile-filters visible-xs",
+        "div": {
+          "@class": "results-actions",
+          "a": [
+            {
+              "@class": "results-action ",
+              "i": {
+                "@class": "font-icons icon-filters"
+              },
+              "span": "Filter"
+            },
+            {
+              "@class": "results-action",
+              "@id": "js-action-map",
+              "i": {
+                "@class": "font-icons map-icon"
+              },
+              "span": "Map"
+            },
+            {
+              "@class": "results-action results-select",
+              "i": {
+                "@class": "font-icons icon-sorting"
+              },
+              "span": "Sort by"
+            }
+          ]
+        }
+      },
+      {
+        "div": [
+          {
+            "@class": "results",
+            "div": [
+              {
+                "@class": "dive-resort search-page-item-card",
+                "div": {
+                  "@class": "dive-resort-content",
+                  "div": [
+                    {
+                      "@class": "photo-slider",
+                      "div": {
+                        "@class": "slick-slider slick-slider slick-initialized",
+                        "@dir": "ltr",
+                        "div": [
+                          {
+                            "@class": "custom-slick-button prev",
+                            "i": {
+                              "@class": "font-icons left-arrow-icon"
+                            }
+                          },
+                          {
+                            "@class": "slick-list",
+                            "div": {
+                              "@class": "slick-track",
+                              "@style": "width: 2700px; opacity: 1;",
+                              "div": [
+                                {
+                                  "@data-index": "0",
+                                  "@class": "slick-slide slick-active slick-current",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "false",
+                                  "@style": "outline: none; width: 300px; position: relative; left: 0px; opacity: 1; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;",
+                                  "div": {
+                                    "div": {
+                                      "@class": "relative",
+                                      "@tabindex": "-1",
+                                      "@style": "width: 100%; display: inline-block;",
+                                      "img": {
+                                        "@class": "img fade-onload",
+                                        "@src": "https://d2p1cf6997m1ir.cloudfront.net/media/c83opt/fa/c5/fac5f85db2c14996729d54f261096c93.jpg"
+                                      }
+                                    }
+                                  }
+                                },
+                                {
+                                  "@data-index": "1",
+                                  "@class": "slick-slide",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "true",
+                                  "@style": "outline: none; width: 300px; position: relative; left: -300px; opacity: 0; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;"
+                                },
+                                {
+                                  "@data-index": "2",
+                                  "@class": "slick-slide",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "true",
+                                  "@style": "outline: none; width: 300px; position: relative; left: -600px; opacity: 0; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;"
+                                },
+                                {
+                                  "@data-index": "3",
+                                  "@class": "slick-slide",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "true",
+                                  "@style": "outline: none; width: 300px; position: relative; left: -900px; opacity: 0; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;"
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "@class": "custom-slick-button next",
+                            "i": {
+                              "@class": "font-icons right-arrow-icon"
+                            }
+                          }
+                        ],
+                        "ul": {
+                          "@class": "custom-paging",
+                          "@style": "display: block;",
+                          "li": [
+                            {
+                              "@class": "slick-active",
+                              "#text": "1/4"
+                            },
+                            {
+                              "@class": "",
+                              "#text": "2/4"
+                            },
+                            {
+                              "@class": "",
+                              "#text": "3/4"
+                            },
+                            {
+                              "@class": "",
+                              "#text": "4/4"
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "@class": "resort-info resort-info--activity",
+                      "div": [
+                        {
+                          "@class": "result-head",
+                          "p": {
+                            "@class": "resort-title dive-center-title",
+                            "#text": "Exmouth Dive & Whalesharks Ningaloo"
+                          }
+                        },
+                        {
+                          "@class": "activity-wrapper dive-center-wrapper",
+                          "div": [
+                            {
+                              "@class": "half amenities-container",
+                              "div": [
+                                {
+                                  "@class": "amenities",
+                                  "p": [
+                                    {
+                                      "i": {
+                                        "@class": "font-icons location-icon"
+                                      },
+                                      "#text": "Exmouth, Australia"
+                                    },
+                                    {
+                                      "i": {
+                                        "@class": "padi-globe"
+                                      },
+                                      "span": "PADI 5 Star Center"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "@class": "amenities amenities-bottom",
+                                  "p": [
+                                    {
+                                      "@class": "activity-inclusion",
+                                      "i": {
+                                        "@class": "font-icons chat-icon2"
+                                      },
+                                      "span": {
+                                        "@class": "text",
+                                        "#text": "English, Italian, French"
+                                      }
+                                    },
+                                    {
+                                      "@class": "activity-inclusion",
+                                      "i": {
+                                        "@class": "font-icons check-icon"
+                                      },
+                                      "span": "PADI instructors",
+                                      "#text": "8"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "@class": "activity-right-part",
+                              "div": [
+                                {
+                                  "div": {
+                                    "@class": "eco-labels"
+                                  }
+                                },
+                                {
+                                  "span": "3 bookable activites",
+                                  "button": {
+                                    "@class": "btn-red activity-btn",
+                                    "span": "View details"
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "@class": "dive-resort search-page-item-card",
+                "div": {
+                  "@class": "dive-resort-content",
+                  "div": [
+                    {
+                      "@class": "photo-slider",
+                      "div": {
+                        "@class": "slick-slider slick-slider slick-initialized",
+                        "@dir": "ltr",
+                        "div": [
+                          {
+                            "@class": "custom-slick-button prev",
+                            "i": {
+                              "@class": "font-icons left-arrow-icon"
+                            }
+                          },
+                          {
+                            "@class": "slick-list",
+                            "div": {
+                              "@class": "slick-track",
+                              "@style": "width: 2700px; opacity: 1;",
+                              "div": [
+                                {
+                                  "@data-index": "0",
+                                  "@class": "slick-slide slick-active slick-current",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "false",
+                                  "@style": "outline: none; width: 300px; position: relative; left: 0px; opacity: 1; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;",
+                                  "div": {
+                                    "div": {
+                                      "@class": "relative",
+                                      "@tabindex": "-1",
+                                      "@style": "width: 100%; display: inline-block;",
+                                      "img": {
+                                        "@class": "img fade-onload",
+                                        "@src": "https://d2p1cf6997m1ir.cloudfront.net/media/c83opt/20/64/2064d24ef5a6b46b42a459ec18eb84fb.jpg"
+                                      }
+                                    }
+                                  }
+                                },
+                                {
+                                  "@data-index": "1",
+                                  "@class": "slick-slide",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "true",
+                                  "@style": "outline: none; width: 300px; position: relative; left: -300px; opacity: 0; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;"
+                                },
+                                {
+                                  "@data-index": "2",
+                                  "@class": "slick-slide",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "true",
+                                  "@style": "outline: none; width: 300px; position: relative; left: -600px; opacity: 0; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;"
+                                },
+                                {
+                                  "@data-index": "3",
+                                  "@class": "slick-slide",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "true",
+                                  "@style": "outline: none; width: 300px; position: relative; left: -900px; opacity: 0; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;"
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "@class": "custom-slick-button next",
+                            "i": {
+                              "@class": "font-icons right-arrow-icon"
+                            }
+                          }
+                        ],
+                        "ul": {
+                          "@class": "custom-paging",
+                          "@style": "display: block;",
+                          "li": [
+                            {
+                              "@class": "slick-active",
+                              "#text": "1/4"
+                            },
+                            {
+                              "@class": "",
+                              "#text": "2/4"
+                            },
+                            {
+                              "@class": "",
+                              "#text": "3/4"
+                            },
+                            {
+                              "@class": "",
+                              "#text": "4/4"
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "@class": "resort-info resort-info--activity",
+                      "div": [
+                        {
+                          "@class": "result-head",
+                          "p": {
+                            "@class": "resort-title dive-center-title",
+                            "#text": "Adrenalin Snorkel & Dive"
+                          }
+                        },
+                        {
+                          "@class": "activity-wrapper dive-center-wrapper",
+                          "div": [
+                            {
+                              "@class": "half amenities-container",
+                              "div": [
+                                {
+                                  "@class": "amenities",
+                                  "p": [
+                                    {
+                                      "i": {
+                                        "@class": "font-icons location-icon"
+                                      },
+                                      "#text": "Townsville, Australia"
+                                    },
+                                    {
+                                      "i": {
+                                        "@class": "padi-globe"
+                                      },
+                                      "span": "PADI 5 Star Center"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "@class": "amenities amenities-bottom",
+                                  "p": [
+                                    {
+                                      "@class": "activity-inclusion",
+                                      "i": {
+                                        "@class": "font-icons chat-icon2"
+                                      },
+                                      "span": {
+                                        "@class": "text",
+                                        "#text": "English, German"
+                                      }
+                                    },
+                                    {
+                                      "@class": "activity-inclusion",
+                                      "i": {
+                                        "@class": "font-icons check-icon"
+                                      },
+                                      "span": "PADI instructors",
+                                      "#text": "5"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "@class": "activity-right-part",
+                              "div": [
+                                {
+                                  "div": {
+                                    "@class": "eco-labels"
+                                  }
+                                },
+                                {
+                                  "span": "4 bookable activites",
+                                  "button": {
+                                    "@class": "btn-red activity-btn",
+                                    "span": "View details"
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "@class": "dive-resort search-page-item-card",
+                "div": {
+                  "@class": "dive-resort-content",
+                  "div": [
+                    {
+                      "@class": "photo-slider",
+                      "div": {
+                        "@class": "slick-slider slick-slider slick-initialized",
+                        "div": {
+                          "@class": "slick-list",
+                          "div": {
+                            "@class": "slick-track",
+                            "@style": "width: 300px; opacity: 1;",
+                            "div": {
+                              "@data-index": "0",
+                              "@class": "slick-slide slick-active slick-current",
+                              "@tabindex": "-1",
+                              "@aria-hidden": "false",
+                              "@style": "outline: none; width: 300px; position: relative; left: 0px; opacity: 1; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;",
+                              "div": {
+                                "div": {
+                                  "@class": "relative",
+                                  "@tabindex": "-1",
+                                  "@style": "width: 100%; display: inline-block;",
+                                  "img": {
+                                    "@class": "img fade-onload",
+                                    "@src": "https://d2p1cf6997m1ir.cloudfront.net/media/c83opt/26/3c/263c440acfcfca53e0ac4084d0706587.jpg"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "@class": "resort-info resort-info--activity",
+                      "div": [
+                        {
+                          "@class": "result-head",
+                          "p": {
+                            "@class": "resort-title dive-center-title",
+                            "#text": "Yongala Dive"
+                          }
+                        },
+                        {
+                          "@class": "activity-wrapper dive-center-wrapper",
+                          "div": [
+                            {
+                              "@class": "half amenities-container",
+                              "div": [
+                                {
+                                  "@class": "amenities",
+                                  "p": [
+                                    {
+                                      "i": {
+                                        "@class": "font-icons location-icon"
+                                      },
+                                      "#text": "Townsville, Australia"
+                                    },
+                                    {
+                                      "i": {
+                                        "@class": "padi-globe"
+                                      },
+                                      "span": "PADI 5 Star Center"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "@class": "amenities amenities-bottom",
+                                  "p": {
+                                    "@class": "activity-inclusion",
+                                    "i": {
+                                      "@class": "font-icons chat-icon2"
+                                    },
+                                    "span": {
+                                      "@class": "text",
+                                      "#text": "English"
+                                    }
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "@class": "activity-right-part",
+                              "div": [
+                                {
+                                  "div": {
+                                    "@class": "eco-labels"
+                                  }
+                                },
+                                {
+                                  "span": "3 bookable activites",
+                                  "button": {
+                                    "@class": "btn-red activity-btn",
+                                    "span": "View details"
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "@class": "dive-resort search-page-item-card",
+                "div": {
+                  "@class": "dive-resort-content",
+                  "div": [
+                    {
+                      "@class": "photo-slider",
+                      "div": {
+                        "@class": "slick-slider slick-slider slick-initialized",
+                        "@dir": "ltr",
+                        "div": [
+                          {
+                            "@class": "custom-slick-button prev",
+                            "i": {
+                              "@class": "font-icons left-arrow-icon"
+                            }
+                          },
+                          {
+                            "@class": "slick-list",
+                            "div": {
+                              "@class": "slick-track",
+                              "@style": "width: 3900px; opacity: 1;",
+                              "div": [
+                                {
+                                  "@data-index": "0",
+                                  "@class": "slick-slide slick-active slick-current",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "false",
+                                  "@style": "outline: none; width: 300px; position: relative; left: 0px; opacity: 1; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;",
+                                  "div": {
+                                    "div": {
+                                      "@class": "relative",
+                                      "@tabindex": "-1",
+                                      "@style": "width: 100%; display: inline-block;",
+                                      "img": {
+                                        "@class": "img fade-onload",
+                                        "@src": "https://d2p1cf6997m1ir.cloudfront.net/media/c83opt/c2/f5/c2f558bef94d382de19c502e3f8cf124.jpg"
+                                      }
+                                    }
+                                  }
+                                },
+                                {
+                                  "@data-index": "1",
+                                  "@class": "slick-slide",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "true",
+                                  "@style": "outline: none; width: 300px; position: relative; left: -300px; opacity: 0; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;"
+                                },
+                                {
+                                  "@data-index": "2",
+                                  "@class": "slick-slide",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "true",
+                                  "@style": "outline: none; width: 300px; position: relative; left: -600px; opacity: 0; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;"
+                                },
+                                {
+                                  "@data-index": "3",
+                                  "@class": "slick-slide",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "true",
+                                  "@style": "outline: none; width: 300px; position: relative; left: -900px; opacity: 0; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;"
+                                },
+                                {
+                                  "@data-index": "4",
+                                  "@class": "slick-slide",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "true",
+                                  "@style": "outline: none; width: 300px; position: relative; left: -1200px; opacity: 0; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;"
+                                },
+                                {
+                                  "@data-index": "5",
+                                  "@class": "slick-slide",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "true",
+                                  "@style": "outline: none; width: 300px; position: relative; left: -1500px; opacity: 0; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;"
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "@class": "custom-slick-button next",
+                            "i": {
+                              "@class": "font-icons right-arrow-icon"
+                            }
+                          }
+                        ],
+                        "ul": {
+                          "@class": "custom-paging",
+                          "@style": "display: block;",
+                          "li": [
+                            {
+                              "@class": "slick-active",
+                              "#text": "1/6"
+                            },
+                            {
+                              "@class": "",
+                              "#text": "2/6"
+                            },
+                            {
+                              "@class": "",
+                              "#text": "3/6"
+                            },
+                            {
+                              "@class": "",
+                              "#text": "4/6"
+                            },
+                            {
+                              "@class": "",
+                              "#text": "5/6"
+                            },
+                            {
+                              "@class": "",
+                              "#text": "6/6"
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "@class": "resort-info resort-info--activity",
+                      "div": [
+                        {
+                          "@class": "result-head",
+                          "p": {
+                            "@class": "resort-title dive-center-title",
+                            "#text": "The Dive Shack"
+                          }
+                        },
+                        {
+                          "@class": "activity-wrapper dive-center-wrapper",
+                          "div": [
+                            {
+                              "@class": "half amenities-container",
+                              "div": [
+                                {
+                                  "@class": "amenities",
+                                  "p": [
+                                    {
+                                      "i": {
+                                        "@class": "font-icons location-icon"
+                                      },
+                                      "#text": "Adelaide, Australia"
+                                    },
+                                    {
+                                      "i": {
+                                        "@class": "padi-globe"
+                                      },
+                                      "span": "PADI 5 Star Center"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "@class": "amenities amenities-bottom",
+                                  "p": [
+                                    {
+                                      "@class": "activity-inclusion",
+                                      "i": {
+                                        "@class": "font-icons chat-icon2"
+                                      },
+                                      "span": {
+                                        "@class": "text",
+                                        "#text": "English, Mandarin, Chinese, Polish, Portuguese"
+                                      }
+                                    },
+                                    {
+                                      "@class": "activity-inclusion",
+                                      "i": {
+                                        "@class": "font-icons check-icon"
+                                      },
+                                      "span": "PADI instructors",
+                                      "#text": "12"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "@class": "activity-right-part",
+                              "div": [
+                                {
+                                  "div": {
+                                    "@class": "eco-labels"
+                                  }
+                                },
+                                {
+                                  "span": "2 bookable activites",
+                                  "button": {
+                                    "@class": "btn-red activity-btn",
+                                    "span": "View details"
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "@class": "dive-resort search-page-item-card",
+                "div": {
+                  "@class": "dive-resort-content",
+                  "div": [
+                    {
+                      "@class": "photo-slider",
+                      "div": {
+                        "@class": "slick-slider slick-slider slick-initialized",
+                        "@dir": "ltr",
+                        "div": [
+                          {
+                            "@class": "custom-slick-button prev",
+                            "i": {
+                              "@class": "font-icons left-arrow-icon"
+                            }
+                          },
+                          {
+                            "@class": "slick-list",
+                            "div": {
+                              "@class": "slick-track",
+                              "@style": "width: 5700px; opacity: 1;",
+                              "div": [
+                                {
+                                  "@data-index": "0",
+                                  "@class": "slick-slide slick-active slick-current",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "false",
+                                  "@style": "outline: none; width: 300px; position: relative; left: 0px; opacity: 1; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;",
+                                  "div": {
+                                    "div": {
+                                      "@class": "relative",
+                                      "@tabindex": "-1",
+                                      "@style": "width: 100%; display: inline-block;",
+                                      "img": {
+                                        "@class": "img fade-onload",
+                                        "@src": "https://d2p1cf6997m1ir.cloudfront.net/media/c83opt/ae/4d/ae4d8e64330c96b5e17157b4903c25ec.jpg"
+                                      }
+                                    }
+                                  }
+                                },
+                                {
+                                  "@data-index": "1",
+                                  "@class": "slick-slide",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "true",
+                                  "@style": "outline: none; width: 300px; position: relative; left: -300px; opacity: 0; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;"
+                                },
+                                {
+                                  "@data-index": "2",
+                                  "@class": "slick-slide",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "true",
+                                  "@style": "outline: none; width: 300px; position: relative; left: -600px; opacity: 0; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;"
+                                },
+                                {
+                                  "@data-index": "3",
+                                  "@class": "slick-slide",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "true",
+                                  "@style": "outline: none; width: 300px; position: relative; left: -900px; opacity: 0; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;"
+                                },
+                                {
+                                  "@data-index": "4",
+                                  "@class": "slick-slide",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "true",
+                                  "@style": "outline: none; width: 300px; position: relative; left: -1200px; opacity: 0; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;"
+                                },
+                                {
+                                  "@data-index": "5",
+                                  "@class": "slick-slide",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "true",
+                                  "@style": "outline: none; width: 300px; position: relative; left: -1500px; opacity: 0; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;"
+                                },
+                                {
+                                  "@data-index": "6",
+                                  "@class": "slick-slide",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "true",
+                                  "@style": "outline: none; width: 300px; position: relative; left: -1800px; opacity: 0; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;"
+                                },
+                                {
+                                  "@data-index": "7",
+                                  "@class": "slick-slide",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "true",
+                                  "@style": "outline: none; width: 300px; position: relative; left: -2100px; opacity: 0; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;"
+                                },
+                                {
+                                  "@data-index": "8",
+                                  "@class": "slick-slide",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "true",
+                                  "@style": "outline: none; width: 300px; position: relative; left: -2400px; opacity: 0; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;"
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "@class": "custom-slick-button next",
+                            "i": {
+                              "@class": "font-icons right-arrow-icon"
+                            }
+                          }
+                        ],
+                        "ul": {
+                          "@class": "custom-paging",
+                          "@style": "display: block;",
+                          "li": [
+                            {
+                              "@class": "slick-active",
+                              "#text": "1/9"
+                            },
+                            {
+                              "@class": "",
+                              "#text": "2/9"
+                            },
+                            {
+                              "@class": "",
+                              "#text": "3/9"
+                            },
+                            {
+                              "@class": "",
+                              "#text": "4/9"
+                            },
+                            {
+                              "@class": "",
+                              "#text": "5/9"
+                            },
+                            {
+                              "@class": "",
+                              "#text": "6/9"
+                            },
+                            {
+                              "@class": "",
+                              "#text": "7/9"
+                            },
+                            {
+                              "@class": "",
+                              "#text": "8/9"
+                            },
+                            {
+                              "@class": "",
+                              "#text": "9/9"
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "@class": "resort-info resort-info--activity",
+                      "div": [
+                        {
+                          "@class": "result-head",
+                          "p": {
+                            "@class": "resort-title dive-center-title",
+                            "#text": "Daktari Surf & Dive"
+                          }
+                        },
+                        {
+                          "@class": "activity-wrapper dive-center-wrapper",
+                          "div": [
+                            {
+                              "@class": "half amenities-container",
+                              "div": [
+                                {
+                                  "@class": "amenities",
+                                  "p": [
+                                    {
+                                      "i": {
+                                        "@class": "font-icons location-icon"
+                                      },
+                                      "#text": "Warrnambool, Australia"
+                                    },
+                                    {
+                                      "i": {
+                                        "@class": "padi-globe"
+                                      },
+                                      "span": "PADI 5 Star Center"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "@class": "amenities amenities-bottom",
+                                  "p": [
+                                    {
+                                      "@class": "activity-inclusion",
+                                      "i": {
+                                        "@class": "font-icons chat-icon2"
+                                      },
+                                      "span": {
+                                        "@class": "text",
+                                        "#text": "English"
+                                      }
+                                    },
+                                    {
+                                      "@class": "activity-inclusion",
+                                      "i": {
+                                        "@class": "font-icons check-icon"
+                                      },
+                                      "span": "PADI instructors",
+                                      "#text": "2"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "@class": "activity-right-part",
+                              "div": [
+                                {
+                                  "div": {
+                                    "@class": "eco-labels"
+                                  }
+                                },
+                                {
+                                  "span": "7 bookable activites",
+                                  "button": {
+                                    "@class": "btn-red activity-btn",
+                                    "span": "View details"
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "@class": "dive-resort search-page-item-card",
+                "div": {
+                  "@class": "dive-resort-content",
+                  "div": [
+                    {
+                      "@class": "photo-slider",
+                      "div": {
+                        "@class": "slick-slider slick-slider slick-initialized",
+                        "@dir": "ltr",
+                        "div": [
+                          {
+                            "@class": "custom-slick-button prev",
+                            "i": {
+                              "@class": "font-icons left-arrow-icon"
+                            }
+                          },
+                          {
+                            "@class": "slick-list",
+                            "div": {
+                              "@class": "slick-track",
+                              "@style": "width: 1500px; opacity: 1;",
+                              "div": [
+                                {
+                                  "@data-index": "0",
+                                  "@class": "slick-slide slick-active slick-current",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "false",
+                                  "@style": "outline: none; width: 300px; position: relative; left: 0px; opacity: 1; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;",
+                                  "div": {
+                                    "div": {
+                                      "@class": "relative",
+                                      "@tabindex": "-1",
+                                      "@style": "width: 100%; display: inline-block;",
+                                      "img": {
+                                        "@class": "img fade-onload",
+                                        "@src": "https://d2p1cf6997m1ir.cloudfront.net/media/c83opt/b0/e9/b0e98ea16030568ffc3671f54802adf4.jpg"
+                                      }
+                                    }
+                                  }
+                                },
+                                {
+                                  "@data-index": "1",
+                                  "@class": "slick-slide",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "true",
+                                  "@style": "outline: none; width: 300px; position: relative; left: -300px; opacity: 0; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;"
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "@class": "custom-slick-button next",
+                            "i": {
+                              "@class": "font-icons right-arrow-icon"
+                            }
+                          }
+                        ],
+                        "ul": {
+                          "@class": "custom-paging",
+                          "@style": "display: block;",
+                          "li": [
+                            {
+                              "@class": "slick-active",
+                              "#text": "1/2"
+                            },
+                            {
+                              "@class": "",
+                              "#text": "2/2"
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "@class": "resort-info resort-info--activity",
+                      "div": [
+                        {
+                          "@class": "result-head",
+                          "p": {
+                            "@class": "resort-title dive-center-title",
+                            "#text": "Australian Diving Instruction"
+                          }
+                        },
+                        {
+                          "@class": "activity-wrapper dive-center-wrapper",
+                          "div": [
+                            {
+                              "@class": "half amenities-container",
+                              "div": [
+                                {
+                                  "@class": "amenities",
+                                  "p": [
+                                    {
+                                      "i": {
+                                        "@class": "font-icons location-icon"
+                                      },
+                                      "#text": "Stingray Bay, Australia"
+                                    },
+                                    {
+                                      "i": {
+                                        "@class": "padi-globe"
+                                      },
+                                      "span": "PADI 5 Star Center"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "@class": "amenities amenities-bottom",
+                                  "p": [
+                                    {
+                                      "@class": "activity-inclusion",
+                                      "i": {
+                                        "@class": "font-icons chat-icon2"
+                                      },
+                                      "span": {
+                                        "@class": "text",
+                                        "#text": "Malay, English, Chinese"
+                                      }
+                                    },
+                                    {
+                                      "@class": "activity-inclusion",
+                                      "i": {
+                                        "@class": "font-icons check-icon"
+                                      },
+                                      "span": "PADI instructors",
+                                      "#text": "5"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "@class": "activity-right-part",
+                              "div": [
+                                {
+                                  "div": {
+                                    "@class": "eco-labels"
+                                  }
+                                },
+                                {
+                                  "span": "1 bookable activity",
+                                  "button": {
+                                    "@class": "btn-red activity-btn",
+                                    "span": "View details"
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "@class": "dive-resort search-page-item-card",
+                "div": {
+                  "@class": "dive-resort-content",
+                  "div": [
+                    {
+                      "@class": "photo-slider",
+                      "div": {
+                        "@class": "slick-slider slick-slider slick-initialized",
+                        "@dir": "ltr",
+                        "div": [
+                          {
+                            "@class": "custom-slick-button prev",
+                            "i": {
+                              "@class": "font-icons left-arrow-icon"
+                            }
+                          },
+                          {
+                            "@class": "slick-list",
+                            "div": {
+                              "@class": "slick-track",
+                              "@style": "width: 8700px; opacity: 1;",
+                              "div": [
+                                {
+                                  "@data-index": "0",
+                                  "@class": "slick-slide slick-active slick-current",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "false",
+                                  "@style": "outline: none; width: 300px; position: relative; left: 0px; opacity: 1; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;",
+                                  "div": {
+                                    "div": {
+                                      "@class": "relative",
+                                      "@tabindex": "-1",
+                                      "@style": "width: 100%; display: inline-block;",
+                                      "img": {
+                                        "@class": "img fade-onload",
+                                        "@src": "https://d2p1cf6997m1ir.cloudfront.net/media/c83opt/ec/59/ec59b3973ccd34b29599b41e8607471d.jpg"
+                                      }
+                                    }
+                                  }
+                                },
+                                {
+                                  "@data-index": "1",
+                                  "@class": "slick-slide",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "true",
+                                  "@style": "outline: none; width: 300px; position: relative; left: -300px; opacity: 0; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;"
+                                },
+                                {
+                                  "@data-index": "2",
+                                  "@class": "slick-slide",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "true",
+                                  "@style": "outline: none; width: 300px; position: relative; left: -600px; opacity: 0; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;"
+                                },
+                                {
+                                  "@data-index": "3",
+                                  "@class": "slick-slide",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "true",
+                                  "@style": "outline: none; width: 300px; position: relative; left: -900px; opacity: 0; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;"
+                                },
+                                {
+                                  "@data-index": "4",
+                                  "@class": "slick-slide",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "true",
+                                  "@style": "outline: none; width: 300px; position: relative; left: -1200px; opacity: 0; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;"
+                                },
+                                {
+                                  "@data-index": "5",
+                                  "@class": "slick-slide",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "true",
+                                  "@style": "outline: none; width: 300px; position: relative; left: -1500px; opacity: 0; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;"
+                                },
+                                {
+                                  "@data-index": "6",
+                                  "@class": "slick-slide",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "true",
+                                  "@style": "outline: none; width: 300px; position: relative; left: -1800px; opacity: 0; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;"
+                                },
+                                {
+                                  "@data-index": "7",
+                                  "@class": "slick-slide",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "true",
+                                  "@style": "outline: none; width: 300px; position: relative; left: -2100px; opacity: 0; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;"
+                                },
+                                {
+                                  "@data-index": "8",
+                                  "@class": "slick-slide",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "true",
+                                  "@style": "outline: none; width: 300px; position: relative; left: -2400px; opacity: 0; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;"
+                                },
+                                {
+                                  "@data-index": "9",
+                                  "@class": "slick-slide",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "true",
+                                  "@style": "outline: none; width: 300px; position: relative; left: -2700px; opacity: 0; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;"
+                                },
+                                {
+                                  "@data-index": "10",
+                                  "@class": "slick-slide",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "true",
+                                  "@style": "outline: none; width: 300px; position: relative; left: -3000px; opacity: 0; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;"
+                                },
+                                {
+                                  "@data-index": "11",
+                                  "@class": "slick-slide",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "true",
+                                  "@style": "outline: none; width: 300px; position: relative; left: -3300px; opacity: 0; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;"
+                                },
+                                {
+                                  "@data-index": "12",
+                                  "@class": "slick-slide",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "true",
+                                  "@style": "outline: none; width: 300px; position: relative; left: -3600px; opacity: 0; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;"
+                                },
+                                {
+                                  "@data-index": "13",
+                                  "@class": "slick-slide",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "true",
+                                  "@style": "outline: none; width: 300px; position: relative; left: -3900px; opacity: 0; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;"
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "@class": "custom-slick-button next",
+                            "i": {
+                              "@class": "font-icons right-arrow-icon"
+                            }
+                          }
+                        ],
+                        "ul": {
+                          "@class": "custom-paging",
+                          "@style": "display: block;",
+                          "li": [
+                            {
+                              "@class": "slick-active",
+                              "#text": "1/14"
+                            },
+                            {
+                              "@class": "",
+                              "#text": "2/14"
+                            },
+                            {
+                              "@class": "",
+                              "#text": "3/14"
+                            },
+                            {
+                              "@class": "",
+                              "#text": "4/14"
+                            },
+                            {
+                              "@class": "",
+                              "#text": "5/14"
+                            },
+                            {
+                              "@class": "",
+                              "#text": "6/14"
+                            },
+                            {
+                              "@class": "",
+                              "#text": "7/14"
+                            },
+                            {
+                              "@class": "",
+                              "#text": "8/14"
+                            },
+                            {
+                              "@class": "",
+                              "#text": "9/14"
+                            },
+                            {
+                              "@class": "",
+                              "#text": "10/14"
+                            },
+                            {
+                              "@class": "",
+                              "#text": "11/14"
+                            },
+                            {
+                              "@class": "",
+                              "#text": "12/14"
+                            },
+                            {
+                              "@class": "",
+                              "#text": "13/14"
+                            },
+                            {
+                              "@class": "",
+                              "#text": "14/14"
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "@class": "resort-info resort-info--activity",
+                      "div": [
+                        {
+                          "@class": "result-head",
+                          "p": {
+                            "@class": "resort-title dive-center-title",
+                            "#text": "Bayplay Dive Resort - Melbourne"
+                          }
+                        },
+                        {
+                          "@class": "activity-wrapper dive-center-wrapper",
+                          "div": [
+                            {
+                              "@class": "half amenities-container",
+                              "div": [
+                                {
+                                  "@class": "amenities",
+                                  "p": [
+                                    {
+                                      "i": {
+                                        "@class": "font-icons location-icon"
+                                      },
+                                      "#text": "Stingray Bay, Australia"
+                                    },
+                                    {
+                                      "i": {
+                                        "@class": "padi-globe"
+                                      },
+                                      "span": "PADI 5 Star Center"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "@class": "amenities amenities-bottom",
+                                  "p": {
+                                    "@class": "activity-inclusion",
+                                    "i": {
+                                      "@class": "font-icons chat-icon2"
+                                    },
+                                    "span": {
+                                      "@class": "text",
+                                      "#text": "English"
+                                    }
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "@class": "activity-right-part",
+                              "div": [
+                                {
+                                  "div": {
+                                    "@class": "eco-labels"
+                                  }
+                                },
+                                {
+                                  "span": "6 bookable activites",
+                                  "button": {
+                                    "@class": "btn-red activity-btn",
+                                    "span": "View details"
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "@class": "dive-resort search-page-item-card",
+                "div": {
+                  "@class": "dive-resort-content",
+                  "div": [
+                    {
+                      "@class": "photo-slider",
+                      "div": {
+                        "@class": "slick-slider slick-slider slick-initialized",
+                        "@dir": "ltr",
+                        "div": [
+                          {
+                            "@class": "custom-slick-button prev",
+                            "i": {
+                              "@class": "font-icons left-arrow-icon"
+                            }
+                          },
+                          {
+                            "@class": "slick-list",
+                            "div": {
+                              "@class": "slick-track",
+                              "@style": "width: 6300px; opacity: 1;",
+                              "div": [
+                                {
+                                  "@data-index": "0",
+                                  "@class": "slick-slide slick-active slick-current",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "false",
+                                  "@style": "outline: none; width: 300px; position: relative; left: 0px; opacity: 1; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;",
+                                  "div": {
+                                    "div": {
+                                      "@class": "relative",
+                                      "@tabindex": "-1",
+                                      "@style": "width: 100%; display: inline-block;",
+                                      "img": {
+                                        "@class": "img fade-onload",
+                                        "@src": "https://d2p1cf6997m1ir.cloudfront.net/media/c83opt/db/3a/db3a779cd0118de13f5e379328a78e57.jpg"
+                                      }
+                                    }
+                                  }
+                                },
+                                {
+                                  "@data-index": "1",
+                                  "@class": "slick-slide",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "true",
+                                  "@style": "outline: none; width: 300px; position: relative; left: -300px; opacity: 0; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;"
+                                },
+                                {
+                                  "@data-index": "2",
+                                  "@class": "slick-slide",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "true",
+                                  "@style": "outline: none; width: 300px; position: relative; left: -600px; opacity: 0; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;"
+                                },
+                                {
+                                  "@data-index": "3",
+                                  "@class": "slick-slide",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "true",
+                                  "@style": "outline: none; width: 300px; position: relative; left: -900px; opacity: 0; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;"
+                                },
+                                {
+                                  "@data-index": "4",
+                                  "@class": "slick-slide",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "true",
+                                  "@style": "outline: none; width: 300px; position: relative; left: -1200px; opacity: 0; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;"
+                                },
+                                {
+                                  "@data-index": "5",
+                                  "@class": "slick-slide",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "true",
+                                  "@style": "outline: none; width: 300px; position: relative; left: -1500px; opacity: 0; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;"
+                                },
+                                {
+                                  "@data-index": "6",
+                                  "@class": "slick-slide",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "true",
+                                  "@style": "outline: none; width: 300px; position: relative; left: -1800px; opacity: 0; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;"
+                                },
+                                {
+                                  "@data-index": "7",
+                                  "@class": "slick-slide",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "true",
+                                  "@style": "outline: none; width: 300px; position: relative; left: -2100px; opacity: 0; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;"
+                                },
+                                {
+                                  "@data-index": "8",
+                                  "@class": "slick-slide",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "true",
+                                  "@style": "outline: none; width: 300px; position: relative; left: -2400px; opacity: 0; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;"
+                                },
+                                {
+                                  "@data-index": "9",
+                                  "@class": "slick-slide",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "true",
+                                  "@style": "outline: none; width: 300px; position: relative; left: -2700px; opacity: 0; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;"
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "@class": "custom-slick-button next",
+                            "i": {
+                              "@class": "font-icons right-arrow-icon"
+                            }
+                          }
+                        ],
+                        "ul": {
+                          "@class": "custom-paging",
+                          "@style": "display: block;",
+                          "li": [
+                            {
+                              "@class": "slick-active",
+                              "#text": "1/10"
+                            },
+                            {
+                              "@class": "",
+                              "#text": "2/10"
+                            },
+                            {
+                              "@class": "",
+                              "#text": "3/10"
+                            },
+                            {
+                              "@class": "",
+                              "#text": "4/10"
+                            },
+                            {
+                              "@class": "",
+                              "#text": "5/10"
+                            },
+                            {
+                              "@class": "",
+                              "#text": "6/10"
+                            },
+                            {
+                              "@class": "",
+                              "#text": "7/10"
+                            },
+                            {
+                              "@class": "",
+                              "#text": "8/10"
+                            },
+                            {
+                              "@class": "",
+                              "#text": "9/10"
+                            },
+                            {
+                              "@class": "",
+                              "#text": "10/10"
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "@class": "resort-info resort-info--activity",
+                      "div": [
+                        {
+                          "@class": "result-head",
+                          "p": {
+                            "@class": "resort-title dive-center-title",
+                            "#text": "Wolf Rock Dive Centre"
+                          }
+                        },
+                        {
+                          "@class": "activity-wrapper dive-center-wrapper",
+                          "div": [
+                            {
+                              "@class": "half amenities-container",
+                              "div": [
+                                {
+                                  "@class": "amenities",
+                                  "p": [
+                                    {
+                                      "i": {
+                                        "@class": "font-icons location-icon"
+                                      },
+                                      "#text": "Fraser Island, Australia"
+                                    },
+                                    {
+                                      "i": {
+                                        "@class": "padi-globe"
+                                      },
+                                      "span": "PADI 5 Star Center"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "@class": "amenities amenities-bottom",
+                                  "p": [
+                                    {
+                                      "@class": "activity-inclusion",
+                                      "i": {
+                                        "@class": "font-icons chat-icon2"
+                                      },
+                                      "span": {
+                                        "@class": "text",
+                                        "#text": "English"
+                                      }
+                                    },
+                                    {
+                                      "@class": "activity-inclusion",
+                                      "i": {
+                                        "@class": "font-icons check-icon"
+                                      },
+                                      "span": "PADI instructors",
+                                      "#text": "4"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "@class": "activity-right-part",
+                              "div": [
+                                {
+                                  "div": {
+                                    "@class": "eco-labels"
+                                  }
+                                },
+                                {
+                                  "span": "2 bookable activites",
+                                  "button": {
+                                    "@class": "btn-red activity-btn",
+                                    "span": "View details"
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "@class": "dive-resort search-page-item-card",
+                "div": {
+                  "@class": "dive-resort-content",
+                  "div": [
+                    {
+                      "@class": "photo-slider",
+                      "div": {
+                        "@class": "slick-slider slick-slider slick-initialized",
+                        "@dir": "ltr",
+                        "div": [
+                          {
+                            "@class": "custom-slick-button prev",
+                            "i": {
+                              "@class": "font-icons left-arrow-icon"
+                            }
+                          },
+                          {
+                            "@class": "slick-list",
+                            "div": {
+                              "@class": "slick-track",
+                              "@style": "width: 8100px; opacity: 1;",
+                              "div": [
+                                {
+                                  "@data-index": "0",
+                                  "@class": "slick-slide slick-active slick-current",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "false",
+                                  "@style": "outline: none; width: 300px; position: relative; left: 0px; opacity: 1; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;",
+                                  "div": {
+                                    "div": {
+                                      "@class": "relative",
+                                      "@tabindex": "-1",
+                                      "@style": "width: 100%; display: inline-block;",
+                                      "img": {
+                                        "@class": "img fade-onload",
+                                        "@src": "https://d2p1cf6997m1ir.cloudfront.net/media/c83opt/64/0b/640b1d9be4e6b32cda0563f650986df7.jpg"
+                                      }
+                                    }
+                                  }
+                                },
+                                {
+                                  "@data-index": "1",
+                                  "@class": "slick-slide",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "true",
+                                  "@style": "outline: none; width: 300px; position: relative; left: -300px; opacity: 0; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;"
+                                },
+                                {
+                                  "@data-index": "2",
+                                  "@class": "slick-slide",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "true",
+                                  "@style": "outline: none; width: 300px; position: relative; left: -600px; opacity: 0; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;"
+                                },
+                                {
+                                  "@data-index": "3",
+                                  "@class": "slick-slide",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "true",
+                                  "@style": "outline: none; width: 300px; position: relative; left: -900px; opacity: 0; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;"
+                                },
+                                {
+                                  "@data-index": "4",
+                                  "@class": "slick-slide",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "true",
+                                  "@style": "outline: none; width: 300px; position: relative; left: -1200px; opacity: 0; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;"
+                                },
+                                {
+                                  "@data-index": "5",
+                                  "@class": "slick-slide",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "true",
+                                  "@style": "outline: none; width: 300px; position: relative; left: -1500px; opacity: 0; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;"
+                                },
+                                {
+                                  "@data-index": "6",
+                                  "@class": "slick-slide",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "true",
+                                  "@style": "outline: none; width: 300px; position: relative; left: -1800px; opacity: 0; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;"
+                                },
+                                {
+                                  "@data-index": "7",
+                                  "@class": "slick-slide",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "true",
+                                  "@style": "outline: none; width: 300px; position: relative; left: -2100px; opacity: 0; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;"
+                                },
+                                {
+                                  "@data-index": "8",
+                                  "@class": "slick-slide",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "true",
+                                  "@style": "outline: none; width: 300px; position: relative; left: -2400px; opacity: 0; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;"
+                                },
+                                {
+                                  "@data-index": "9",
+                                  "@class": "slick-slide",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "true",
+                                  "@style": "outline: none; width: 300px; position: relative; left: -2700px; opacity: 0; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;"
+                                },
+                                {
+                                  "@data-index": "10",
+                                  "@class": "slick-slide",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "true",
+                                  "@style": "outline: none; width: 300px; position: relative; left: -3000px; opacity: 0; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;"
+                                },
+                                {
+                                  "@data-index": "11",
+                                  "@class": "slick-slide",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "true",
+                                  "@style": "outline: none; width: 300px; position: relative; left: -3300px; opacity: 0; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;"
+                                },
+                                {
+                                  "@data-index": "12",
+                                  "@class": "slick-slide",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "true",
+                                  "@style": "outline: none; width: 300px; position: relative; left: -3600px; opacity: 0; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;"
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "@class": "custom-slick-button next",
+                            "i": {
+                              "@class": "font-icons right-arrow-icon"
+                            }
+                          }
+                        ],
+                        "ul": {
+                          "@class": "custom-paging",
+                          "@style": "display: block;",
+                          "li": [
+                            {
+                              "@class": "slick-active",
+                              "#text": "1/13"
+                            },
+                            {
+                              "@class": "",
+                              "#text": "2/13"
+                            },
+                            {
+                              "@class": "",
+                              "#text": "3/13"
+                            },
+                            {
+                              "@class": "",
+                              "#text": "4/13"
+                            },
+                            {
+                              "@class": "",
+                              "#text": "5/13"
+                            },
+                            {
+                              "@class": "",
+                              "#text": "6/13"
+                            },
+                            {
+                              "@class": "",
+                              "#text": "7/13"
+                            },
+                            {
+                              "@class": "",
+                              "#text": "8/13"
+                            },
+                            {
+                              "@class": "",
+                              "#text": "9/13"
+                            },
+                            {
+                              "@class": "",
+                              "#text": "10/13"
+                            },
+                            {
+                              "@class": "",
+                              "#text": "11/13"
+                            },
+                            {
+                              "@class": "",
+                              "#text": "12/13"
+                            },
+                            {
+                              "@class": "",
+                              "#text": "13/13"
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "@class": "resort-info resort-info--activity",
+                      "div": [
+                        {
+                          "@class": "result-head",
+                          "p": {
+                            "@class": "resort-title dive-center-title",
+                            "#text": "Sundive Byron Bay"
+                          }
+                        },
+                        {
+                          "@class": "activity-wrapper dive-center-wrapper",
+                          "div": [
+                            {
+                              "@class": "half amenities-container",
+                              "div": [
+                                {
+                                  "@class": "amenities",
+                                  "p": [
+                                    {
+                                      "i": {
+                                        "@class": "font-icons location-icon"
+                                      },
+                                      "#text": "Tweed River, Australia"
+                                    },
+                                    {
+                                      "i": {
+                                        "@class": "padi-globe"
+                                      },
+                                      "span": "PADI 5 Star Center"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "@class": "amenities amenities-bottom",
+                                  "p": {
+                                    "@class": "activity-inclusion",
+                                    "i": {
+                                      "@class": "font-icons chat-icon2"
+                                    },
+                                    "span": {
+                                      "@class": "text",
+                                      "#text": "English, Italian, Swedish, French, Spanish"
+                                    }
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "@class": "activity-right-part",
+                              "div": [
+                                {
+                                  "div": {
+                                    "@class": "eco-labels"
+                                  }
+                                },
+                                {
+                                  "span": "2 bookable activites",
+                                  "button": {
+                                    "@class": "btn-red activity-btn",
+                                    "span": "View details"
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "@class": "dive-resort search-page-item-card",
+                "div": {
+                  "@class": "dive-resort-content",
+                  "div": [
+                    {
+                      "@class": "photo-slider",
+                      "div": {
+                        "@class": "slick-slider slick-slider slick-initialized",
+                        "@dir": "ltr",
+                        "div": [
+                          {
+                            "@class": "custom-slick-button prev",
+                            "i": {
+                              "@class": "font-icons left-arrow-icon"
+                            }
+                          },
+                          {
+                            "@class": "slick-list",
+                            "div": {
+                              "@class": "slick-track",
+                              "@style": "width: 6900px; opacity: 1;",
+                              "div": [
+                                {
+                                  "@data-index": "0",
+                                  "@class": "slick-slide slick-active slick-current",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "false",
+                                  "@style": "outline: none; width: 300px; position: relative; left: 0px; opacity: 1; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;",
+                                  "div": {
+                                    "div": {
+                                      "@class": "relative",
+                                      "@tabindex": "-1",
+                                      "@style": "width: 100%; display: inline-block;",
+                                      "img": {
+                                        "@class": "img fade-onload",
+                                        "@src": "https://d2p1cf6997m1ir.cloudfront.net/media/c83opt/93/af/93af4beafecd54d7ba3b65d4a21ccee3.jpg"
+                                      }
+                                    }
+                                  }
+                                },
+                                {
+                                  "@data-index": "1",
+                                  "@class": "slick-slide",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "true",
+                                  "@style": "outline: none; width: 300px; position: relative; left: -300px; opacity: 0; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;"
+                                },
+                                {
+                                  "@data-index": "2",
+                                  "@class": "slick-slide",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "true",
+                                  "@style": "outline: none; width: 300px; position: relative; left: -600px; opacity: 0; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;"
+                                },
+                                {
+                                  "@data-index": "3",
+                                  "@class": "slick-slide",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "true",
+                                  "@style": "outline: none; width: 300px; position: relative; left: -900px; opacity: 0; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;"
+                                },
+                                {
+                                  "@data-index": "4",
+                                  "@class": "slick-slide",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "true",
+                                  "@style": "outline: none; width: 300px; position: relative; left: -1200px; opacity: 0; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;"
+                                },
+                                {
+                                  "@data-index": "5",
+                                  "@class": "slick-slide",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "true",
+                                  "@style": "outline: none; width: 300px; position: relative; left: -1500px; opacity: 0; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;"
+                                },
+                                {
+                                  "@data-index": "6",
+                                  "@class": "slick-slide",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "true",
+                                  "@style": "outline: none; width: 300px; position: relative; left: -1800px; opacity: 0; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;"
+                                },
+                                {
+                                  "@data-index": "7",
+                                  "@class": "slick-slide",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "true",
+                                  "@style": "outline: none; width: 300px; position: relative; left: -2100px; opacity: 0; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;"
+                                },
+                                {
+                                  "@data-index": "8",
+                                  "@class": "slick-slide",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "true",
+                                  "@style": "outline: none; width: 300px; position: relative; left: -2400px; opacity: 0; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;"
+                                },
+                                {
+                                  "@data-index": "9",
+                                  "@class": "slick-slide",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "true",
+                                  "@style": "outline: none; width: 300px; position: relative; left: -2700px; opacity: 0; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;"
+                                },
+                                {
+                                  "@data-index": "10",
+                                  "@class": "slick-slide",
+                                  "@tabindex": "-1",
+                                  "@aria-hidden": "true",
+                                  "@style": "outline: none; width: 300px; position: relative; left: -3000px; opacity: 0; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;"
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "@class": "custom-slick-button next",
+                            "i": {
+                              "@class": "font-icons right-arrow-icon"
+                            }
+                          }
+                        ],
+                        "ul": {
+                          "@class": "custom-paging",
+                          "@style": "display: block;",
+                          "li": [
+                            {
+                              "@class": "slick-active",
+                              "#text": "1/11"
+                            },
+                            {
+                              "@class": "",
+                              "#text": "2/11"
+                            },
+                            {
+                              "@class": "",
+                              "#text": "3/11"
+                            },
+                            {
+                              "@class": "",
+                              "#text": "4/11"
+                            },
+                            {
+                              "@class": "",
+                              "#text": "5/11"
+                            },
+                            {
+                              "@class": "",
+                              "#text": "6/11"
+                            },
+                            {
+                              "@class": "",
+                              "#text": "7/11"
+                            },
+                            {
+                              "@class": "",
+                              "#text": "8/11"
+                            },
+                            {
+                              "@class": "",
+                              "#text": "9/11"
+                            },
+                            {
+                              "@class": "",
+                              "#text": "10/11"
+                            },
+                            {
+                              "@class": "",
+                              "#text": "11/11"
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "@class": "resort-info resort-info--activity",
+                      "div": [
+                        {
+                          "@class": "result-head",
+                          "p": {
+                            "@class": "resort-title dive-center-title",
+                            "#text": "Jetty Dive Centre"
+                          }
+                        },
+                        {
+                          "@class": "activity-wrapper dive-center-wrapper",
+                          "div": [
+                            {
+                              "@class": "half amenities-container",
+                              "div": [
+                                {
+                                  "@class": "amenities",
+                                  "p": [
+                                    {
+                                      "i": {
+                                        "@class": "font-icons location-icon"
+                                      },
+                                      "#text": "Coffs Harbour, Australia"
+                                    },
+                                    {
+                                      "i": {
+                                        "@class": "padi-globe"
+                                      },
+                                      "span": "PADI 5 Star Center"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "@class": "amenities amenities-bottom",
+                                  "p": {
+                                    "@class": "activity-inclusion",
+                                    "i": {
+                                      "@class": "font-icons chat-icon2"
+                                    },
+                                    "span": {
+                                      "@class": "text",
+                                      "#text": "English"
+                                    }
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "@class": "activity-right-part",
+                              "div": [
+                                {
+                                  "div": {
+                                    "@class": "eco-labels"
+                                  }
+                                },
+                                {
+                                  "span": "2 bookable activites",
+                                  "button": {
+                                    "@class": "btn-red activity-btn",
+                                    "span": "View details"
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "@class": "pagination-wrap",
+            "ul": {
+              "@class": "custom-pagination",
+              "li": [
+                {
+                  "@class": "hidden disabled",
+                  "a": {
+                    "@class": "",
+                    "@href": "#",
+                    "@aria-label": "Go to first page",
+                    "#text": "«"
+                  }
+                },
+                {
+                  "@class": "prev disabled",
+                  "a": {
+                    "@class": "",
+                    "@href": "#",
+                    "@aria-label": "Go to previous page"
+                  }
+                },
+                {
+                  "@class": "active",
+                  "a": {
+                    "@class": "undefined",
+                    "@href": "#",
+                    "@aria-label": "Go to page number 1",
+                    "#text": "1"
+                  }
+                },
+                {
+                  "@class": "",
+                  "a": {
+                    "@class": "",
+                    "@href": "#",
+                    "@aria-label": "Go to page number 2",
+                    "#text": "2"
+                  }
+                },
+                {
+                  "@class": "",
+                  "a": {
+                    "@class": "",
+                    "@href": "#",
+                    "@aria-label": "Go to page number 3",
+                    "#text": "3"
+                  }
+                },
+                {
+                  "@class": "next",
+                  "a": {
+                    "@class": "",
+                    "@href": "#",
+                    "@aria-label": "Go to next page"
+                  }
+                },
+                {
+                  "@class": "hidden",
+                  "a": {
+                    "@class": "",
+                    "@href": "#",
+                    "@aria-label": "Go to last page",
+                    "#text": "»"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
