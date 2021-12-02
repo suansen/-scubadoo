@@ -2,3 +2,15 @@
 .text-shadow {
   text-shadow: 1px 1px 3px rgb(49, 49, 49);
 }
+
+.bg-white-transparent {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.location-card {
+  width: 280px;
+  height: 150px;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 12px;
+}
