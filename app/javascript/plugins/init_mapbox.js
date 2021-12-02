@@ -13,7 +13,7 @@ const addMarkersToMap = (map, markers) => {
     const popup = new mapboxgl.Popup().setHTML(marker.info_window); // add this
 
     new mapboxgl.Marker()
-      .setLngLat([ marker.lng, marker.lat ])
+      .setLngLat([marker.lng, marker.lat])
       .setPopup(popup) // add this
       .addTo(map);
   });
@@ -32,11 +32,15 @@ const initMapbox = () => {
     });
 
     const markers = JSON.parse(mapElement.dataset.markers);
-		markers.forEach((marker) => {
-			new mapboxgl.Marker().setLngLat([marker.lng, marker.lat]).addTo(map);
-		});
-    map.addControl(new MapboxGeocoder({ accessToken: mapboxgl.accessToken,
-      mapboxgl: mapboxgl }));
+    markers.forEach((marker) => {
+      new mapboxgl.Marker().setLngLat([marker.lng, marker.lat]).addTo(map);
+    });
+    map.addControl(
+      new MapboxGeocoder({
+        accessToken: mapboxgl.accessToken,
+        mapboxgl: mapboxgl,
+      })
+    );
 
     fitMapToMarkers(map, markers);
     addMarkersToMap(map, markers);
