@@ -34,6 +34,8 @@ gem 'simple_form'
 gem 'cloudinary', '~> 1.16.0'
 gem 'has_scope'
 gem 'geocoder'
+gem 'wicked_pdf'
+gem 'wkhtmltopdf-binary'
 
 group :development, :test do
   gem 'pry-byebug'
