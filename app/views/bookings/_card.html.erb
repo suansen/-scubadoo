@@ -1,6 +1,6 @@
 <div class="container d-flex flex-row mb-3 justify-content-start">
   <% bookings.each do |booking| %>
-      <div class="card m-2 rounded overflow-hidden shadow-sm" style="width: 18rem;">
+      <div class="card rounded overflow-hidden shadow-sm" style="width: 18rem;">
         <%= cl_image_tag (booking.listing.photo.key), class: "card-img-top", crop: :fill %>
         <div class="card-body">
           <h5 class="card-title"><%= booking.listing.name %></h5>

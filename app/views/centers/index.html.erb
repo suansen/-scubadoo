@@ -1,11 +1,17 @@
-<h1 class="text-center mt-3"><%= @centers.count %> dive centers in the world</h1>
-
-<div class="container d-flex">
-  <div class="col-md-4"><%= render "shared/sidebar", centers: @centers %></div>
-  <div class="col-md-8"><%= render "card", centers: @centers %></div>
+<div class="container d-flex flex-column align-items-center justify-content-center">
+  <h1 class="text-center mt-3"><%= @centers.count %> dive centers in the world</h1>
+  <%= render "shared/sidebar", centers: @centers %>
 </div>
-  <div id="map"
-     style="width: 100%; height: 600px;"
-     data-markers="<%= @markers.to_json %>"
-     data-mapbox-api-key="<%= ENV['MAPBOX_API_KEY'] %>">
+
+<div class="row mr-0 align-items-start">
+  <div class="col-md-5">
+    <%= render "card", centers: @centers %>
   </div>
+  <div class="col-md-7 sticky-top">
+    <div id="map"
+        style="width: 100%; height: 600px;"
+        data-markers="<%= @markers.to_json %>"
+        data-mapbox-api-key="<%= ENV['MAPBOX_API_KEY'] %>">
+    </div>
+  </div>
+</div>

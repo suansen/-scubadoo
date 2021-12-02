@@ -1,10 +1,6 @@
 <div class="container">
   <section>
-    <h1 class="my-5"><%= @center.name %></h1>
-  </section>
-
-  <section>
-
+    <h1 class="mt-5 mb-2"><%= @center.name %></h1>
   </section>
 
   <section>
@@ -17,41 +13,48 @@
   </section>
 
   <section id="center-image" class="mb-5" style="min-height:350px; background-position: center; background-size: cover;">
-    <%= cl_image_tag (@center.photo.key), class: "img-fluid", crop: :fill %>
+    <%= cl_image_tag (@center.photo.key), class: "img-fluid img-banner-custom", crop: :fill %>
   </section>
 
-<section id="center-description" class="mb-5"  style="min-height:200px;">
-  <div class="d-flex">
-    <h2 class="h3  pr-3" style="width:35%; ">DESCRIPTION</h2>
-    <div class="px-3 d-flex flex-column justify-content-between">
-      <p><%= @center.description %></p>
-      <div>
-        <p><strong>Address: </strong>xxx km away from you</p>
-        <p><%= @center.address %></p>
+  <section id="center-description" class="mb-5 border-bottom">
+    <div class="d-flex">
+      <h2 class="h3  pr-3" style="width:35%; ">DESCRIPTION</h2>
+      <div class="px-3 d-flex flex-column justify-content-between">
+        <p><%= @center.description %></p>
+        <div>
+          <p><strong>Address: </strong>xxx km away from you</p>
+          <p><%= @center.address %></p>
+        </div>
       </div>
     </div>
-  </div>
-</section>
-
-<% if @dives.count> 0 %>
-  <section id="center-diving" class="mb-5"  style="min-height:200px;">
-    <h2 class="h3">DIVING</h2>
-    <%= render "show-card" ,listings: @dives, center: @center %>
   </section>
-<% end %>
 
-<% if @courses.count > 0 %>
-  <section id="center-courses" class="mb-5"  style="min-height:200px;">
-    <h2 class="h3">COURSES</h2>
-    <%= render "show-card" ,listings: @courses, center: @center %>
+  <section id="center-location" class="mb-5 border-bottom pb-5">
+    <h2 class="h3  pr-3">DIVE CENTER LOCATION</h2>
+    <div id="static-map"
+      data-markers="<%= @markers.to_json %>"
+      data-mapbox-api-key="<%= ENV['MAPBOX_API_KEY'] %>">
+    </div>
   </section>
-<% end %>
 
-<% if @center.listings.count > 0 %>
-  <section id="center-schedule" class="mb-5" style="min-height:200px;">
-    <h2 class="h3">SCHEDULE</h2>
-    <%= render "schedule-card" ,listings: @center.listings, center: @center %>
-  </section>
-<% end %>
+  <% if @dives.count> 0 %>
+    <section id="center-diving" class="mb-5 border-bottom pb-5">
+      <h2 class="h3">DIVING</h2>
+      <%= render "show-card" ,listings: @dives, center: @center %>
+    </section>
+  <% end %>
 
+  <% if @courses.count > 0 %>
+    <section id="center-courses" class="mb-5 border-bottom pb-5">
+      <h2 class="h3">COURSES</h2>
+      <%= render "show-card" ,listings: @courses, center: @center %>
+    </section>
+  <% end %>
+
+  <% if @center.listings.count > 0 %>
+    <section id="center-schedule" class="mb-5 border-bottom pb-5" style="min-height:200px;">
+      <h2 class="h3">SCHEDULE</h2>
+      <%= render "schedule-card" ,listings: @center.listings, center: @center %>
+    </section>
+  <% end %>
 </div>

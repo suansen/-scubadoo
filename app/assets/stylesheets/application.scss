@@ -9,8 +9,11 @@
 @import "font-awesome";
 @import "@mapbox/mapbox-gl-geocoder/dist/mapbox-gl-geocoder";
 
+
 // Your CSS partials
 @import "components/index";
+@import "components/image-banner";
+@import "components/map";
 @import "pages/index";
 
 html {

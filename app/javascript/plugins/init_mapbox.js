@@ -8,6 +8,17 @@ const fitMapToMarkers = (map, markers) => {
   map.fitBounds(bounds, { padding: 70, maxZoom: 15, duration: 500 });
 };
 
+const addMarkersToMap = (map, markers) => {
+  markers.forEach((marker) => {
+    const popup = new mapboxgl.Popup().setHTML(marker.info_window); // add this
+
+    new mapboxgl.Marker()
+      .setLngLat([ marker.lng, marker.lat ])
+      .setPopup(popup) // add this
+      .addTo(map);
+  });
+};
+
 const initMapbox = () => {
   const mapElement = document.getElementById("map");
   const staticMapElement = document.getElementById("static-map");
@@ -21,26 +32,31 @@ const initMapbox = () => {
     });
 
     const markers = JSON.parse(mapElement.dataset.markers);
-    markers.forEach((marker) => {
-      new mapboxgl.Marker().setLngLat([marker.lng, marker.lat]).addTo(map);
-    });
+		markers.forEach((marker) => {
+			new mapboxgl.Marker().setLngLat([marker.lng, marker.lat]).addTo(map);
+		});
+    map.addControl(new MapboxGeocoder({ accessToken: mapboxgl.accessToken,
+      mapboxgl: mapboxgl }));
 
     fitMapToMarkers(map, markers);
+    addMarkersToMap(map, markers);
   }
 
   if (staticMapElement) {
     // only build a map if there's a div#map to inject into
     mapboxgl.accessToken = staticMapElement.dataset.mapboxApiKey;
-    const markers = JSON.parse(staticMapElement.dataset.markers);
     const map = new mapboxgl.Map({
       container: "static-map",
       style: "mapbox://styles/mapbox/streets-v10",
-      interactive: false,
+      // interactive: false,
     });
 
+    const markers = JSON.parse(staticMapElement.dataset.markers);
     markers.forEach((marker) => {
       new mapboxgl.Marker().setLngLat([marker.lng, marker.lat]).addTo(map);
     });
+
+    fitMapToMarkers(map, markers);
   }
 };
 

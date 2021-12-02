@@ -1,9 +1,9 @@
 <% centers.each do |center| %>
-<div class="card m-2 rounded  overflow-hidden shadow-sm">
+<div class="card mb-2 rounded overflow-hidden shadow-sm">
 
       <div class="row no-gutters">
         <div class="col-md-5">
-          <%= cl_image_tag (center.photo.key), width: 300, style: "height: 100%", crop: :fill %>
+          <%= cl_image_tag (center.photo.key), width: 250, style: "height: 100%", crop: :fill %>
         </div>
         <div class="col-md-7">
           <div class="card-body">
