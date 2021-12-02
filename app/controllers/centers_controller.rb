@@ -1,6 +1,6 @@
 class CentersController < ApplicationController
-  before_action :authenticate_user!
-  after_action :verify_authorized, except: [:index, :show, :index_trips, :index_courses, :manage_all], unless: :skip_pundit?
+  before_action :authenticate_user!, except: [:index, :show]
+  after_action :verify_authorized, except: [:index, :show, :manage_all], unless: :skip_pundit?
 
   def index
     if params[:location].present?
@@ -15,12 +15,19 @@ class CentersController < ApplicationController
         info_window: render_to_string(partial: "info_window", locals: { center: center })
       }
     end
+    # binding.pry
+
   end
 
   def show
     @center = Center.find(params[:id])
     @courses = @center.listings.where(category: "course").uniq(&:name)
     @dives = @center.listings.where(category: "trip").uniq(&:name)
+    @markers =
+      [{
+        lat: @center.latitude,
+        lng: @center.longitude
+      }]
   end
 
   def manage_all

@@ -67,8 +67,11 @@ puts 'creating listings for the first dive center'
     duration: rand(1..72),
     dive_count: rand(1..4),
     max_divers: rand(2..8),
+    latitude: Faker::Address.latitude,
+    longitude: Faker::Address.longitude,
     center: Center.first
   )
+  
   puts "Now gonna attach the photo 📷"
   listing.photo.attach(io: file, filename: "#{listing.name}_photo.jpg", content_type: "image/jpg")
 end
