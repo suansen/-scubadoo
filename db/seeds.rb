@@ -5,13 +5,103 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+require 'nokogiri'
+require 'json'
 require "open-uri"
+
+
+def seed_ships
+  regions = ['asia', 'europe', 'australia', 'oceania']
+  ships_seed = []
+
+  regions.each do |region|
+    filepath = File.join(__dir__, "data/ships/#{region}.json")
+    serialized_ship_loc = File.read(filepath)
+
+    ship_locs = JSON.parse(serialized_ship_loc)
+    ship_folders = ship_locs['kml']['Document']['Folder']
+    ship_folders.each do |folder|
+
+      ship_hash = {
+        id: ships_seed.count + 1,
+        location: folder['name']['#cdata-section']
+      }
+      placemark = folder['Placemark']
+      if placemark.instance_of?(Hash)
+        log_lat = placemark['Point']['coordinates'].split(',')
+        unless log_lat.empty?
+          ship_hash[:name] = placemark['name']['#cdata-section']
+          ship_hash[:latitude] = log_lat[1]
+          ship_hash[:longitude] = log_lat[0]
+        end
+        ships_seed << ship_hash
+      else
+        placemark.each do |ship_info|
+          log_lat = ship_info['Point']['coordinates'].split(',')
+          unless log_lat.empty?
+            ship_hash[:name] = ship_info['name']['#cdata-section']
+            ship_hash[:latitude] = log_lat[1]
+            ship_hash[:longitude] = log_lat[0]
+          end
+          ships_seed << ship_hash
+        end
+      end
+    end
+  end
+  return ships_seed.uniq
+end
+
+def seed_dive_centers
+  regions = ['asia', 'europe', 'australia']
+  dive_centers_seed = []
+
+  regions.each do |region|
+    filepath = File.join(__dir__, "data/dive_center/#{region}.json")
+    serialized_dive_center = File.read(filepath)
+    dive_centers_json = JSON.parse(serialized_dive_center)
+
+    dive_centers = dive_centers_json['div']['div'][1]['div'][0]['div']
+
+    dive_centers.each do |dive_center|
+      if dive_center['div']['div'][0]['div']['div'].instance_of?(Hash)
+        img = dive_center['div']['div'][0]['div']['div']['div']['div']['div']['div']['img']['@src']
+      else
+        img = dive_center['div']['div'][0]['div']['div'][1]['div']['div'][0]['div']['div']['img']['@src']
+      end
+      name = dive_center['div']['div'][1]['div'][0]['p']['#text']
+      loc = dive_center['div']['div'][1]['div'][1]['div'][0]['div'][0]['p'][0]['#text']
+      if dive_center['div']['div'][1]['div'][1]['div'][0]['div'][1]['p'].instance_of?(Hash)
+        lag = dive_center['div']['div'][1]['div'][1]['div'][0]['div'][1]['p']['span']['#text']
+      else
+        lag = dive_center['div']['div'][1]['div'][1]['div'][0]['div'][1]['p'][0]['span']['#text']
+      end
+
+      dive_center_hash = {
+        id: dive_centers_seed.count + 1,
+        img: img,
+        name: name,
+        location: loc,
+        language: lag.split(',')
+      }
+      dive_centers_seed << dive_center_hash
+    end
+  end
+  return dive_centers_seed
+end
 
 puts 'Destroying everything... 💣'
 User.destroy_all
 puts 'Users destroyed!'
 
 puts 'initialize seed... 🌱'
+
+puts 'creating ships database from exsiting files...'
+ship_seed = seed_ships
+puts 'Ships database created!'
+
+puts 'creating ships database from exsiting files...'
+dive_center_seed = seed_dive_centers
+puts 'Ships database created!'
 
 puts "Creating standard user for testing 👩‍🦱"
 User.create!(
@@ -35,29 +125,31 @@ puts "Creating faker users ⏭"
 end
 puts "Faker users done! 🕵️‍♀️"
 
-puts 'creating dive centers for first user'
-5.times do
-  img_file = URI.open('https://source.unsplash.com/1920x1080/?beachside')
+puts 'creating dive centers for random users'
+dive_center_seed.each do |dive_center|
+  img_file = URI.open(dive_center[:img])
+  dive_center[:location] = dive_center[:location].split(",")
   center = Center.create!(
-    name: Faker::Company.name,
+    name: dive_center[:name],
     description: Faker::Company.catch_phrase,
-    address: Faker::Address.street_address,
+    address: dive_center[:location][0],
     phone_number: Faker::Company.australian_business_number,
     email: Faker::Internet.email,
-    location: Faker::Address.country,
-    user: User.first
+    location: dive_center[:location][1],
+    user: User.all.sample,
+    language: dive_center[:language]
   )
   puts "Attaching image to the center"
   center.photo.attach(io: img_file, filename: "#{center.name}_photo.jpg", content_type: "image/jpg")
 end
 
+puts 'creating listings for random dive center'
 CATEGORY = ["trip", "course"]
-puts 'creating listings for the first dive center'
-10.times do
+ship_seed.each do |ship|
   file = URI.open('https://source.unsplash.com/1920x1080/?scuba')
   listing = Listing.create!(
     category: CATEGORY.sample,
-    name: Faker::Lorem.sentence,
+    name: ship[:name],
     description: Faker::Lorem.paragraph,
     price: rand(100..250),
     date: Faker::Date.forward(days: 1),
@@ -65,12 +157,12 @@ puts 'creating listings for the first dive center'
     duration: rand(1..72),
     dive_count: rand(1..4),
     max_divers: rand(2..8),
-    latitude: Faker::Address.latitude,
-    longitude: Faker::Address.longitude,
-    center: Center.first
+    latitude: ship[:latitude],
+    longitude: ship[:longitude],
+    center: Center.all.sample
   )
-  
-  puts "Now gonna attach the photo 📷"
+
+  puts "Attaching the photo to trips 📷"
   listing.photo.attach(io: file, filename: "#{listing.name}_photo.jpg", content_type: "image/jpg")
 end
 
