@@ -118,6 +118,10 @@
       <h3>HOW TO GET THERE</h3>
       <p>Meet at the carpark for our staff and we will direct you to the dive boat</p>
       <p>Address: <%= @listing.center.address %></p>
+      <div id="static-map"
+        data-markers="<%= @center_markers.to_json %>"
+        data-mapbox-api-key="<%= ENV['MAPBOX_API_KEY'] %>">
+      </div>
     </div>
   </div>
   <div id="cancellation-policy-section" class="d-flex col-12 my-5">

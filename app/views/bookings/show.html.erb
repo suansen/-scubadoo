@@ -1,57 +1,70 @@
 <div class="container my-3">
-
-  <div>
   <h1>Your <%= @booking.listing.category %></h1>
     <div class="card">
       <div class="card-body">
-          <div class='d-flex'>
+        <div class="mb-3 d-flex flex-grow card-header align-items-center justify-content-between">
+          <div>
+            <h5><b>Booking ID</b>: #<%= @booking.id %></h5>
+          </div>
+          <div>
             <h5><span class="mb-2 badge badge-pill badge-<%= @booking.status == "booked" || @booking.status == "completed" ? "success" : "danger" %>"><%= (@booking.status).upcase %></span></h5>
             <%= link_to 'Export', export_booking_path, class: "mb-1 btn badge badge-pill badge-secondary", target: :_blank %>
           </div>
-          <div class="mb-3 d-flex align-items-center">
-            <h5 class="card-header flex-grow-1"><b>Booking ID</b>: #<%= @booking.id %></h5>
-          </div>
-        <h5 class="card-title"><b>Location: </b><%= @booking.listing.center.location %></h5>
-        <p><b>No. of diver(s)</b>: <%= @booking.no_of_divers %></p>
+        </div>
 
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <table class="table table-bordered">
-          <thead>
-            <tr>
-              <th scope="col">#</th>
-              <th scope="col">First</th>
-              <th scope="col">Last</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row">1</th>
-              <td>Mark</td>
-              <td>Otto</td>
-            </tr>
-            <tr>
-              <th scope="row">2</th>
-              <td>Jacob</td>
-              <td>Thornton</td>
-            </tr>
-          </tbody>
-        </table>
-  <h3><b>Listing info</b></h3>
-  <p>Listing: <%= @booking.listing.name %></p>
-  <p>Description: <%= @booking.listing.description %></p>
-  <p>Date: <%= @booking.listing.date %></p>
-  <p>Time: <%= @booking.listing.start_time.strftime("%l:%M %p") %></p>
-  <p>Duration per dive: <%= @booking.listing.duration %> minutes</p>
-  <p>No. of dives: <%= @booking.listing.dive_count %></p>
-  <p>Price: $<%= @booking.costs %></p>
-
-  <h3><b>Center info</b></h3>
-  <p>Center: <%= @booking.listing.center.name %></p>
-  <p>About the center: <%= @booking.listing.center.description %></p>
-  <p>Address: <%= @booking.listing.center.address %></p>
-  <p>Phone: <%= @booking.listing.center.phone_number %></p>
-  <p>Email: <%= @booking.listing.center.email %></p>
+<div class="container">
+  <div class="row">
+    <div class="col-7">
+      <div class="card">
+        <%= cl_image_tag (@booking.listing.photo.key), class: "card-img", crop: :fill %>
+        <div class="card-img-overlay text-white mx-2">
+          <h4 class="card-title" style="position: absolute; bottom: 30px"><strong>Your dive in <%= @booking.listing.center.location %></strong></h4>
+          <h5 class="card-title" style="position: absolute; bottom: 10px;">with <%= @booking.listing.center.name %></h5>
+        </div>
       </div>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title"><strong><%= @booking.listing.date.strftime("%e %b, %Y") %></strong></h5>
+          <h6 class="card-subtitle mb-2 text-muted"><%= @booking.listing.name %></h6>
+          <p class="card-text">Please arrive at the dive center by <%= @booking.listing.start_time.strftime("%l:%M %p") %>.</p>
+          <p class="card-text"><%= @booking.listing.description %></p>
+          <p class="card-text">No. of dives: <%= @booking.listing.dive_count %></p>
+          <p class="card-text">Duration per dive: <%= @booking.listing.duration %> minutes</p>
+          <p class="card-text">Price: $<%= @booking.costs %></p>
+          <p class="card-text"><b>No. of diver(s)</b>: <%= @booking.no_of_divers %></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-5">
+        <div class="card">
+          <div id="static-map"
+              data-markers="<%= @markers.to_json %>"
+              data-mapbox-api-key="<%= ENV['MAPBOX_API_KEY'] %>">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title"><strong><%= @booking.listing.center.name %></strong></h5>
+            <p class="card-text"><em><%= @booking.listing.center.description %></em></p>
+          </div>
+          <div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Address: <%= @booking.listing.center.address %></li>
+              <li class="list-group-item">Phone: <%= @booking.listing.center.phone_number %></li>
+              <li class="list-group-item">Email: <%= @booking.listing.center.email %></li>
+            </ul>
+            <div class="card-body text-center">
+              <%= link_to "Website", "#", class: "btn btn-primary rounded" %>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+  <div class="text-right mt-3">
+    <% if @booking.status == "booked" %>
+      <%= link_to "Cancel Booking", cancel_booking_path, method:"patch", data: {confirm: "Are you sure?"}, class:"btn btn-danger" %>
+    <% end %>
+  </div>
+</div>
+
     </div>
   </div>
   <% if @booking.status == "booked" %>

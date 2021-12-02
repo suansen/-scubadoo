@@ -20,6 +20,10 @@ class ListingsController < ApplicationController
 
   def show
     @booking = Booking.new
+    @center_markers = [{  lat: @listing.center.latitude,
+                          lng: @listing.center.longitude }]
+    @listing_markers = [{ lat: @listing.latitude,
+                          lng: @listing.longitude }]
   end
 
   private
