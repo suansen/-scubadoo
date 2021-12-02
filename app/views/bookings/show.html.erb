@@ -8,6 +8,7 @@
           </div>
           <div>
             <h5><span class="mb-2 badge badge-pill badge-<%= @booking.status == "booked" || @booking.status == "completed" ? "success" : "danger" %>"><%= (@booking.status).upcase %></span></h5>
+            <%= link_to 'Export', export_booking_path, class: "mb-1 btn badge badge-pill badge-secondary", target: :_blank %>
           </div>
         </div>
 
@@ -66,5 +67,7 @@
 
     </div>
   </div>
-
+  <% if @booking.status == "booked" %>
+    <%= link_to "Cancel Booking", cancel_booking_path, method:"patch", data: {confirm: "Are you sure?"}, class:"btn btn-danger" %>
+  <% end %>
 </div>

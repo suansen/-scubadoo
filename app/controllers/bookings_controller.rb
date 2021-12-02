@@ -1,5 +1,5 @@
 class BookingsController < ApplicationController
-  before_action :set_booking, only: [:show, :edit, :update, :destroy, :cancel]
+  before_action :set_booking, only: [:show, :edit, :update, :destroy, :cancel, :export]
   before_action :authenticate_user!
   # only include in relevant controllers
   after_action :verify_authorized, except: :index, unless: :skip_pundit?
@@ -41,6 +41,18 @@ class BookingsController < ApplicationController
       end
     end
     redirect_to @booking
+  end
+
+  def export
+    if authorize(@booking)
+      respond_to do |format|
+        format.html
+        format.pdf do
+          render pdf: "booking", template: "bookings/show.html.erb"   # Excluding ".pdf" extension.
+        end
+      end
+    end
+    #redirect_to @booking
   end
 
   private
