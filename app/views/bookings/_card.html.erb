@@ -1,7 +1,11 @@
 <div class="container d-flex flex-row mb-3 justify-content-start">
   <% bookings.each do |booking| %>
       <div class="card rounded overflow-hidden shadow-sm" style="width: 18rem;">
-        <%= cl_image_tag (booking.listing.photo.key), class: "card-img-top", crop: :fill %>
+        <% if booking.status == "cancelled" %>
+          <%= cl_image_tag (booking.listing.photo.key), class: "card-img-top", style: "filter: grayscale(1)", crop: :fill %>
+        <% else %>
+          <%= cl_image_tag (booking.listing.photo.key), class: "card-img-top", crop: :fill %>
+        <% end %>
         <div class="card-body">
           <h5 class="card-title"><%= booking.listing.name %></h5>
           <p class="card-text"><%= booking.listing.dive_count %> dives for <%= booking.no_of_divers %> people</p>

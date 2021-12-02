@@ -6,6 +6,9 @@
   <div class="container pr-auto">
     <h2>Past</h2>
       <%= render "card", bookings: @bookings.where(status: "completed") %>
+  </div>
+  <div class="container pr-auto">
+    <h2>Cancelled</h2>
       <%= render "card", bookings: @bookings.where(status: "cancelled") %>
   </div>
 </div>
