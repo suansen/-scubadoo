@@ -6,9 +6,10 @@
   <section>
     <div class="d-flex mb-3" style="gap:20px;">
       <div><a href="#center-description">Description</a></div>
-      <div><a href="#center-diving">Diving</a></div>
-      <div><a href="#center-courses">Courses</a></div>
-      <div><a href="#center-schedule">Schedule</a></div>
+      <% if @dives.count> 0 %><div><a href="#center-diving">Diving</a></div><% end %>
+      <% if @courses.count > 0 %><div><a href="#center-courses">Courses</a></div><% end %>
+      <% if @center.listings.count > 0 %><div><a href="#center-schedule">Schedule</a></div><% end %>
+      <div><a href="#center-location">Map</a></div>
     </div>
   </section>
 
@@ -16,7 +17,7 @@
     <%= cl_image_tag (@center.photo.key), class: "img-fluid img-banner-custom", crop: :fill %>
   </section>
 
-  <section id="center-description" class="mb-5 border-bottom">
+  <section id="center-description" class="mb-5 border-bottom pb-5">
     <div class="d-flex">
       <h2 class="h3  pr-3" style="width:35%; ">DESCRIPTION</h2>
       <div class="px-3 d-flex flex-column justify-content-between">
@@ -26,14 +27,6 @@
           <p><%= @center.address %></p>
         </div>
       </div>
-    </div>
-  </section>
-
-  <section id="center-location" class="mb-5 border-bottom pb-5">
-    <h2 class="h3  pr-3">DIVE CENTER LOCATION</h2>
-    <div id="static-map"
-      data-markers="<%= @markers.to_json %>"
-      data-mapbox-api-key="<%= ENV['MAPBOX_API_KEY'] %>">
     </div>
   </section>
 
@@ -52,9 +45,17 @@
   <% end %>
 
   <% if @center.listings.count > 0 %>
-    <section id="center-schedule" class="mb-5 border-bottom pb-5" style="min-height:200px;">
+    <section id="center-schedule" class="mb-5 border-bottom pb-5 " style="min-height:200px;">
       <h2 class="h3">SCHEDULE</h2>
       <%= render "schedule-card" ,listings: @center.listings, center: @center %>
     </section>
   <% end %>
+
+  <section id="center-location" class="mb-5 border-bottom pb-5">
+    <h2 class="h3  pr-3">DIVE CENTER LOCATION</h2>
+    <div id="static-map"
+      data-markers="<%= @markers.to_json %>"
+      data-mapbox-api-key="<%= ENV['MAPBOX_API_KEY'] %>">
+    </div>
+  </section>
 </div>

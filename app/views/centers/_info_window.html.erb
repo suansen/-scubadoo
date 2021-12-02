@@ -1,2 +1,12 @@
-<h2><%= center.name %></h2>
-<p><%= center.address %></p>
+<div class="d-flex flex-column">
+  <div class="info-window">
+    <%= cl_image_tag (center.photo.key), class: "img-fluid mb-2", crop: :fill %>
+  </div>
+  <div class="pt-2 mx-2">
+    <div class="h4 mb-0"><%= center.name %></div>
+    <div><%= center.location %> | <%= center.address %></div>
+  </div>
+  <div class="px-5 mt-3">
+    <%= link_to "View details", center_path(center), class:"btn btn-success btn-sm btn-block ", style:"text-decoration:none; color:white;"%>
+  </div>
+</div>
