@@ -1,6 +1,7 @@
 <section class="jumbotron jumbotron-fluid home-page-banner position-relative mb-5">
-    <div class="container text-white text-center border p-5">
+    <div class="container text-white text-center border p-5 d-flex flex-column align-items-center justify-content-center">
       <h1 class="display-5 text-shadow mb-2"><strong>Book your diving worldwide</strong></h1>
+      <div class="pt-4 rounded-pill col-8" style="background: #003059">
       <div class="d-flex justify-content-center align-items-center">
         <%= form_tag centers_path, method: :get do %>
           <div class="d-flex" style="width: 40vw;">
@@ -16,10 +17,8 @@
       </div>
       <div class="shop-bar shadow">
         <%= link_to centers_path, class: "shop py-4" do%>
-          <%# <div> %>
             <i class="fas fa-house-user"></i>
             <div>Centers</div>
-          <%# </div> %>
         <% end %>
         <%= link_to trips_path, class: "shop" do%>
           <i class="fas fa-ship"></i>
@@ -32,6 +31,7 @@
       </div>
     </div>
 </section>
+
 <div class="container" style="margin-top:6rem;">
   <section>
     <h2><strong>Top diving destinations</strong></h2>
@@ -39,19 +39,19 @@
     <% 2.times do %>
       <div class="container d-flex justify-content-evenly mb-3">
         <div class="card text-white mx-2">
-          <img src="https://images.unsplash.com/photo-1531803998246-ed33d49b1b76?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=1080&ixid=MnwxfDB8MXxyYW5kb218MHx8cGhpbGlwcGluZXMgZGl2aW5nfHx8fHx8MTYzODM0MzExMg&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1920" class="card-img" alt="Mexico">
+          <%= image_tag "https://images.unsplash.com/photo-1531803998246-ed33d49b1b76?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=1080&ixid=MnwxfDB8MXxyYW5kb218MHx8cGhpbGlwcGluZXMgZGl2aW5nfHx8fHx8MTYzODM0MzExMg&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1920", class: "card-img", alt: "Mexico" %>
           <div class="card-img-overlay">
             <h4 class="card-title" style="position: absolute"><strong>Mexico</strong></h4>
           </div>
         </div>
         <div class="card text-white mx-2">
-          <img src="https://images.unsplash.com/photo-1563203660-ae1ea5442356?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=1080&ixid=MnwxfDB8MXxyYW5kb218MHx8Y291bnRyeSBiZWFjaHx8fHx8fDE2MzgzNDI4ODY&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1920" class="card-img" alt="Indonesia">
+         <%= image_tag "https://images.unsplash.com/photo-1563203660-ae1ea5442356?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=1080&ixid=MnwxfDB8MXxyYW5kb218MHx8Y291bnRyeSBiZWFjaHx8fHx8fDE2MzgzNDI4ODY&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1920", class: "card-img", alt: "Indonesia" %>
           <div class="card-img-overlay">
             <h4 class="card-title" style="position: absolute"><strong>Indonesia</strong></h4>
           </div>
         </div>
         <div class="card text-white mx-2">
-          <img src="https://images.unsplash.com/photo-1541697030857-839ac1dfbc56?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=1080&ixid=MnwxfDB8MXxyYW5kb218MHx8Y291bnRyeSBiZWFjaHx8fHx8fDE2MzgzNDMwMTk&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1920" class="card-img" alt="Egypt">
+          <%= image_tag "https://images.unsplash.com/photo-1541697030857-839ac1dfbc56?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=1080&ixid=MnwxfDB8MXxyYW5kb218MHx8Y291bnRyeSBiZWFjaHx8fHx8fDE2MzgzNDMwMTk&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1920", class: "card-img", alt: "Egypt" %>
           <div class="card-img-overlay">
             <h4 class="card-title" style="position: absolute"><strong>Egypt</strong></h4>
           </div>
@@ -64,9 +64,5 @@
     <h2><strong>Not sure where to go?</strong></h2>
     <h4>Get inspiration from one of our travel themes.</h4>
     <%= render "carousel" %>
-  </section>
-
-  <section>
-    <h2><strong>Contact us</strong></h2>
   </section>
 </div>
