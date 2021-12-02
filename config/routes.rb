@@ -1,8 +1,14 @@
 Rails.application.routes.draw do
   devise_for :users
+
+  resources :centers, only: [:new, :create, :edit, :update, :destroy]
+
   root to: 'pages#home'
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
-  resources :centers
+
+  get "/centers/manage", to: "centers#manage_all", as: "manage_centers"
+
+  resources :centers, only: [:index, :show]
 
   resources :listings, only: [:index, :show] do
     resources :bookings, only: [:create]
