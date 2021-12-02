@@ -11,7 +11,8 @@ class CentersController < ApplicationController
     @markers = @centers.geocoded.map do |center|
       {
         lat: center.latitude,
-        lng: center.longitude
+        lng: center.longitude,
+        info_window: render_to_string(partial: "info_window", locals: { center: center })
       }
     end
   end

@@ -45,7 +45,9 @@ puts 'creating dive centers for first user'
     phone_number: Faker::Company.australian_business_number,
     email: Faker::Internet.email,
     location: Faker::Address.country,
-    user: User.first
+    user: User.first,
+    latitude: Faker::Address.latitude,
+    longitude: Faker::Address.longitude
   )
   puts "Attaching image to the center"
   center.photo.attach(io: img_file, filename: "#{center.name}_photo.jpg", content_type: "image/jpg")
