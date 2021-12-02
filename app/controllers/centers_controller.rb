@@ -1,6 +1,6 @@
 class CentersController < ApplicationController
-  before_action :authenticate_user!
-  after_action :verify_authorized, except: [:index, :show, :index_trips, :index_courses, :manage_all], unless: :skip_pundit?
+  before_action :authenticate_user!, except: [:index, :show]
+  after_action :verify_authorized, except: [:index, :show, :manage_all], unless: :skip_pundit?
 
   def index
     if params[:location].present?
