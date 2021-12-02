@@ -1,0 +1,15 @@
+<div class="d-flex flex-column">
+  <div class="info-window">
+    <%= cl_image_tag (list.photo.key), class: "img-fluid mb-2", crop: :fill %>
+  </div>
+  <div class="pt-2 mx-2">
+    <div class="h4 mb-0"><%= list.name %></div>
+
+      <div><i class="fas fa-house-user"></i> <%= list.center.name %></div>
+      <div><i class="fas fa-map-marker-alt"></i> <%= list.center.location %></div>
+
+  </div>
+  <div class="px-5 mt-3">
+    <%= link_to "View details", listing_path(list), class:"btn btn-success btn-sm btn-block ", style:"text-decoration:none; color:white;"%>
+  </div>
+</div>

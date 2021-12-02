@@ -9,6 +9,12 @@ class ListingsController < ApplicationController
     else
       @trips = Listing.by_trips
     end
+
+    @markers = []
+    @trips.each do |list|
+      @markers << { lat: list.latitude, lng: list.longitude, info_window: render_to_string(partial: "info_window", locals: { list: list })
+      }
+    end
   end
 
   def index_courses
@@ -17,6 +23,12 @@ class ListingsController < ApplicationController
     else
       @courses = Listing.by_courses
     end
+    @markers = []
+    @courses.each do |list|
+      @markers << { lat: list.latitude, lng: list.longitude, info_window: render_to_string(partial: "info_window", locals: { list: list })
+      }
+    end
+
   end
 
   def show

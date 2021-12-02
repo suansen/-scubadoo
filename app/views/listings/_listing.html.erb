@@ -1,24 +1,22 @@
-<div class="card m-2 rounded  overflow-hidden shadow-sm">
-    <%= link_to listing_path(listing), style:"text-decoration:none; color:black;" do%>
-      <div class="row no-gutters">
-        <div class="col-md-5">
-          <%= cl_image_tag (listing.photo.key), width: 300, style: "height: 100%; object-fit:cover;", crop: :fill %>
-        </div>
-        <div class="col-md-7">
-          <div class="card-body">
-            <h5 class="card-title"><%= listing.name.upcase %></h5>
-            <div class="d-flex justify-content-between mb-2">
+
+
+
+
+<div class="card p-3 border-none overflow-hidden">
+  <div class="row no-gutters ml-3">
+    <div class="col-md-5" style="max-height:220px;border-radius:15px; overflow:hidden;">
+      <%= cl_image_tag (listing.photo.key), style: "height: 100%; object-fit:contain;", crop: :fill %>
+    </div>
+    <div class="col-md-7">
+      <div class="card-body">
+        <h5 class="card-title"><%= listing.name.upcase %></h5>
+        <div class="d-flex justify-content-between mb-2">
               <div><i class="fas fa-house-user"></i> <%= listing.center.name %></div>
               <div><i class="fas fa-map-marker-alt"></i> <%= listing.center.location %></div>
             </div>
-
-            <p class="card-text"><%= listing.description %></p>
-            <div class = "d-flex justify-content-between">
-              <p class="card-text font-weight-bold">Next Available: <%= listing.date %></p>
-              <p class="card-text font-weight-bold">Price: <%= listing.price %></p>
-            </div>
-          </div>
-        </div>
+        <p class="card-text"><%= listing.description %></p>
+        <div><%= link_to "View details", listing_path(listing), class:"btn btn-success ", style:"text-decoration:none; color:white;"%></div>
       </div>
-    <% end %>
+    </div>
   </div>
+</div>
