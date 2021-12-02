@@ -31,16 +31,18 @@ const initMapbox = () => {
   if (staticMapElement) {
     // only build a map if there's a div#map to inject into
     mapboxgl.accessToken = staticMapElement.dataset.mapboxApiKey;
-    const markers = JSON.parse(staticMapElement.dataset.markers);
     const map = new mapboxgl.Map({
       container: "static-map",
       style: "mapbox://styles/mapbox/streets-v10",
-      interactive: false,
+      // interactive: false,
     });
 
+    const markers = JSON.parse(staticMapElement.dataset.markers);
     markers.forEach((marker) => {
       new mapboxgl.Marker().setLngLat([marker.lng, marker.lat]).addTo(map);
     });
+
+    fitMapToMarkers(map, markers);
   }
 };
 
