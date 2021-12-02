@@ -1,14 +1,14 @@
 <div class="container my-3">
 
   <div>
-  <h1>Your upcoming <%= @booking.listing.category %></h1>
+  <h1>Your <%= @booking.listing.category %></h1>
     <div class="card">
       <div class="card-body">
           <h5><span class="mb-2 badge badge-pill badge-<%= @booking.status == "booked" || @booking.status == "completed" ? "success" : "danger" %>"><%= (@booking.status).upcase %></span></h5>
           <div class="mb-3 d-flex align-items-center">
             <h5 class="card-header flex-grow-1"><b>Booking ID</b>: #<%= @booking.id %></h5>
             <% if @booking.status == "booked" %>
-              <%= link_to "Cancel Booking", cancel_booking_path, method:"patch", class:"btn btn-danger" %>
+              <%= link_to "Cancel Booking", cancel_booking_path, method:"patch", data: {confirm: "Are you sure?"}, class:"btn btn-danger" %>
             <% end %>
           </div>
         <h5 class="card-title"><b>Location: </b><%= @booking.listing.center.location %></h5>
@@ -54,8 +54,5 @@
       </div>
     </div>
   </div>
-
-
-
 
 </div>
