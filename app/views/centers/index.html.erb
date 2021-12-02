@@ -4,8 +4,7 @@
   <div class="col-md-4"><%= render "shared/sidebar", centers: @centers %></div>
   <div class="col-md-8"><%= render "card", centers: @centers %></div>
 </div>
-  <div id="map"
-     style="width: 100%; height: 600px;"
-     data-markers="<%= @markers.to_json %>"
-     data-mapbox-api-key="<%= ENV['MAPBOX_API_KEY'] %>">
-  </div>
+<div id="static-map"
+  data-markers="<%= @markers.to_json %>"
+  data-mapbox-api-key="<%= ENV['MAPBOX_API_KEY'] %>">
+</div>

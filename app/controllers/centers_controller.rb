@@ -14,12 +14,19 @@ class CentersController < ApplicationController
         lng: center.longitude
       }
     end
+    # binding.pry
+
   end
 
   def show
     @center = Center.find(params[:id])
     @courses = @center.listings.where(category: "course").uniq(&:name)
     @dives = @center.listings.where(category: "trip").uniq(&:name)
+    @markers =
+      [{
+        lat: @center.latitude,
+        lng: @center.longitude
+      }]
   end
 
   def manage_all
