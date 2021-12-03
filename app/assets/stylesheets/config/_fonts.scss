@@ -1,10 +1,9 @@
 // Import Google fonts
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700|Work+Sans:400,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Khula:wght@400;600;700&display=swap');
 
 // Define fonts for body and headers
-$body-font: "Khula", "Work Sans", "Helvetica", "sans-serif";
-$headers-font: "Khula", "Nunito", "Helvetica", "sans-serif";
+$body-font: "Arial", "Work Sans", "Helvetica", "sans-serif";
+$headers-font: "Gilroy-Bold", "Nunito", "Helvetica", "sans-serif";
 
 // To use a font file (.woff) uncomment following lines
 // @font-face {
@@ -15,3 +14,17 @@ $headers-font: "Khula", "Nunito", "Helvetica", "sans-serif";
 //        font-url('FontFile.ttf') format('truetype')
 // }
 // $my-font: "Font Name";
+
+@font-face {
+  font-family: 'Gilroy-Bold';
+  src: url('Gilroy-Bold.woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url("Gilroy-Medium.woff");
+  font-weight: normal;
+  font-style: normal;
+}
