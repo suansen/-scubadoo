@@ -82,7 +82,7 @@
       <h2 id="price" class="text-uppercase fw-bolder"><i class="fas fa-search-dollar"></i> Pricing</h2>
     </div>
     <div class="col-8">
-      <%= simple_form_for [@listing, @booking] do |f| %>
+      <%= simple_form_for [@listing, @booking], remote: true do |f| %>
         <%= f.input :no_of_divers, label: 'Number of Divers: ', error: 'At least 1 diver required', input_html: {min: 1} %>
         <div class="d-flex justify-content-end">
           <%= f.button :submit, value:"Book now", class:"btn btn-danger" %>
