@@ -10,13 +10,16 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <%= link_to "Centers", centers_path, class: "nav-link" %>
+            <%= link_to "Centers", centers_path, 
+              class: class_names('nav-link', { active: current_page?(centers_path) }) %>
           </li>
           <li class="nav-item">
-            <%= link_to "Trips", trips_path, class: "nav-link" %>
+            <%= link_to "Trips", trips_path, 
+              class: class_names('nav-link', { active: current_page?(trips_path) }) %>
           </li>
           <li class="nav-item">
-            <%= link_to "Courses", courses_path, class: "nav-link" %>
+            <%= link_to "Courses", courses_path, 
+              class: class_names('nav-link', { active: current_page?(courses_path) }) %>
           </li>
         </ul>
         <% if user_signed_in? %>

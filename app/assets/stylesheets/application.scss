@@ -8,7 +8,7 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 @import "@mapbox/mapbox-gl-geocoder/dist/mapbox-gl-geocoder";
-
+@import 'node_modules/select2/dist/css/select2.css';
 
 // Your CSS partials
 @import "components/index";
@@ -37,4 +37,12 @@ h4 {
 
 .mapboxgl-ctrl-geocoder {
   min-width: 100%;
+}
+
+#navbarSupportedContent .active {
+  color:            #FFFFFF;
+  background-color: #4f81bd;
+  border-radius: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
