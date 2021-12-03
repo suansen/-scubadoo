@@ -1,5 +1,5 @@
-<div class="container-fluid col-8 m-auto bg-body">
-  <div id="title-and-navbar-section"class="mt-5">
+<div class="container-fluid col-8 bg-body">
+  <div id="title-and-navbar-section" class="mt-5">
     <div class="d-flex flex-column">
       <div class="d-flex align-items-center">
         <p class="m-2"><i class="fas fa-chevron-left"></i></p>
@@ -48,9 +48,9 @@
       </div>
       <div class="card rounded-3 position-absolute text-right shadow bg-white rounded" style="width: 18rem; top: -90px; right: 0px">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
+          <h5 class="card-title">Price Per Diver</h5>
           <p class="card-text fw-bold">SGD <%= @listing.price %>.00</p>
-          <a href="#price" class="btn btn-danger btn-block font-weight-bold">Book now</a>
+          <a href="#price-section" class="btn btn-danger btn-block font-weight-bold">Book now</a>
         </div>
       </div>
     </div>
@@ -60,19 +60,19 @@
       <h2 id="key-info" class="text-uppercase fw-bolder"><i class="fas fa-info-circle"></i> Key info</h2>
     </div>
     <div class="d-flex col-8">
-      <ul id="group-trip-info" class="list-unstyled pr-5">
-        <li class='m-2'><i class="far fa-clock"></i><%= @listing.start_time %></li>
-        <li class='m-2'><i class="far fa-hourglass"></i><%= @listing.duration %> hours (approx.) </li>
-        <li class='m-2'><i class="fas fa-street-view"></i> Incl. <%= @listing.dive_count %> dives</li>
-        <li class='m-2'><i class="far fa-flag"></i> Dive site(s) determined on the dive day</li>
-        <li class='m-2'><i class="far fa-comment-dots"></i> English</li>
-        <li class='m-2'><i class="fas fa-users"></i> Max. <%= @listing.max_divers %> divers / guide</li>
-        <li class='m-2'><i class="fas fa-map-marked-alt"></i>Meet at given location</li>
+      <ul id="group-trip-info" class="list-unstyled mr-3">
+        <li class='m-2 '><i class="far fa-clock mr-2"></i><%= @listing.start_time %></li>
+        <li class='m-2'><i class="far fa-hourglass mr-2"></i><%= @listing.duration %> hours (approx.)</li>
+        <li class='m-2'><i class="fas fa-street-view mr-2"></i>Incl. <%= @listing.dive_count %> dives</li>
+        <li class='m-2'><i class="far fa-flag mr-2"></i>Dive site(s) determined on the dive day</li>
+        <li class='m-2'><i class="far fa-comment-dots mr-2"></i>English</li>
+        <li class='m-2'><i class="fas fa-users mr-2"></i>Max. <%= @listing.max_divers %> divers / guide</li>
+        <li class='m-2'><i class="fas fa-map-marked-alt mr-2"></i>Meet at given location</li>
       </ul>
     <div>
-      <ul id="group-trip-info-board" class="border border-1 shadow pl-3 pr-5 list-unstyled">
-        <li class='m-2'><i class="fas fa-exchange-alt"></i> Free Cancellation - 7days notice</li>
-        <li class='m-2'><i class="fas fa-ticket-alt"></i> Show mobile or printed voucher</li>
+      <ul id="group-trip-info-board" class="border border-1 shadow list-unstyled">
+        <li class='m-2'><i class="fas fa-exchange-alt"></i> Free Cancellation - 7days notice </li>
+        <li class='m-2'><i class="fas fa-ticket-alt"></i> Show mobile or printed voucher </li>
       </ul>
     </div>
     </div>
@@ -82,10 +82,16 @@
       <h2 id="price" class="text-uppercase fw-bolder"><i class="fas fa-search-dollar"></i> Pricing</h2>
     </div>
     <div class="col-8">
-      <%= simple_form_for [@listing, @booking] do |f| %>
-        <%= f.input :no_of_divers, label: 'Number of Divers: ', error: 'At least 1 diver required', input_html: {min: 1} %>
-        <div class="d-flex justify-content-end">
-          <%= f.button :submit, value:"Book now", class:"btn btn-danger" %>
+      <%= form_tag(new_listing_booking_path(@listing), method: :get) do %>
+        <div class="text-center my-3">
+          <h4>Price Per Diver: SGD <%= @listing.price %></h4>
+        </div>
+        <div class="d-inline form-group">
+        <b><%= label_tag("no_of_divers", "Number of Divers") %></b>
+        <%= number_field_tag "no_of_divers", nil, min: 1, class: "form-control", required:true %>
+        </div>
+        <div class="d-flex flex-row-reverse my-3">
+        <%= submit_tag "Book now", class:"btn btn-danger" %>
         </div>
       <% end %>
     </div>

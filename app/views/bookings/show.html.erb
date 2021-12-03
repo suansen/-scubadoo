@@ -64,10 +64,6 @@
     <% end %>
   </div>
 </div>
-
     </div>
   </div>
-  <% if @booking.status == "booked" %>
-    <%= link_to "Cancel Booking", cancel_booking_path, method:"patch", data: {confirm: "Are you sure?"}, class:"btn btn-danger" %>
-  <% end %>
 </div>

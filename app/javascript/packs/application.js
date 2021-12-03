@@ -9,6 +9,7 @@ import * as ActiveStorage from "@rails/activestorage";
 import "channels";
 import { initMapbox } from "../plugins/init_mapbox";
 import { initAutocomplete } from "../plugins/init_autocomplete";
+import { checkoutValidation } from "../plugins/checkout_validation";
 
 Rails.start();
 Turbolinks.start();
@@ -30,4 +31,5 @@ document.addEventListener("turbolinks:load", () => {
   // initSelect2();
   initMapbox();
   // initAutocomplete();
+  checkoutValidation();
 });
