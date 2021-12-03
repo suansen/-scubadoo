@@ -33,13 +33,7 @@ class BookingsController < ApplicationController
     authorize @booking
     # condition to check if export button was pressed
     if params[:format].present?
-      respond_to do |format|
-        format.html
-        format.pdf do
-          # Excluding ".pdf" extension.
-          render pdf: "Booking id: #{@booking.id}", template: "bookings/booking.html.erb"
-        end
-      end
+      export_pdf(@booking)
     else
       @markers = [{
         lat: @booking.listing.center.latitude,
@@ -67,5 +61,16 @@ class BookingsController < ApplicationController
 
   def set_booking
     @booking = Booking.find(params[:id])
+  end
+
+  def export_pdf(booking)
+    pdf = WickedPdf.new.pdf_from_string(
+      render_to_string(
+        template: 'bookings/booking.html.erb',
+        layout: 'layouts/pdf.html.erb'))
+    send_data(pdf,
+      filename: "#{booking.listing.name}_#{booking.listing.date}.pdf",
+      type: 'application/pdf',
+      disposition: 'attachment')
   end
 end
