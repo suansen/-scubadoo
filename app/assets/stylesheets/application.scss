@@ -27,3 +27,14 @@ html {
 h4 {
   font-family: "Arial";
 }
+
+.geocoder {
+  width: 70%;
+  left: 50%;
+  top: 10px;
+  margin-bottom: 20px;
+}
+
+.mapboxgl-ctrl-geocoder {
+  min-width: 100%;
+}
