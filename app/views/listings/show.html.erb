@@ -87,11 +87,11 @@
           <h4>Price Per Diver: SGD <%= @listing.price %></h4>
         </div>
         <div class="d-inline form-group">
-        <b><%= label_tag("no_of_divers", "Number of Divers") %></b>
-        <%= number_field_tag "no_of_divers", nil, min: 1, class: "form-control", required:true %>
-        </div>
-        <div class="d-flex flex-row-reverse my-3">
-        <%= submit_tag "Book now", class:"btn btn-danger" %>
+          <b><%= label_tag("no_of_divers", "Number of Divers") %></b>
+          <%= number_field_tag "no_of_divers", nil, min: 1, class: "form-control", required:true %>
+         </div>
+         <div class="d-flex flex-row-reverse my-3">
+          <%= submit_tag "Book now", class:"btn btn-danger" %>
         </div>
       <% end %>
     </div>
