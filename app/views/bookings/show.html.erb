@@ -8,7 +8,7 @@
           </div>
           <div>
             <h5><span class="mb-2 badge badge-pill badge-<%= @booking.status == "booked" || @booking.status == "completed" ? "success" : "danger" %>"><%= (@booking.status).upcase %></span></h5>
-            <%= link_to 'Export', export_booking_path, class: "mb-1 btn badge badge-pill badge-secondary", target: :_blank %>
+            <%= link_to 'Export', booking_path(@booking, format: :pdf)  , class: "mb-1 btn badge badge-pill badge-secondary", target: :_blank %>
           </div>
         </div>
 
