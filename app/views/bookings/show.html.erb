@@ -6,9 +6,9 @@
           <div>
             <h5><b>Booking ID</b>: #<%= @booking.id %></h5>
           </div>
-          <div>
+          <div class="d-flex flex-column justify-content-end">
             <h5><span class="mb-2 badge badge-pill badge-<%= @booking.status == "booked" || @booking.status == "completed" ? "success" : "danger" %>"><%= (@booking.status).upcase %></span></h5>
-            <%= link_to 'Export', export_booking_path, class: "mb-1 btn badge badge-pill badge-secondary", target: :_blank %>
+            <%= link_to 'Export', booking_path(@booking, format: :pdf)  , class: "mb-1 btn badge badge-pill badge-secondary", target: :_blank %>
           </div>
         </div>
 

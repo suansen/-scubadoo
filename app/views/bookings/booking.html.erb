@@ -1,0 +1,41 @@
+<div class="col-lg-8 mx-auto p-3 py-md-5">
+  <header class="d-flex align-items-center pb-3 mb-5 border-bottom">
+    <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
+      <span style="font-size: 40px;">Your Booking for a <%= @booking.listing.category %></span>
+    </a>
+  </header>
+
+  <main class="border p-2">
+    <div class="border-bottom">
+      <p style="font-size: 32px;"><%= @booking.listing.name %></p>
+      <p style="font-size: 28px;">Booking id: <%= @booking.id %></p>
+    </div>
+
+    <div style="display: flex; ">
+      <div class="border-bottom">
+        <p style="font-size: 28px"><strong><%= @booking.listing.date.strftime("%e %b, %Y") %></strong></p>
+        <p class="text-muted"><%= @booking.listing.name %></p>
+        <ul class="icon-list">
+          <li style="font-size: 18px">Please arrive at the dive center by <%= @booking.listing.start_time.strftime("%l:%M %p") %></li>
+          <li style="font-size: 18px"><%= @booking.listing.description %></li>
+          <li style="font-size: 18px">No. of dives: <%= @booking.listing.dive_count %></li>
+          <li style="font-size: 18px">Duration per dive: <%= @booking.listing.duration %> minutes</li>
+          <li style="font-size: 18px">Price: $<%= @booking.costs %></li>
+          <li style="font-size: 18px"><b>No. of diver(s)</b>: <%= @booking.no_of_divers %></li>
+        </ul>
+      </div>
+      <div style="">
+        <p style="font-size: 28px"><strong><%= @booking.listing.center.name %></strong></p>
+        <p class="text-muted"><em><%= @booking.listing.center.description %></em></p>
+        <ul class="icon-list">
+          <li style="font-size: 18px">Address: <%= @booking.listing.center.address %></li>
+          <li style="font-size: 18px">Phone: <%= @booking.listing.center.phone_number %></li>
+          <li style="font-size: 18px">Email: <%= @booking.listing.center.email %></li>
+        </ul>
+      </div>
+    </div>
+  </main>
+  <footer class="pt-5 my-5 text-muted border-top">
+    PDF generated at <%= Time.zone.now %> | Created by scubadoo · © 2021
+  </footer>
+</div>

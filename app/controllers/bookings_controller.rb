@@ -31,12 +31,16 @@ class BookingsController < ApplicationController
 
   def show
     authorize @booking
-    @markers =
-      [{
+    # condition to check if export button was pressed
+    if params[:format].present?
+      export_pdf(@booking)
+    else
+      @markers = [{
         lat: @booking.listing.center.latitude,
         lng: @booking.listing.center.longitude,
         info_window: render_to_string(partial: "centers/info_window", locals: { center: @booking.listing.center })
       }]
+    end
   end
 
   def cancel
@@ -49,18 +53,6 @@ class BookingsController < ApplicationController
     redirect_to @booking
   end
 
-  def export
-    if authorize(@booking)
-      respond_to do |format|
-        format.html
-        format.pdf do
-          render pdf: "booking", template: "bookings/show.html.erb"   # Excluding ".pdf" extension.
-        end
-      end
-    end
-    #redirect_to @booking
-  end
-
   private
 
   def booking_params
@@ -69,5 +61,16 @@ class BookingsController < ApplicationController
 
   def set_booking
     @booking = Booking.find(params[:id])
+  end
+
+  def export_pdf(booking)
+    pdf = WickedPdf.new.pdf_from_string(
+      render_to_string(
+        template: 'bookings/booking.html.erb',
+        layout: 'layouts/pdf.html.erb'))
+    send_data(pdf,
+      filename: "#{booking.listing.name}_#{booking.listing.date}.pdf",
+      type: 'application/pdf',
+      disposition: 'attachment')
   end
 end

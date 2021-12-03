@@ -12,13 +12,15 @@
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload', defer: true %>
   </head>
 
-  <body>
-  <%= render "shared/navbar" %>
-    <div class="d-flex flex-column justify-content-between">
-      <div class="fill-div">
-        <%= yield %>
+  <body onload='number_pages'>
+  <div id="content">
+    <%= render "shared/navbar" %>
+      <div class="d-flex flex-column justify-content-between">
+        <div class="fill-div">
+          <%= yield %>
+        </div>
+        <%= render "shared/footer" %>
       </div>
-      <%= render "shared/footer" %>
     </div>
   </body>
 
