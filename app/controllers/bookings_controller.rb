@@ -31,12 +31,22 @@ class BookingsController < ApplicationController
 
   def show
     authorize @booking
-    @markers =
-      [{
+    # condition to check if export button was pressed
+    if params[:format].present?
+      respond_to do |format|
+        format.html
+        format.pdf do
+          # Excluding ".pdf" extension.
+          render pdf: "Booking id: #{@booking.id}", template: "bookings/booking.html.erb"
+        end
+      end
+    else
+      @markers = [{
         lat: @booking.listing.center.latitude,
         lng: @booking.listing.center.longitude,
         info_window: render_to_string(partial: "centers/info_window", locals: { center: @booking.listing.center })
       }]
+    end
   end
 
   def cancel
@@ -47,18 +57,6 @@ class BookingsController < ApplicationController
       end
     end
     redirect_to @booking
-  end
-
-  def export
-    if authorize(@booking)
-      respond_to do |format|
-        format.html
-        format.pdf do
-          render pdf: "booking", template: "bookings/show.html.erb"   # Excluding ".pdf" extension.
-        end
-      end
-    end
-    #redirect_to @booking
   end
 
   private
