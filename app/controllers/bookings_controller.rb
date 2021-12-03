@@ -2,11 +2,13 @@ class BookingsController < ApplicationController
   before_action :set_booking, only: [:show, :edit, :update, :destroy, :cancel, :export]
   before_action :authenticate_user!
   # only include in relevant controllers
-  after_action :verify_authorized, except: :index, unless: :skip_pundit?
-  after_action :verify_authorized, except: :show, unless: :skip_pundit?
+  after_action :verify_authorized, except: [:index, :show, :new] , unless: :skip_pundit?
 
   def new
-    raise
+    @listing = Listing.find(params[:listing_id])
+    @booking = Booking.new
+    @booking.no_of_divers = params[:no_of_divers] 
+    @booking.costs = @booking.no_of_divers * @listing.price
   end
 
   def create
