@@ -35,15 +35,17 @@ const initMapbox = () => {
     markers.forEach((marker) => {
       new mapboxgl.Marker().setLngLat([marker.lng, marker.lat]).addTo(map);
     });
-    map.addControl(
-      new MapboxGeocoder({
-        accessToken: mapboxgl.accessToken,
-        mapboxgl: mapboxgl,
-      })
-    );
+
+    const geocoder = new MapboxGeocoder({
+      accessToken: mapboxgl.accessToken,
+      mapboxgl: mapboxgl
+      });
+
+    document.getElementById('geocoder').appendChild(geocoder.onAdd(map));
 
     fitMapToMarkers(map, markers);
     addMarkersToMap(map, markers);
+    map.addControl(new mapboxgl.NavigationControl());
   }
 
   if (staticMapElement) {
