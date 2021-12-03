@@ -1,6 +1,9 @@
 import mapboxgl from "mapbox-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 import MapboxGeocoder from "@mapbox/mapbox-gl-geocoder";
+import ShipWreck from "../images/shipwreck_marker2.png";
+import Octopus from "../images/octopus.png";
+import Center from "../images/center.png";
 
 const fitMapToMarkers = (map, markers) => {
   const bounds = new mapboxgl.LngLatBounds();
@@ -9,10 +12,25 @@ const fitMapToMarkers = (map, markers) => {
 };
 
 const addMarkersToMap = (map, markers) => {
+  const current_path = window.location.pathname;
+  console.log(current_path);
   markers.forEach((marker) => {
     const popup = new mapboxgl.Popup().setHTML(marker.info_window); // add this
+    const el = document.createElement("div");
+    el.className = "marker";
+    if (current_path.includes("trips")) {
+      el.style.backgroundImage = `url(${ShipWreck})`;
+    } else if (current_path.includes("centers")) {
+      el.style.backgroundImage = `url(${Center})`;
+    } else {
+      el.style.backgroundImage = `url(${Octopus})`;
+    }
+    // el.style.backgroundImage = "url(https://placekitten.com/g/50/50/)";
+    el.style.width = `70px`;
+    el.style.height = `70px`;
+    el.style.backgroundSize = "100%";
 
-    new mapboxgl.Marker()
+    new mapboxgl.Marker(el)
       .setLngLat([marker.lng, marker.lat])
       .setPopup(popup) // add this
       .addTo(map);
