@@ -1,16 +1,11 @@
 .shop-bar {
-  // margin-top: auto;
-  // margin-bottom: -40px;
   display: flex;
-  // align-items: center;
   justify-content: center;
   border-radius: 5px;
   overflow: hidden;
   position: absolute;
   bottom: -10%;
-  // right: 25%;
   height: 88px;
-
   left: 50%;
   transform: translate(-50%, 0);
 }
@@ -19,19 +14,15 @@
   background-color: #ffffff;
   color: #64717f;
   width: 200px;
-  // border-radius: 5px;
-  // border: 1px solid #000000;
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
   text-decoration: none;
   transition: 0.3s;
-  // align-items: center;
-  // padding: 8px;
 }
 
 .shop:hover {
-  background-color: #003059;
-  color: white;
+  background-color: #ebf5fc;
+  color: #64717f;
   text-decoration: none;
 }
