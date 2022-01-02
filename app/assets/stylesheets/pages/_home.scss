@@ -12,5 +12,9 @@
   height: 150px;
   object-fit: cover;
   overflow: hidden;
-  border-radius: 12px;
+  border-radius: 2px;
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }

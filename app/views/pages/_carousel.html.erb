@@ -1,58 +1,63 @@
-<!--Carousel Wrapper-->
-<div id="carousel-with-slides" class="carousel slide carousel-multi-item" data-ride="carousel">
+<div class="d-flex flex-column justify-content-center align-items-center" style="height:50vh;">
+  <div class="mx-2">
 
-<!--Controls left-->
-<div class="container d-flex align-items-center justify-content-between">
-  <div>
-    <a class="btn-floating" href="#carousel-with-slides" data-slide="prev"><i class="fas fa-chevron-circle-left" style="font-size:30px; color: #003059;"></i></a>
-  </div>
+    <!--Carousel Wrapper-->
+    <div id="carousel-with-slides" class="carousel slide carousel-multi-item" data-ride="false">
 
-<!--/.Controls left-->
+    <!--Controls-->
+    <div class="text-right mb-3">
+      <div>
+        <a class="btn btn-outline-secondary mx-1 prev" href="#carousel-with-slides" data-slide="prev" title="Previous">
+          <i class="fa fa-lg fa-chevron-left"></i>
+        </a>
+        <a class="btn btn-outline-secondary mx-1 next" href="#carousel-with-slides" data-slide="next" title="Next">
+          <i class="fa fa-lg fa-chevron-right"></i>
+        </a>
+      </div>
+    </div>
 
-<!--Slides-->
-  <div class="carousel-inner mb-3" role="listbox">
+    <!--/.Controls-->
 
-<!--First slide-->
-    <div class="carousel-item active">
-      <% 4.times do %>
-        <div class="col-md-3" style="float:left">
-          <div class="card mb-2">
-              <%= image_tag "https://images.unsplash.com/photo-1586115457457-b3753fe50cf1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1088&q=80", alt: "Sharks" %>
-              <div class="card-body">
-                  <h5 class="card-title"><strong>Dive with Sharks</strong></h5>
-                  <p class="card-text">Sharks aren't a reason to stay out of the water; they're a reason to dive in.</p>
+    <!--Slides-->
+      <div class="carousel-inner mb-3" role="listbox">
+    <!--First slide-->
+        <div class="carousel-item active">
+          <% @locations.first(4).each do |location| %>
+            <div class="col-md-3" style="float:left">
+              <div class="card mb-2 position-relative shadow-sm" style="overflow:hidden; border:0; height:300px">
+                  <%= image_tag "https://source.unsplash.com/1920x1080/?diving #{location}", style:"object-fit:cover;", height:"50%", alt: "#{location.capitalize}" %>
+                  <div class="card-body d-flex flex-column rounded-lg">
+                      <h5 class="font-weight-bold m-0">REGION</h5>
+                      <p class="text-left m-0"><%= location %></p>
+                  </div>
               </div>
-          </div>
-        </div>
-      <% end  %>
-    </div>
-<!--/.First slide-->
-
-<!--Second slide-->
-    <div class="carousel-item">
-      <% 4.times do %>
-        <div class="col-md-3" style="float:left">
-          <div class="card mb-2">
-          <%= image_tag "https://images.unsplash.com/photo-1559076948-db842bea853a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80", alt: "Scuba boy" %>
-            <div class="card-body">
-            <h5 class="card-title"><strong>Cold Water Diving</strong></h5>
-            <p class="card-text">How to stay warm. You don't want to freeze to death - trust us on this.</p>
             </div>
-          </div>
+          <% end  %>
         </div>
-      <% end %>
+    <!--/.First slide-->
+
+    <!--Second slide-->
+        <div class="carousel-item">
+          <% @locations.sample(4).each do |location| %>
+            <div class="col-md-3" style="float:left">
+              <div class="card mb-2 position-relative shadow-sm" style="overflow:hidden; border:0; height:300px">
+                  <%= image_tag "https://source.unsplash.com/1920x1080/?diving #{location}", style:"object-fit:cover;", height:"50%", alt: "#{location.capitalize}" %>
+                  <div class="card-body d-flex flex-column rounded-lg">
+                      <h5 class="font-weight-bold m-0">REGION</h5>
+                      <p class="text-left m-0"><%= location %></p>
+                  </div>
+              </div>
+            </div>
+          <% end  %>
+        </div>
+    <!--/.Second slide-->
+      </div>
+    <!--/.Slides-->
+
+
+    <!--/.Carousel Wrapper-->
     </div>
-<!--/.Second slide-->
+
+
   </div>
-<!--/.Slides-->
-
-<!--Controls right-->
-  <div>
-    <a class="btn-floating" href="#carousel-with-slides" data-slide="next"><i class="fas fa-chevron-circle-right" style="font-size:30px; color: #003059;"></i></a>
-  </div>
-</div>
-
-<!--/.Controls-->
-
-<!--/.Carousel Wrapper-->
 </div>
