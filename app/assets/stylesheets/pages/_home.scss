@@ -13,8 +13,11 @@
   object-fit: cover;
   overflow: hidden;
   border-radius: 2px;
-
   position: relative;
   display: flex;
   flex-direction: column;
+}
+
+#home-carousell-card {
+  transition: transform ease-in 0.2s;
 }

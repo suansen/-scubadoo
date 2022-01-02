@@ -5,5 +5,10 @@ class PagesController < ApplicationController
     center_array.each do |center|
       @locations << center.location.strip
     end
+
+    @interests = []
+    Interest.all.each do |interest|
+      @interests << interest
+    end
   end
 end

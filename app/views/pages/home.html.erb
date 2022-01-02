@@ -39,16 +39,19 @@
   </div>
 </section>
 
-<div class="container" style="margin-top: 7rem;">
-  <section class="my-5">
-    <h2><strong>Top diving destinations</strong></h2>
-    <h4>Book a trip in one the world's top diving destinations.</h4>
+<div class="d-flex flex-column justify-content-center align-items-center" style="height:50vh; margin-top: 10rem; margin-bottom: 10rem;">
+  <h2 class="mb-4 font-weight-bold">Top diving destinations</h2>
+  <h4 class="text-center mb-4">Book a trip in one the world's top diving destinations.</h4>
     <%= render "carousel", locations: @locations %>
-  </section>
-
-  <section class="my-5">
-    <h2><strong>Not sure where to go?</strong></h2>
-    <h4>Get inspiration from one of our travel themes.</h4>
-    <%= render "top_destinations" %>
-  </section>
 </div>
+
+<div class="container d-flex flex-column justify-content-center align-items-center" style="height:30vh; margin-top: 10rem; margin-bottom: 10rem;">
+  <h2 class="mb-4 text-center font-weight-bold">Where will your next scuba diving trip take you?</h2>
+  <h4 class="text-center mb-4">There's a world of underwater adventure waiting for you. As a certified diver, you hold a lifelong passport to the last frontier. Experience pristine marine ecosystems, vibrant worlds of colorful fish and silent shipwrecks holding ancient secrets.</h4>
+</div>
+
+<div class="d-flex flex-column justify-content-center align-items-center" style="height:50vh; margin-top: 10rem; margin-bottom: 10rem;">
+  <h2 class="mb-4 font-weight-bold">Find top dives by interest</h2>
+  <%= render "top_interests", interests: @interests %>
+</div>
+
