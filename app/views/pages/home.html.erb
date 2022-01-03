@@ -1,4 +1,4 @@
-<section class="jumbotron jumbotron-fluid home-page-banner position-relative">
+<section class="jumbotron jumbotron-fluid home-page-banner position-relative" style="margin-bottom: 5rem;">
   <div class="container text-white text-center border p-5 d-flex flex-column align-items-center bg-white-transparent">
     <h1 class="display-5 text-shadow mb-2"><strong>Book your diving worldwide</strong></h1>
     <div class="pt-4 rounded-pill col-8" style="background: #003059">
@@ -39,19 +39,25 @@
   </div>
 </section>
 
-<div class="d-flex flex-column justify-content-center align-items-center" style="height:50vh; margin-top: 10rem; margin-bottom: 10rem;">
-  <h2 class="mb-4 font-weight-bold">Top diving destinations</h2>
-  <h4 class="text-center mb-4">Book a trip in one the world's top diving destinations.</h4>
-    <%= render "carousel", locations: @locations %>
-</div>
+<section style="min-height:50vh; margin-bottom: 4rem;">
+  <div class="container body-font-color">
+    <h2 class="font-weight-bold text-center">Find top dives by interest</h2>
+      <%= render "carousel", interests: @interests %>
+  </div>
+</section>
 
-<div class="container d-flex flex-column justify-content-center align-items-center" style="height:30vh; margin-top: 10rem; margin-bottom: 10rem;">
+<section class="py-4" style="min-height: 40vh; background-color: #f4f8fb; margin-bottom: 4rem;">
+  <div class="d-flex flex-column px-3" style="background-color: #f4f8fb; margin: 5rem auto; width: 40%;">
   <h2 class="mb-4 text-center font-weight-bold">Where will your next scuba diving trip take you?</h2>
-  <h4 class="text-center mb-4">There's a world of underwater adventure waiting for you. As a certified diver, you hold a lifelong passport to the last frontier. Experience pristine marine ecosystems, vibrant worlds of colorful fish and silent shipwrecks holding ancient secrets.</h4>
-</div>
+  <p class="text-center">There's a world of underwater adventure waiting for you. As a certified diver, you hold a lifelong passport to the last frontier. Experience pristine marine ecosystems, vibrant worlds of colorful fish and silent shipwrecks holding ancient secrets.</p>
+</section>
 
-<div class="d-flex flex-column justify-content-center align-items-center" style="height:50vh; margin-top: 10rem; margin-bottom: 10rem;">
-  <h2 class="mb-4 font-weight-bold">Find top dives by interest</h2>
-  <%= render "top_interests", interests: @interests %>
-</div>
-
+<section style="min-height:50vh;">
+  <div class="container body-font-color">
+    <h2 class="mb-4 font-weight-bold text-center">Start your exploration by choosing a place</h2>
+    <p class="text-center mb-4">Book a trip in one the world's top diving destinations.</p>
+    <div class="row">
+      <%= render "top_locations", locations: @locations %>
+    </div>
+  </div>
+</section>
