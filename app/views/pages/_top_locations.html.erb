@@ -1,0 +1,15 @@
+<% @locations.each do |location| %>
+  <div class="col-lg-3 mb-4">
+    <%= link_to centers_path(location: location), class: "location-card" do %>
+      <div>
+        <%= image_tag "https://source.unsplash.com/1920x1080/?diving #{location}", class: "location-card-img", alt: "#{location.capitalize}" %>
+      </div>
+      <div class="p-3">
+        <% ["Cyprus", "Turkey"].include?(location) ? region = "Europe" : region = "Asia Pacific" %>
+        <p class="text-left subtitle"><%= region %></p>
+        <h5 class="font-weight-bold m-0"><%= location %></h5>
+      </div>
+    <% end %>
+  </div>
+<% end %>
+

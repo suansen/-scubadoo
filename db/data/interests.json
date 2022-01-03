@@ -1,0 +1,101 @@
+{
+  "Spring": {
+    "description": "From columns of gentle bubbles to gushing flows forced by raw power, why not experience diving in a natural spring and tick it off your bucket list?",
+    "img_url": "https://images.unsplash.com/reserve/unsplash_52d8277ccad75_1.JPG?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+  },
+
+  "River": {
+    "description": "Inland river diving delivers incredible scenery unique to the locale; there are thousands of rivers across the globe offering very different experiences.",
+    "img_url": "https://images.unsplash.com/photo-1506355683710-bd071c0a5828?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+  },
+
+  "Ocean": {
+    "description": "The largest bodies of water on the planet have infinite gifts: from unique fish to stunning macro life and coral, you'll never get bored of this paradise.",
+    "img_url": "https://images.unsplash.com/photo-1570367364062-4ab01ebf0954?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+  },
+
+  "Fjord": {
+    "description": "Kelp, wrecks, tiny life, warm currents, deep-water coral and lots more - fjords across the world offer unique ecosystems bracketed by high cliffs.",
+    "img_url": "https://images.unsplash.com/photo-1567069802438-23f742b5f725?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+  },
+
+  "Channel": {
+    "description": "From the shipwrecks of Sussex in the UK to the rich pelagic encounters on strong Maldivian currents, you'll find incredible channel dives across the globe.",
+    "img_url": "https://images.unsplash.com/photo-1547810689-3c16713a7a3c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+  },
+
+  "Cavern": {
+    "description": "The thrill of cavern diving is clear: to enter a new world and discover its secrets. Unlike cave diving, cavern diving is a form of recreational diving.",
+    "img_url": "https://images.unsplash.com/photo-1551244852-d66e6c5fbd13?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+  },
+
+  "Archaelogical": {
+    "description": "Archeological dive sites are a unique historical lens: head back in time as you dive locations that are hundreds or even thousands of years old.",
+    "img_url": "https://images.unsplash.com/photo-1516979371633-d578f00fcd6e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+  },
+
+  "Wall": {
+    "description": "All your desires in one place: wall dives combine small reef fish, large pelagics, gorgeous coral at jaunty angles, plus nooks and crannies galore.",
+    "img_url": "https://images.unsplash.com/photo-1586508577428-120d6b072945?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+  },
+
+  "Sea Loch": {
+    "description": "Protected by Scotland's craggy mountains, sea lochs offer unmissable underwater reefs, clear waters and marine life like the conger eel.",
+    "img_url": "https://images.unsplash.com/photo-1606857830386-92207e56eb6e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+  },
+
+  "Sandy Bottom": {
+    "description": "Clams, sandy eels, sole, crocodile fish and so much more - across the globe, there's incredible life to discover if you choose to dive a sandy bottom.",
+    "img_url": "https://images.unsplash.com/photo-1558586545-5634bea8ef84?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+  },
+
+  "Reef": {
+    "description": "Coral reefs are one of the ocean's dazzling gifts to divers. As we enjoy this unique terrain, we must remember our obligation to protect it.",
+    "img_url": "https://images.unsplash.com/photo-1602475508643-735a79b7cbb6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+  },
+
+  "Quarry": {
+    "description": "Offering inland, current-free diving with easy access, quarries often have a myriad of intriguing and submerged and sunken items to explore.",
+    "img_url": "https://images.unsplash.com/photo-1615149656979-6e91ee465c30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+  },
+
+  "Pool": {
+    "description": "The perfect place to learn, pools offer calm environments to learn, refresh or advance your scuba skills - explore further, for longer, through education.",
+    "img_url": "https://images.unsplash.com/photo-1467044705596-744699fa8931?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
+  },
+  
+  "Pinnacle": {
+    "description": "From small mountains to ragged peaks, pinnacles are isolated formations in deep water that emerge with unique sea life and topography.",
+    "img_url": "https://images.unsplash.com/photo-1503177847378-d2048487fa46?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+  },
+  
+  "Muck": {
+    "description": "The beauty's in the detail: get up close and personal with the unusual and the exotic as you explore the celebrated ecology that lies in the sediment layer.",
+    "img_url": "https://images.unsplash.com/photo-1628565659225-c7203686e960?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
+  },
+
+  "Lake": {
+    "description": "Minimal currents, easy access, inland locations - lakes offer scuba divers a fresh, totally different underwater experience than the open ocean.",
+    "img_url": "https://images.unsplash.com/photo-1466610549707-3c35c772f484?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+  },
+
+  "Drift": {
+    "description": "Time to go with the flow - use less energy and see more glorious coral and marine life as you drift along leisurely on the ocean current.",
+    "img_url": "https://images.unsplash.com/photo-1533914772478-15cc30e93990?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+  },
+
+  "Beach": {
+    "description": "Beach dives - commonly called shore dives - offer unique topography and easy access. Set your own schedule and dive as little or as much as you want.",
+    "img_url": "https://images.unsplash.com/photo-1559076948-db842bea853a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+  },
+
+  "Cave": {
+    "description": "Intrigued? There's no denying the exhilaration that comes from exploring the unexplored in some of the world's most stunning flooded caves.",
+    "img_url": "https://images.unsplash.com/photo-1498878256124-0c5d71b3e26c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+  },
+
+  "Wreck": {
+    "description": "These sunken treasures, teeming with history, offer a glimpse of times gone by: there are thousands across the world lying in silence.",
+    "img_url": "https://images.unsplash.com/photo-1578403881636-6f4a77a6f9cc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+  }  
+}

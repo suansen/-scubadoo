@@ -1,52 +1,63 @@
-<section class="jumbotron jumbotron-fluid home-page-banner position-relative mb-5">
-    <div class="container text-white text-center border p-5 d-flex flex-column align-items-center justify-content-center bg-white-transparent">
-      <h1 class="display-5 text-shadow mb-2"><strong>Book your diving worldwide</strong></h1>
-      <div class="pt-4 rounded-pill col-8" style="background: #003059">
-        <div class="align-items-center">
-          <%= form_tag centers_path, method: :get do %>
-            <div class="d-flex mx-4">
-              <%= text_field_tag :location,
-                  params[:location],
-                  class: "form-control mr-sm-2",
-                  placeholder: "Where do you want to go?"
-              %>
-              <%= submit_tag "Search", class: "btn btn-danger mb-4 shadow-lg" %>
-            </div>
-          <% end %>
-        </div>
-      </div>
-      <div class="shop-bar shadow">
-        <%= link_to centers_path, class: "shop py-4" do%>
-          <div>
-            <i class="fas fa-house-user mb-2"></i>
-            <div>Centers</div>
-          </div>
-        <% end %>
-        <%= link_to trips_path, class: "shop" do%>
-          <div>
-            <i class="fas fa-ship mb-2"></i>
-            <div>Dives</div>
-          </div>
-        <% end %>
-        <%= link_to courses_path, class: "shop" do%>
-          <div>
-            <i class="fas fa-book mb-2"></i>
-            <div>Courses</div>
+<section class="jumbotron jumbotron-fluid home-page-banner position-relative" style="margin-bottom: 5rem;">
+  <div class="container text-white text-center border p-5 d-flex flex-column align-items-center bg-white-transparent">
+    <h1 class="display-5 text-shadow mb-2"><strong>Book your diving worldwide</strong></h1>
+    <div class="pt-4 rounded-pill col-8" style="background: #003059">
+      <div class="align-items-center">
+        <%= form_tag centers_path, method: :get do %>
+          <div class="d-flex mx-4">
+            <%= text_field_tag :location,
+                params[:location],
+                class: "form-control mr-sm-2",
+                placeholder: "Where do you want to go?"
+            %>
+            <%= submit_tag "Search", class: "btn btn-danger mb-4 shadow-lg" %>
           </div>
         <% end %>
       </div>
     </div>
-</section>
-<div class="container" style="margin-top: 7rem;">
-  <section class="my-5">
-    <h2><strong>Top diving destinations</strong></h2>
-    <h4>Book a trip in one the world's top diving destinations.</h4>
-    <%= render "top_destinations", locations: @locations %>
-  </section>
 
-  <section class="my-5">
-    <h2><strong>Not sure where to go?</strong></h2>
-    <h4>Get inspiration from one of our travel themes.</h4>
-    <%= render "carousel" %>
-  </section>
-</div>
+    <div class="shop-bar shadow">
+      <%= link_to centers_path, class: "shop py-4" do%>
+        <div>
+          <i class="fas fa-house-user mb-2"></i>
+          <div>Centers</div>
+        </div>
+      <% end %>
+      <%= link_to trips_path, class: "shop" do%>
+        <div>
+          <i class="fas fa-ship mb-2"></i>
+          <div>Dives</div>
+        </div>
+      <% end %>
+      <%= link_to courses_path, class: "shop" do%>
+        <div>
+          <i class="fas fa-book mb-2"></i>
+          <div>Courses</div>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</section>
+
+<section style="min-height:50vh; margin-bottom: 4rem;">
+  <div class="container body-font-color">
+    <h2 class="font-weight-bold text-center">Find top dives by interest</h2>
+      <%= render "carousel", interests: @interests %>
+  </div>
+</section>
+
+<section class="py-4" style="min-height: 40vh; background-color: #f4f8fb; margin-bottom: 4rem;">
+  <div class="d-flex flex-column px-3" style="background-color: #f4f8fb; margin: 5rem auto; width: 40%;">
+  <h2 class="mb-4 text-center font-weight-bold">Where will your next scuba diving trip take you?</h2>
+  <p class="text-center">There's a world of underwater adventure waiting for you. As a certified diver, you hold a lifelong passport to the last frontier. Experience pristine marine ecosystems, vibrant worlds of colorful fish and silent shipwrecks holding ancient secrets.</p>
+</section>
+
+<section style="min-height:50vh;">
+  <div class="container body-font-color">
+    <h2 class="mb-4 font-weight-bold text-center">Start your exploration by choosing a place</h2>
+    <p class="text-center mb-4">Book a trip in one the world's top diving destinations.</p>
+    <div class="row">
+      <%= render "top_locations", locations: @locations %>
+    </div>
+  </div>
+</section>

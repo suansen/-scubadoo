@@ -1,58 +1,21 @@
-<!--Carousel Wrapper-->
-<div id="carousel-with-slides" class="carousel slide carousel-multi-item" data-ride="carousel">
-
-<!--Controls left-->
-<div class="container d-flex align-items-center justify-content-between">
-  <div>
-    <a class="btn-floating" href="#carousel-with-slides" data-slide="prev"><i class="fas fa-chevron-circle-left" style="font-size:30px; color: #003059;"></i></a>
-  </div>
-
-<!--/.Controls left-->
-
-<!--Slides-->
-  <div class="carousel-inner mb-3" role="listbox">
-
-<!--First slide-->
-    <div class="carousel-item active">
-      <% 4.times do %>
-        <div class="col-md-3" style="float:left">
-          <div class="card mb-2">
-              <%= image_tag "https://images.unsplash.com/photo-1586115457457-b3753fe50cf1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1088&q=80", alt: "Sharks" %>
-              <div class="card-body">
-                  <h5 class="card-title"><strong>Dive with Sharks</strong></h5>
-                  <p class="card-text">Sharks aren't a reason to stay out of the water; they're a reason to dive in.</p>
-              </div>
-          </div>
+<div class="glider-contain">
+  <div class="glider">
+    <% @interests.each do |interest| %>
+      <div class="interest-card">
+        <%= image_tag interest['img_url'], class:"interest-card-img", style:"object-fit:cover;", alt: "#{interest['name']}" %>
+        <div class="p-3 d-flex flex-column">
+          <h5 class="font-weight-bold m-0 py-2"><%= interest['name'] %></h5>
+          <p class="text-left m-0"><%= interest['description'] %></p>
         </div>
-      <% end  %>
-    </div>
-<!--/.First slide-->
-
-<!--Second slide-->
-    <div class="carousel-item">
-      <% 4.times do %>
-        <div class="col-md-3" style="float:left">
-          <div class="card mb-2">
-          <%= image_tag "https://images.unsplash.com/photo-1559076948-db842bea853a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80", alt: "Scuba boy" %>
-            <div class="card-body">
-            <h5 class="card-title"><strong>Cold Water Diving</strong></h5>
-            <p class="card-text">How to stay warm. You don't want to freeze to death - trust us on this.</p>
-            </div>
-          </div>
-        </div>
-      <% end %>
-    </div>
-<!--/.Second slide-->
+      </div>
+    <% end %>
   </div>
-<!--/.Slides-->
 
-<!--Controls right-->
-  <div>
-    <a class="btn-floating" href="#carousel-with-slides" data-slide="next"><i class="fas fa-chevron-circle-right" style="font-size:30px; color: #003059;"></i></a>
-  </div>
-</div>
-
-<!--/.Controls-->
-
-<!--/.Carousel Wrapper-->
+  <button aria-label="Previous" class="glider-prev">
+    <i class="fa fa-chevron-left"></i>
+  </button>
+  <button aria-label="Next" class="glider-next">
+    <i class="fa fa-chevron-right"></i>
+  </button>
+  <div role="tablist" class="dots"></div>
 </div>

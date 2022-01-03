@@ -8,6 +8,7 @@
 require 'nokogiri'
 require 'json'
 require "open-uri"
+require 'pry-byebug'
 
 
 def seed_ships
@@ -90,8 +91,10 @@ def seed_dive_centers
 end
 
 puts 'Destroying everything... 💣'
+Interest.destroy_all
 User.destroy_all
 puts 'Users destroyed!'
+puts 'Interests destroyed!'
 
 puts 'initialize seed... 🌱'
 
@@ -102,6 +105,22 @@ puts 'Ships database created!'
 puts 'creating ships database from exsiting files...'
 dive_center_seed = seed_dive_centers
 puts 'Ships database created!'
+
+puts 'Creating interests for homepage...'
+filepath = File.join(__dir__, 'data/interests.json')
+serialized_interests = File.read(filepath)
+interests_json = JSON.parse(serialized_interests)
+
+interests_json.each do |interest|
+  puts "Creating interest: #{interest[0]}"
+  Interest.create!(
+  name: interest[0],
+  description: interest[1]['description'],
+  img_url: interest[1]['img_url']
+)
+  puts "#{interest[0]} created! ✅"
+end
+puts "All interests seeded!"
 
 puts "Creating standard user for testing 👩‍🦱"
 User.create!(
