@@ -1,0 +1,15 @@
+<%= simple_form_for [center, listing] do |f| %>
+  <%= f.input :category, collection:["trip", "course"] %>
+  <%= f.input :name %>
+  <%= f.input :description %>
+  <%= f.input :price %>
+  <%= f.input :date %>
+  <%= f.input :start_time %>
+  <%= f.input :duration %>
+  <%= f.input :dive_count %>
+  <%= f.input :max_divers %>
+  <%= f.input :latitude %>
+  <%= f.input :longitude %>
+  <%= f.input :photo, as: :file, input_html: { multiple: false } %>
+  <%= f.button :submit, class: "btn btn-primary" %>
+<% end %>

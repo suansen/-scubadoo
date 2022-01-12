@@ -1,6 +1,6 @@
 class CentersController < ApplicationController
   before_action :authenticate_user!, except: [:index, :show]
-  after_action :verify_authorized, except: [:index, :show, :manage_centers], unless: :skip_pundit?
+  after_action :verify_authorized, except: [:index, :show, :manage_centers, :new], unless: :skip_pundit?
 
   def index
     if params[:location].present?
@@ -33,28 +33,50 @@ class CentersController < ApplicationController
   end
 
   def new
-    raise
+    @center = Center.new
   end
 
   def create
-    raise
+    @center = Center.new(center_params)
+    @center.user = current_user
+    if authorize @center
+      if @center.save
+        redirect_to @center
+      else
+        render "new"
+      end
+    else
+      redirect_to root_path
+    end
   end
 
   def edit
-    raise
+    @center = Center.find(params[:id])
+    redirect_to root_path unless authorize @center
   end
 
   def update
-    raise
+    @center = Center.find(params[:id])
+    if authorize @center
+      if @center.update(center_params)
+        redirect_to @center
+      else
+        render "edit"
+      end
+    else
+      redirect_to root_path
+    end
   end
 
   def destroy
-    raise
+    @center = Center.find(params[:id])
+    @center.destroy if authorize @center
+    redirect_to manage_centers_path
   end
 
   private
 
   def center_params
-    params.require(:listing).permit(:name, :description, :address, :phone_number, :email, :location, :user, :photo)
+    params.require(:center).permit(:name, :description, :address, :phone_number, :email, :location, :language, :user, :photo)
   end
 end

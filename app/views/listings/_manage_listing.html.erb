@@ -11,6 +11,7 @@
               <div><i class="fas fa-map-marker-alt"></i> <%= listing.center.location %></div>
             </div>
 
+            <p class="card-text font-weight-bold">Category: <%= listing.category.titleize %></p>
             <p class="card-text"><%= listing.description %></p>
             <div class = "d-flex justify-content-between">
               <p class="card-text font-weight-bold">Next Available: <%= listing.date %></p>
